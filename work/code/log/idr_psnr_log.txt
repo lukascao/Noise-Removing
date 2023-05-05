@@ -1,0 +1,1542 @@
+[03/23 00:08:01] idr_psnr INFO: Namespace(batchSize=6, dataRoot='./dataset/images', gamma=0.5, loadSize=512, logPath='logs', lr=2e-05, lr_decay_iters=2000, mode='psnr', modelsSavePath='./ckpts/', net='idr_psnr', numOfWorkers=2, num_epochs=5000, pretrained='./ckpts/idr/model_best.pdparams', seed=2022)
+[03/23 00:08:01] idr_psnr INFO: ========> Random Seed: 2022
+[03/23 00:08:23] idr_psnr INFO: [10/100000] Generator Loss of epoch1 is -117.50772, idr_psnr,  Lr:2e-05
+[03/23 00:08:46] idr_psnr INFO: [20/100000] Generator Loss of epoch1 is -122.45467, idr_psnr,  Lr:2e-05
+[03/23 00:09:12] idr_psnr INFO: [30/100000] Generator Loss of epoch2 is -115.82896, idr_psnr,  Lr:2e-05
+[03/23 00:09:36] idr_psnr INFO: [40/100000] Generator Loss of epoch2 is -118.10155, idr_psnr,  Lr:2e-05
+[03/23 00:10:04] idr_psnr INFO: [50/100000] Generator Loss of epoch3 is -130.30328, idr_psnr,  Lr:2e-05
+[03/23 00:10:25] idr_psnr INFO: [60/100000] Generator Loss of epoch3 is -123.95205, idr_psnr,  Lr:2e-05
+[03/23 00:10:51] idr_psnr INFO: [70/100000] Generator Loss of epoch4 is -135.82243, idr_psnr,  Lr:2e-05
+[03/23 00:11:19] idr_psnr INFO: [80/100000] Generator Loss of epoch4 is -131.28448, idr_psnr,  Lr:2e-05
+[03/23 00:11:45] idr_psnr INFO: [90/100000] Generator Loss of epoch5 is -131.30406, idr_psnr,  Lr:2e-05
+[03/23 00:12:05] idr_psnr INFO: [100/100000] Generator Loss of epoch5 is -128.86774, idr_psnr,  Lr:2e-05
+[03/23 00:12:35] idr_psnr INFO: [110/100000] Generator Loss of epoch6 is -126.50179, idr_psnr,  Lr:2e-05
+[03/23 00:12:57] idr_psnr INFO: [120/100000] Generator Loss of epoch6 is -125.03911, idr_psnr,  Lr:2e-05
+[03/23 00:13:24] idr_psnr INFO: [130/100000] Generator Loss of epoch7 is -125.21108, idr_psnr,  Lr:2e-05
+[03/23 00:13:47] idr_psnr INFO: [140/100000] Generator Loss of epoch7 is -100.76490, idr_psnr,  Lr:2e-05
+[03/23 00:14:10] idr_psnr INFO: [150/100000] Generator Loss of epoch8 is -125.50522, idr_psnr,  Lr:2e-05
+[03/23 00:14:35] idr_psnr INFO: [160/100000] Generator Loss of epoch8 is -125.82137, idr_psnr,  Lr:2e-05
+[03/23 00:15:02] idr_psnr INFO: [170/100000] Generator Loss of epoch9 is -126.75294, idr_psnr,  Lr:2e-05
+[03/23 00:15:23] idr_psnr INFO: [180/100000] Generator Loss of epoch9 is -132.91675, idr_psnr,  Lr:2e-05
+[03/23 00:15:51] idr_psnr INFO: [190/100000] Generator Loss of epoch10 is -122.78504, idr_psnr,  Lr:2e-05
+[03/23 00:16:17] idr_psnr INFO: [200/100000] Generator Loss of epoch10 is -128.05948, idr_psnr,  Lr:2e-05
+[03/23 00:16:22] idr_psnr INFO: index:0 psnr: 45.70587978197784
+[03/23 00:16:28] idr_psnr INFO: index:1 psnr: 52.45308768389667
+[03/23 00:16:33] idr_psnr INFO: index:2 psnr: 52.09164911722016
+[03/23 00:16:38] idr_psnr INFO: index:3 psnr: 50.05292745632669
+[03/23 00:16:42] idr_psnr INFO: index:4 psnr: 51.95720248720974
+[03/23 00:16:47] idr_psnr INFO: index:5 psnr: 58.20840473034258
+[03/23 00:17:01] idr_psnr INFO: index:6 psnr: 48.72729987323274
+[03/23 00:17:05] idr_psnr INFO: index:7 psnr: 51.1964723556789
+[03/23 00:17:09] idr_psnr INFO: index:8 psnr: 46.534042240931484
+[03/23 00:17:14] idr_psnr INFO: index:9 psnr: 55.04850192209099
+[03/23 00:17:19] idr_psnr INFO: index:10 psnr: 47.17179711084658
+[03/23 00:17:24] idr_psnr INFO: index:11 psnr: 51.03786894179709
+[03/23 00:17:28] idr_psnr INFO: index:12 psnr: 47.7540267917074
+[03/23 00:17:33] idr_psnr INFO: index:13 psnr: 56.2820469202786
+[03/23 00:17:33] idr_psnr INFO: epoch: 10, ave_psnr: 51.01580052953839, best_psnr: 51.01580052953839
+[03/23 00:17:58] idr_psnr INFO: [210/100000] Generator Loss of epoch11 is -130.74292, idr_psnr,  Lr:2e-05
+[03/23 00:18:21] idr_psnr INFO: [220/100000] Generator Loss of epoch11 is -124.98438, idr_psnr,  Lr:2e-05
+[03/23 00:18:47] idr_psnr INFO: [230/100000] Generator Loss of epoch12 is -132.21332, idr_psnr,  Lr:2e-05
+[03/23 00:19:12] idr_psnr INFO: [240/100000] Generator Loss of epoch12 is -114.14081, idr_psnr,  Lr:2e-05
+[03/23 00:19:38] idr_psnr INFO: [250/100000] Generator Loss of epoch13 is -128.56100, idr_psnr,  Lr:2e-05
+[03/23 00:19:59] idr_psnr INFO: [260/100000] Generator Loss of epoch13 is -129.08235, idr_psnr,  Lr:2e-05
+[03/23 00:20:26] idr_psnr INFO: [270/100000] Generator Loss of epoch14 is -123.11786, idr_psnr,  Lr:2e-05
+[03/23 00:20:50] idr_psnr INFO: [280/100000] Generator Loss of epoch14 is -136.77872, idr_psnr,  Lr:2e-05
+[03/23 00:21:16] idr_psnr INFO: [290/100000] Generator Loss of epoch15 is -128.09721, idr_psnr,  Lr:2e-05
+[03/23 00:21:39] idr_psnr INFO: [300/100000] Generator Loss of epoch15 is -104.31984, idr_psnr,  Lr:2e-05
+[03/23 00:22:05] idr_psnr INFO: [310/100000] Generator Loss of epoch16 is -121.30818, idr_psnr,  Lr:2e-05
+[03/23 00:22:30] idr_psnr INFO: [320/100000] Generator Loss of epoch16 is -121.67537, idr_psnr,  Lr:2e-05
+[03/23 00:22:55] idr_psnr INFO: [330/100000] Generator Loss of epoch17 is -127.29807, idr_psnr,  Lr:2e-05
+[03/23 00:23:22] idr_psnr INFO: [340/100000] Generator Loss of epoch17 is -113.56247, idr_psnr,  Lr:2e-05
+[03/23 00:23:49] idr_psnr INFO: [350/100000] Generator Loss of epoch18 is -127.34074, idr_psnr,  Lr:2e-05
+[03/23 00:24:11] idr_psnr INFO: [360/100000] Generator Loss of epoch18 is -121.81618, idr_psnr,  Lr:2e-05
+[03/23 00:24:38] idr_psnr INFO: [370/100000] Generator Loss of epoch19 is -130.62294, idr_psnr,  Lr:2e-05
+[03/23 00:25:05] idr_psnr INFO: [380/100000] Generator Loss of epoch19 is -128.88101, idr_psnr,  Lr:2e-05
+[03/23 00:25:33] idr_psnr INFO: [390/100000] Generator Loss of epoch20 is -121.93707, idr_psnr,  Lr:2e-05
+[03/23 00:25:57] idr_psnr INFO: [400/100000] Generator Loss of epoch20 is -124.63280, idr_psnr,  Lr:2e-05
+[03/23 00:26:02] idr_psnr INFO: index:0 psnr: 45.20378833073692
+[03/23 00:26:08] idr_psnr INFO: index:1 psnr: 52.601081838435206
+[03/23 00:26:13] idr_psnr INFO: index:2 psnr: 52.05391600534667
+[03/23 00:26:18] idr_psnr INFO: index:3 psnr: 49.68085747978502
+[03/23 00:26:22] idr_psnr INFO: index:4 psnr: 51.696547216634144
+[03/23 00:26:27] idr_psnr INFO: index:5 psnr: 57.717281330055414
+[03/23 00:26:42] idr_psnr INFO: index:6 psnr: 48.26592250219256
+[03/23 00:26:45] idr_psnr INFO: index:7 psnr: 49.314562285876534
+[03/23 00:26:49] idr_psnr INFO: index:8 psnr: 46.168973069412715
+[03/23 00:26:54] idr_psnr INFO: index:9 psnr: 55.19196911234712
+[03/23 00:26:59] idr_psnr INFO: index:10 psnr: 46.142253283238766
+[03/23 00:27:04] idr_psnr INFO: index:11 psnr: 50.91157543404431
+[03/23 00:27:08] idr_psnr INFO: index:12 psnr: 44.88146854607283
+[03/23 00:27:13] idr_psnr INFO: index:13 psnr: 55.64503656994118
+[03/23 00:27:13] idr_psnr INFO: epoch: 20, ave_psnr: 50.39108807172282, best_psnr: 51.01580052953839
+[03/23 00:27:40] idr_psnr INFO: [410/100000] Generator Loss of epoch21 is -128.73076, idr_psnr,  Lr:2e-05
+[03/23 00:28:03] idr_psnr INFO: [420/100000] Generator Loss of epoch21 is -123.74756, idr_psnr,  Lr:2e-05
+[03/23 00:28:27] idr_psnr INFO: [430/100000] Generator Loss of epoch22 is -132.32510, idr_psnr,  Lr:2e-05
+[03/23 00:28:51] idr_psnr INFO: [440/100000] Generator Loss of epoch22 is -125.21678, idr_psnr,  Lr:2e-05
+[03/23 00:29:19] idr_psnr INFO: [450/100000] Generator Loss of epoch23 is -120.05324, idr_psnr,  Lr:2e-05
+[03/23 00:29:42] idr_psnr INFO: [460/100000] Generator Loss of epoch23 is -121.23792, idr_psnr,  Lr:2e-05
+[03/23 00:30:13] idr_psnr INFO: [470/100000] Generator Loss of epoch24 is -115.92418, idr_psnr,  Lr:2e-05
+[03/23 00:30:35] idr_psnr INFO: [480/100000] Generator Loss of epoch24 is -109.71364, idr_psnr,  Lr:2e-05
+[03/23 00:31:00] idr_psnr INFO: [490/100000] Generator Loss of epoch25 is -134.12076, idr_psnr,  Lr:2e-05
+[03/23 00:31:26] idr_psnr INFO: [500/100000] Generator Loss of epoch25 is -133.88109, idr_psnr,  Lr:2e-05
+[03/23 00:31:52] idr_psnr INFO: [510/100000] Generator Loss of epoch26 is -112.17139, idr_psnr,  Lr:2e-05
+[03/23 00:32:15] idr_psnr INFO: [520/100000] Generator Loss of epoch26 is -131.06439, idr_psnr,  Lr:2e-05
+[03/23 00:32:39] idr_psnr INFO: [530/100000] Generator Loss of epoch27 is -126.60565, idr_psnr,  Lr:2e-05
+[03/23 00:33:05] idr_psnr INFO: [540/100000] Generator Loss of epoch27 is -129.46434, idr_psnr,  Lr:2e-05
+[03/23 00:33:33] idr_psnr INFO: [550/100000] Generator Loss of epoch28 is -132.18355, idr_psnr,  Lr:2e-05
+[03/23 00:33:57] idr_psnr INFO: [560/100000] Generator Loss of epoch28 is -116.65183, idr_psnr,  Lr:2e-05
+[03/23 00:34:23] idr_psnr INFO: [570/100000] Generator Loss of epoch29 is -101.22122, idr_psnr,  Lr:2e-05
+[03/23 00:34:45] idr_psnr INFO: [580/100000] Generator Loss of epoch29 is -133.46773, idr_psnr,  Lr:2e-05
+[03/23 00:35:09] idr_psnr INFO: [590/100000] Generator Loss of epoch30 is -126.35237, idr_psnr,  Lr:2e-05
+[03/23 00:35:37] idr_psnr INFO: [600/100000] Generator Loss of epoch30 is -131.48509, idr_psnr,  Lr:2e-05
+[03/23 00:35:41] idr_psnr INFO: index:0 psnr: 47.882532661612274
+[03/23 00:35:48] idr_psnr INFO: index:1 psnr: 53.431671919554866
+[03/23 00:35:53] idr_psnr INFO: index:2 psnr: 51.60303650369477
+[03/23 00:35:58] idr_psnr INFO: index:3 psnr: 50.6615294548138
+[03/23 00:36:01] idr_psnr INFO: index:4 psnr: 52.20890747271359
+[03/23 00:36:07] idr_psnr INFO: index:5 psnr: 57.52864650927534
+[03/23 00:36:21] idr_psnr INFO: index:6 psnr: 48.84134147832674
+[03/23 00:36:24] idr_psnr INFO: index:7 psnr: 51.121953270518844
+[03/23 00:36:28] idr_psnr INFO: index:8 psnr: 49.10166413006345
+[03/23 00:36:33] idr_psnr INFO: index:9 psnr: 54.36334130167697
+[03/23 00:36:38] idr_psnr INFO: index:10 psnr: 48.546879987548046
+[03/23 00:36:43] idr_psnr INFO: index:11 psnr: 51.22806168883186
+[03/23 00:36:47] idr_psnr INFO: index:12 psnr: 48.25030588943238
+[03/23 00:36:52] idr_psnr INFO: index:13 psnr: 53.980844078424745
+[03/23 00:36:53] idr_psnr INFO: epoch: 30, ave_psnr: 51.33933688189199, best_psnr: 51.33933688189199
+[03/23 00:37:21] idr_psnr INFO: [610/100000] Generator Loss of epoch31 is -135.40536, idr_psnr,  Lr:2e-05
+[03/23 00:37:44] idr_psnr INFO: [620/100000] Generator Loss of epoch31 is -129.64883, idr_psnr,  Lr:2e-05
+[03/23 00:38:09] idr_psnr INFO: [630/100000] Generator Loss of epoch32 is -116.39911, idr_psnr,  Lr:2e-05
+[03/23 00:38:33] idr_psnr INFO: [640/100000] Generator Loss of epoch32 is -115.71704, idr_psnr,  Lr:2e-05
+[03/23 00:38:58] idr_psnr INFO: [650/100000] Generator Loss of epoch33 is -132.70566, idr_psnr,  Lr:2e-05
+[03/23 00:39:23] idr_psnr INFO: [660/100000] Generator Loss of epoch33 is -124.20293, idr_psnr,  Lr:2e-05
+[03/23 00:39:48] idr_psnr INFO: [670/100000] Generator Loss of epoch34 is -123.93320, idr_psnr,  Lr:2e-05
+[03/23 00:40:13] idr_psnr INFO: [680/100000] Generator Loss of epoch34 is -133.70468, idr_psnr,  Lr:2e-05
+[03/23 00:40:43] idr_psnr INFO: [690/100000] Generator Loss of epoch35 is -128.17006, idr_psnr,  Lr:2e-05
+[03/23 00:41:05] idr_psnr INFO: [700/100000] Generator Loss of epoch35 is -127.74319, idr_psnr,  Lr:2e-05
+[03/23 00:41:34] idr_psnr INFO: [710/100000] Generator Loss of epoch36 is -119.25403, idr_psnr,  Lr:2e-05
+[03/23 00:41:56] idr_psnr INFO: [720/100000] Generator Loss of epoch36 is -121.29675, idr_psnr,  Lr:2e-05
+[03/23 00:42:23] idr_psnr INFO: [730/100000] Generator Loss of epoch37 is -135.68411, idr_psnr,  Lr:2e-05
+[03/23 00:42:50] idr_psnr INFO: [740/100000] Generator Loss of epoch37 is -131.15981, idr_psnr,  Lr:2e-05
+[03/23 00:43:15] idr_psnr INFO: [750/100000] Generator Loss of epoch38 is -123.66872, idr_psnr,  Lr:2e-05
+[03/23 00:43:37] idr_psnr INFO: [760/100000] Generator Loss of epoch38 is -125.57916, idr_psnr,  Lr:2e-05
+[03/23 00:44:05] idr_psnr INFO: [770/100000] Generator Loss of epoch39 is -116.62187, idr_psnr,  Lr:2e-05
+[03/23 00:44:30] idr_psnr INFO: [780/100000] Generator Loss of epoch39 is -126.73627, idr_psnr,  Lr:2e-05
+[03/23 00:44:57] idr_psnr INFO: [790/100000] Generator Loss of epoch40 is -136.29471, idr_psnr,  Lr:2e-05
+[03/23 00:45:24] idr_psnr INFO: [800/100000] Generator Loss of epoch40 is -135.58139, idr_psnr,  Lr:2e-05
+[03/23 00:45:29] idr_psnr INFO: index:0 psnr: 46.64898250025173
+[03/23 00:45:35] idr_psnr INFO: index:1 psnr: 52.47837533606946
+[03/23 00:45:40] idr_psnr INFO: index:2 psnr: 51.51729255647033
+[03/23 00:45:46] idr_psnr INFO: index:3 psnr: 49.7957865837946
+[03/23 00:45:50] idr_psnr INFO: index:4 psnr: 51.87716633623745
+[03/23 00:45:55] idr_psnr INFO: index:5 psnr: 55.44920846537507
+[03/23 00:46:09] idr_psnr INFO: index:6 psnr: 48.630151957443395
+[03/23 00:46:13] idr_psnr INFO: index:7 psnr: 50.7882206511815
+[03/23 00:46:17] idr_psnr INFO: index:8 psnr: 46.85218853789885
+[03/23 00:46:22] idr_psnr INFO: index:9 psnr: 54.117059752929954
+[03/23 00:46:27] idr_psnr INFO: index:10 psnr: 47.14584064460547
+[03/23 00:46:32] idr_psnr INFO: index:11 psnr: 51.28789551083882
+[03/23 00:46:36] idr_psnr INFO: index:12 psnr: 46.735334768811
+[03/23 00:46:41] idr_psnr INFO: index:13 psnr: 54.63574404337426
+[03/23 00:46:41] idr_psnr INFO: epoch: 40, ave_psnr: 50.5685176889487, best_psnr: 51.33933688189199
+[03/23 00:47:08] idr_psnr INFO: [810/100000] Generator Loss of epoch41 is -132.49338, idr_psnr,  Lr:2e-05
+[03/23 00:47:32] idr_psnr INFO: [820/100000] Generator Loss of epoch41 is -121.63724, idr_psnr,  Lr:2e-05
+[03/23 00:47:55] idr_psnr INFO: [830/100000] Generator Loss of epoch42 is -131.19521, idr_psnr,  Lr:2e-05
+[03/23 00:48:20] idr_psnr INFO: [840/100000] Generator Loss of epoch42 is -122.42702, idr_psnr,  Lr:2e-05
+[03/23 00:48:46] idr_psnr INFO: [850/100000] Generator Loss of epoch43 is -135.46289, idr_psnr,  Lr:2e-05
+[03/23 00:49:12] idr_psnr INFO: [860/100000] Generator Loss of epoch43 is -123.90733, idr_psnr,  Lr:2e-05
+[03/23 00:49:39] idr_psnr INFO: [870/100000] Generator Loss of epoch44 is -135.09250, idr_psnr,  Lr:2e-05
+[03/23 00:50:01] idr_psnr INFO: [880/100000] Generator Loss of epoch44 is -135.61659, idr_psnr,  Lr:2e-05
+[03/23 00:50:25] idr_psnr INFO: [890/100000] Generator Loss of epoch45 is -128.23872, idr_psnr,  Lr:2e-05
+[03/23 00:50:53] idr_psnr INFO: [900/100000] Generator Loss of epoch45 is -131.48154, idr_psnr,  Lr:2e-05
+[03/23 00:51:21] idr_psnr INFO: [910/100000] Generator Loss of epoch46 is -129.61858, idr_psnr,  Lr:2e-05
+[03/23 00:51:41] idr_psnr INFO: [920/100000] Generator Loss of epoch46 is -122.31630, idr_psnr,  Lr:2e-05
+[03/23 00:52:06] idr_psnr INFO: [930/100000] Generator Loss of epoch47 is -136.97644, idr_psnr,  Lr:2e-05
+[03/23 00:52:30] idr_psnr INFO: [940/100000] Generator Loss of epoch47 is -121.15816, idr_psnr,  Lr:2e-05
+[03/23 00:52:58] idr_psnr INFO: [950/100000] Generator Loss of epoch48 is -123.28759, idr_psnr,  Lr:2e-05
+[03/23 00:53:20] idr_psnr INFO: [960/100000] Generator Loss of epoch48 is -135.84184, idr_psnr,  Lr:2e-05
+[03/23 00:53:46] idr_psnr INFO: [970/100000] Generator Loss of epoch49 is -129.84935, idr_psnr,  Lr:2e-05
+[03/23 00:54:15] idr_psnr INFO: [980/100000] Generator Loss of epoch49 is -127.66534, idr_psnr,  Lr:2e-05
+[03/23 00:54:41] idr_psnr INFO: [990/100000] Generator Loss of epoch50 is -122.71904, idr_psnr,  Lr:2e-05
+[03/23 00:55:06] idr_psnr INFO: [1000/100000] Generator Loss of epoch50 is -132.21082, idr_psnr,  Lr:2e-05
+[03/23 00:55:11] idr_psnr INFO: index:0 psnr: 48.45189347289073
+[03/23 00:55:16] idr_psnr INFO: index:1 psnr: 53.97292341749691
+[03/23 00:55:21] idr_psnr INFO: index:2 psnr: 52.411253919637026
+[03/23 00:55:27] idr_psnr INFO: index:3 psnr: 50.35261512664397
+[03/23 00:55:31] idr_psnr INFO: index:4 psnr: 52.14119553784918
+[03/23 00:55:36] idr_psnr INFO: index:5 psnr: 57.61930758467159
+[03/23 00:55:50] idr_psnr INFO: index:6 psnr: 48.961717827400086
+[03/23 00:55:53] idr_psnr INFO: index:7 psnr: 51.18241234410093
+[03/23 00:55:57] idr_psnr INFO: index:8 psnr: 48.62981931193345
+[03/23 00:56:02] idr_psnr INFO: index:9 psnr: 55.103410852831914
+[03/23 00:56:07] idr_psnr INFO: index:10 psnr: 48.39736004274313
+[03/23 00:56:12] idr_psnr INFO: index:11 psnr: 52.759173330692086
+[03/23 00:56:16] idr_psnr INFO: index:12 psnr: 47.173077126819436
+[03/23 00:56:21] idr_psnr INFO: index:13 psnr: 53.263707716712844
+[03/23 00:56:22] idr_psnr INFO: epoch: 50, ave_psnr: 51.45856197231594, best_psnr: 51.45856197231594
+[03/23 00:56:47] idr_psnr INFO: [1010/100000] Generator Loss of epoch51 is -123.66385, idr_psnr,  Lr:2e-05
+[03/23 00:57:11] idr_psnr INFO: [1020/100000] Generator Loss of epoch51 is -127.85480, idr_psnr,  Lr:2e-05
+[03/23 00:57:36] idr_psnr INFO: [1030/100000] Generator Loss of epoch52 is -128.79245, idr_psnr,  Lr:2e-05
+[03/23 00:58:04] idr_psnr INFO: [1040/100000] Generator Loss of epoch52 is -119.00555, idr_psnr,  Lr:2e-05
+[03/23 00:58:32] idr_psnr INFO: [1050/100000] Generator Loss of epoch53 is -129.00409, idr_psnr,  Lr:2e-05
+[03/23 00:58:54] idr_psnr INFO: [1060/100000] Generator Loss of epoch53 is -128.54303, idr_psnr,  Lr:2e-05
+[03/23 00:59:17] idr_psnr INFO: [1070/100000] Generator Loss of epoch54 is -129.60257, idr_psnr,  Lr:2e-05
+[03/23 00:59:43] idr_psnr INFO: [1080/100000] Generator Loss of epoch54 is -134.19736, idr_psnr,  Lr:2e-05
+[03/23 01:00:10] idr_psnr INFO: [1090/100000] Generator Loss of epoch55 is -124.36894, idr_psnr,  Lr:2e-05
+[03/23 01:00:34] idr_psnr INFO: [1100/100000] Generator Loss of epoch55 is -113.08102, idr_psnr,  Lr:2e-05
+[03/23 01:00:59] idr_psnr INFO: [1110/100000] Generator Loss of epoch56 is -134.73863, idr_psnr,  Lr:2e-05
+[03/23 01:01:26] idr_psnr INFO: [1120/100000] Generator Loss of epoch56 is -129.46814, idr_psnr,  Lr:2e-05
+[03/23 01:01:51] idr_psnr INFO: [1130/100000] Generator Loss of epoch57 is -119.89946, idr_psnr,  Lr:2e-05
+[03/23 01:02:14] idr_psnr INFO: [1140/100000] Generator Loss of epoch57 is -123.16920, idr_psnr,  Lr:2e-05
+[03/23 01:02:41] idr_psnr INFO: [1150/100000] Generator Loss of epoch58 is -126.93947, idr_psnr,  Lr:2e-05
+[03/23 01:03:02] idr_psnr INFO: [1160/100000] Generator Loss of epoch58 is -139.29056, idr_psnr,  Lr:2e-05
+[03/23 01:03:27] idr_psnr INFO: [1170/100000] Generator Loss of epoch59 is -131.72241, idr_psnr,  Lr:2e-05
+[03/23 01:03:52] idr_psnr INFO: [1180/100000] Generator Loss of epoch59 is -125.03716, idr_psnr,  Lr:2e-05
+[03/23 01:04:19] idr_psnr INFO: [1190/100000] Generator Loss of epoch60 is -134.02345, idr_psnr,  Lr:2e-05
+[03/23 01:04:43] idr_psnr INFO: [1200/100000] Generator Loss of epoch60 is -117.78553, idr_psnr,  Lr:2e-05
+[03/23 01:04:48] idr_psnr INFO: index:0 psnr: 46.24956331217505
+[03/23 01:04:55] idr_psnr INFO: index:1 psnr: 52.9830960987055
+[03/23 01:05:00] idr_psnr INFO: index:2 psnr: 52.502971122388246
+[03/23 01:05:05] idr_psnr INFO: index:3 psnr: 49.97919389706762
+[03/23 01:05:09] idr_psnr INFO: index:4 psnr: 51.9929916443876
+[03/23 01:05:14] idr_psnr INFO: index:5 psnr: 57.70106984385145
+[03/23 01:05:28] idr_psnr INFO: index:6 psnr: 48.49198030169828
+[03/23 01:05:31] idr_psnr INFO: index:7 psnr: 51.08818033058485
+[03/23 01:05:35] idr_psnr INFO: index:8 psnr: 46.43927417398075
+[03/23 01:05:40] idr_psnr INFO: index:9 psnr: 54.60974131688488
+[03/23 01:05:45] idr_psnr INFO: index:10 psnr: 47.4687986903908
+[03/23 01:05:50] idr_psnr INFO: index:11 psnr: 50.96319756160583
+[03/23 01:05:54] idr_psnr INFO: index:12 psnr: 46.384792078215
+[03/23 01:05:59] idr_psnr INFO: index:13 psnr: 55.84024421047343
+[03/23 01:06:00] idr_psnr INFO: epoch: 60, ave_psnr: 50.90679247017209, best_psnr: 51.45856197231594
+[03/23 01:06:26] idr_psnr INFO: [1210/100000] Generator Loss of epoch61 is -110.94338, idr_psnr,  Lr:2e-05
+[03/23 01:06:48] idr_psnr INFO: [1220/100000] Generator Loss of epoch61 is -122.63670, idr_psnr,  Lr:2e-05
+[03/23 01:07:14] idr_psnr INFO: [1230/100000] Generator Loss of epoch62 is -134.19417, idr_psnr,  Lr:2e-05
+[03/23 01:07:38] idr_psnr INFO: [1240/100000] Generator Loss of epoch62 is -137.18884, idr_psnr,  Lr:2e-05
+[03/23 01:08:03] idr_psnr INFO: [1250/100000] Generator Loss of epoch63 is -128.40649, idr_psnr,  Lr:2e-05
+[03/23 01:08:25] idr_psnr INFO: [1260/100000] Generator Loss of epoch63 is -129.65944, idr_psnr,  Lr:2e-05
+[03/23 01:08:53] idr_psnr INFO: [1270/100000] Generator Loss of epoch64 is -128.01039, idr_psnr,  Lr:2e-05
+[03/23 01:09:16] idr_psnr INFO: [1280/100000] Generator Loss of epoch64 is -125.95918, idr_psnr,  Lr:2e-05
+[03/23 01:09:41] idr_psnr INFO: [1290/100000] Generator Loss of epoch65 is -126.87804, idr_psnr,  Lr:2e-05
+[03/23 01:10:03] idr_psnr INFO: [1300/100000] Generator Loss of epoch65 is -117.79367, idr_psnr,  Lr:2e-05
+[03/23 01:10:32] idr_psnr INFO: [1310/100000] Generator Loss of epoch66 is -132.41469, idr_psnr,  Lr:2e-05
+[03/23 01:10:55] idr_psnr INFO: [1320/100000] Generator Loss of epoch66 is -120.19934, idr_psnr,  Lr:2e-05
+[03/23 01:11:23] idr_psnr INFO: [1330/100000] Generator Loss of epoch67 is -127.30139, idr_psnr,  Lr:2e-05
+[03/23 01:11:45] idr_psnr INFO: [1340/100000] Generator Loss of epoch67 is -124.32097, idr_psnr,  Lr:2e-05
+[03/23 01:12:12] idr_psnr INFO: [1350/100000] Generator Loss of epoch68 is -121.11081, idr_psnr,  Lr:2e-05
+[03/23 01:12:36] idr_psnr INFO: [1360/100000] Generator Loss of epoch68 is -125.66660, idr_psnr,  Lr:2e-05
+[03/23 01:13:01] idr_psnr INFO: [1370/100000] Generator Loss of epoch69 is -113.04449, idr_psnr,  Lr:2e-05
+[03/23 01:13:22] idr_psnr INFO: [1380/100000] Generator Loss of epoch69 is -122.02200, idr_psnr,  Lr:2e-05
+[03/23 01:13:52] idr_psnr INFO: [1390/100000] Generator Loss of epoch70 is -128.61020, idr_psnr,  Lr:2e-05
+[03/23 01:14:12] idr_psnr INFO: [1400/100000] Generator Loss of epoch70 is -120.23668, idr_psnr,  Lr:2e-05
+[03/23 01:14:17] idr_psnr INFO: index:0 psnr: 48.12620096736933
+[03/23 01:14:23] idr_psnr INFO: index:1 psnr: 53.941286093641565
+[03/23 01:14:28] idr_psnr INFO: index:2 psnr: 52.029957922410006
+[03/23 01:14:33] idr_psnr INFO: index:3 psnr: 50.2848914427901
+[03/23 01:14:38] idr_psnr INFO: index:4 psnr: 52.06797031083072
+[03/23 01:14:43] idr_psnr INFO: index:5 psnr: 57.46176778846351
+[03/23 01:14:57] idr_psnr INFO: index:6 psnr: 49.01241791133295
+[03/23 01:15:00] idr_psnr INFO: index:7 psnr: 51.68616196481126
+[03/23 01:15:04] idr_psnr INFO: index:8 psnr: 48.32592027426713
+[03/23 01:15:09] idr_psnr INFO: index:9 psnr: 55.26551196235697
+[03/23 01:15:14] idr_psnr INFO: index:10 psnr: 48.91615750180119
+[03/23 01:15:19] idr_psnr INFO: index:11 psnr: 52.72096680632197
+[03/23 01:15:23] idr_psnr INFO: index:12 psnr: 47.001877824930716
+[03/23 01:15:28] idr_psnr INFO: index:13 psnr: 54.24724705663783
+[03/23 01:15:29] idr_psnr INFO: epoch: 70, ave_psnr: 51.506309701997516, best_psnr: 51.506309701997516
+[03/23 01:15:54] idr_psnr INFO: [1410/100000] Generator Loss of epoch71 is -127.82109, idr_psnr,  Lr:2e-05
+[03/23 01:16:18] idr_psnr INFO: [1420/100000] Generator Loss of epoch71 is -138.26985, idr_psnr,  Lr:2e-05
+[03/23 01:16:49] idr_psnr INFO: [1430/100000] Generator Loss of epoch72 is -136.41476, idr_psnr,  Lr:2e-05
+[03/23 01:17:11] idr_psnr INFO: [1440/100000] Generator Loss of epoch72 is -129.01956, idr_psnr,  Lr:2e-05
+[03/23 01:17:36] idr_psnr INFO: [1450/100000] Generator Loss of epoch73 is -123.10796, idr_psnr,  Lr:2e-05
+[03/23 01:18:00] idr_psnr INFO: [1460/100000] Generator Loss of epoch73 is -136.55098, idr_psnr,  Lr:2e-05
+[03/23 01:18:28] idr_psnr INFO: [1470/100000] Generator Loss of epoch74 is -126.71371, idr_psnr,  Lr:2e-05
+[03/23 01:18:49] idr_psnr INFO: [1480/100000] Generator Loss of epoch74 is -121.86934, idr_psnr,  Lr:2e-05
+[03/23 01:19:16] idr_psnr INFO: [1490/100000] Generator Loss of epoch75 is -109.54887, idr_psnr,  Lr:2e-05
+[03/23 01:19:40] idr_psnr INFO: [1500/100000] Generator Loss of epoch75 is -128.07988, idr_psnr,  Lr:2e-05
+[03/23 01:20:05] idr_psnr INFO: [1510/100000] Generator Loss of epoch76 is -124.57045, idr_psnr,  Lr:2e-05
+[03/23 01:20:31] idr_psnr INFO: [1520/100000] Generator Loss of epoch76 is -135.14160, idr_psnr,  Lr:2e-05
+[03/23 01:20:58] idr_psnr INFO: [1530/100000] Generator Loss of epoch77 is -125.99918, idr_psnr,  Lr:2e-05
+[03/23 01:21:20] idr_psnr INFO: [1540/100000] Generator Loss of epoch77 is -119.03487, idr_psnr,  Lr:2e-05
+[03/23 01:21:51] idr_psnr INFO: [1550/100000] Generator Loss of epoch78 is -123.49393, idr_psnr,  Lr:2e-05
+[03/23 01:22:14] idr_psnr INFO: [1560/100000] Generator Loss of epoch78 is -120.92809, idr_psnr,  Lr:2e-05
+[03/23 01:22:40] idr_psnr INFO: [1570/100000] Generator Loss of epoch79 is -115.28963, idr_psnr,  Lr:2e-05
+[03/23 01:23:07] idr_psnr INFO: [1580/100000] Generator Loss of epoch79 is -134.29817, idr_psnr,  Lr:2e-05
+[03/23 01:23:32] idr_psnr INFO: [1590/100000] Generator Loss of epoch80 is -128.26556, idr_psnr,  Lr:2e-05
+[03/23 01:23:57] idr_psnr INFO: [1600/100000] Generator Loss of epoch80 is -131.13174, idr_psnr,  Lr:2e-05
+[03/23 01:24:02] idr_psnr INFO: index:0 psnr: 46.158760425856755
+[03/23 01:24:08] idr_psnr INFO: index:1 psnr: 52.55411779136627
+[03/23 01:24:13] idr_psnr INFO: index:2 psnr: 52.45337890996833
+[03/23 01:24:18] idr_psnr INFO: index:3 psnr: 50.279227538004
+[03/23 01:24:22] idr_psnr INFO: index:4 psnr: 52.22400912591855
+[03/23 01:24:27] idr_psnr INFO: index:5 psnr: 58.34574195838853
+[03/23 01:24:42] idr_psnr INFO: index:6 psnr: 48.079643850885034
+[03/23 01:24:45] idr_psnr INFO: index:7 psnr: 50.53835990503988
+[03/23 01:24:49] idr_psnr INFO: index:8 psnr: 46.5284313224261
+[03/23 01:24:54] idr_psnr INFO: index:9 psnr: 54.851152836480956
+[03/23 01:24:59] idr_psnr INFO: index:10 psnr: 46.893825576647494
+[03/23 01:25:04] idr_psnr INFO: index:11 psnr: 52.00704042562995
+[03/23 01:25:08] idr_psnr INFO: index:12 psnr: 46.06233216622588
+[03/23 01:25:13] idr_psnr INFO: index:13 psnr: 55.875933735791676
+[03/23 01:25:13] idr_psnr INFO: epoch: 80, ave_psnr: 50.91799682633068, best_psnr: 51.506309701997516
+[03/23 01:25:39] idr_psnr INFO: [1610/100000] Generator Loss of epoch81 is -126.74187, idr_psnr,  Lr:2e-05
+[03/23 01:26:02] idr_psnr INFO: [1620/100000] Generator Loss of epoch81 is -118.80098, idr_psnr,  Lr:2e-05
+[03/23 01:26:27] idr_psnr INFO: [1630/100000] Generator Loss of epoch82 is -131.27397, idr_psnr,  Lr:2e-05
+[03/23 01:26:51] idr_psnr INFO: [1640/100000] Generator Loss of epoch82 is -124.46412, idr_psnr,  Lr:2e-05
+[03/23 01:27:18] idr_psnr INFO: [1650/100000] Generator Loss of epoch83 is -122.77373, idr_psnr,  Lr:2e-05
+[03/23 01:27:43] idr_psnr INFO: [1660/100000] Generator Loss of epoch83 is -134.54845, idr_psnr,  Lr:2e-05
+[03/23 01:28:12] idr_psnr INFO: [1670/100000] Generator Loss of epoch84 is -127.13057, idr_psnr,  Lr:2e-05
+[03/23 01:28:33] idr_psnr INFO: [1680/100000] Generator Loss of epoch84 is -121.96523, idr_psnr,  Lr:2e-05
+[03/23 01:28:58] idr_psnr INFO: [1690/100000] Generator Loss of epoch85 is -116.01186, idr_psnr,  Lr:2e-05
+[03/23 01:29:23] idr_psnr INFO: [1700/100000] Generator Loss of epoch85 is -120.47125, idr_psnr,  Lr:2e-05
+[03/23 01:29:50] idr_psnr INFO: [1710/100000] Generator Loss of epoch86 is -130.12877, idr_psnr,  Lr:2e-05
+[03/23 01:30:13] idr_psnr INFO: [1720/100000] Generator Loss of epoch86 is -127.97614, idr_psnr,  Lr:2e-05
+[03/23 01:30:40] idr_psnr INFO: [1730/100000] Generator Loss of epoch87 is -119.76685, idr_psnr,  Lr:2e-05
+[03/23 01:31:05] idr_psnr INFO: [1740/100000] Generator Loss of epoch87 is -120.46138, idr_psnr,  Lr:2e-05
+[03/23 01:31:33] idr_psnr INFO: [1750/100000] Generator Loss of epoch88 is -127.36539, idr_psnr,  Lr:2e-05
+[03/23 01:31:58] idr_psnr INFO: [1760/100000] Generator Loss of epoch88 is -136.68745, idr_psnr,  Lr:2e-05
+[03/23 01:32:26] idr_psnr INFO: [1770/100000] Generator Loss of epoch89 is -139.31479, idr_psnr,  Lr:2e-05
+[03/23 01:32:50] idr_psnr INFO: [1780/100000] Generator Loss of epoch89 is -122.82458, idr_psnr,  Lr:2e-05
+[03/23 01:33:16] idr_psnr INFO: [1790/100000] Generator Loss of epoch90 is -123.00999, idr_psnr,  Lr:2e-05
+[03/23 01:33:41] idr_psnr INFO: [1800/100000] Generator Loss of epoch90 is -116.79877, idr_psnr,  Lr:2e-05
+[03/23 01:33:46] idr_psnr INFO: index:0 psnr: 48.74805260571164
+[03/23 01:33:52] idr_psnr INFO: index:1 psnr: 53.43395180192885
+[03/23 01:33:57] idr_psnr INFO: index:2 psnr: 50.86228807333835
+[03/23 01:34:03] idr_psnr INFO: index:3 psnr: 50.01801020922958
+[03/23 01:34:07] idr_psnr INFO: index:4 psnr: 51.55738768369251
+[03/23 01:34:12] idr_psnr INFO: index:5 psnr: 57.34766898632023
+[03/23 01:34:26] idr_psnr INFO: index:6 psnr: 48.64401266618164
+[03/23 01:34:29] idr_psnr INFO: index:7 psnr: 50.32039769489229
+[03/23 01:34:33] idr_psnr INFO: index:8 psnr: 49.68350597836551
+[03/23 01:34:38] idr_psnr INFO: index:9 psnr: 53.8351740085504
+[03/23 01:34:43] idr_psnr INFO: index:10 psnr: 50.18668624201749
+[03/23 01:34:48] idr_psnr INFO: index:11 psnr: 50.396930375924775
+[03/23 01:34:52] idr_psnr INFO: index:12 psnr: 49.03029424360245
+[03/23 01:34:57] idr_psnr INFO: index:13 psnr: 52.09797056850491
+[03/23 01:34:57] idr_psnr INFO: epoch: 90, ave_psnr: 51.15445222416148, best_psnr: 51.506309701997516
+[03/23 01:35:23] idr_psnr INFO: [1810/100000] Generator Loss of epoch91 is -128.74715, idr_psnr,  Lr:2e-05
+[03/23 01:35:48] idr_psnr INFO: [1820/100000] Generator Loss of epoch91 is -133.30603, idr_psnr,  Lr:2e-05
+[03/23 01:36:13] idr_psnr INFO: [1830/100000] Generator Loss of epoch92 is -118.78525, idr_psnr,  Lr:2e-05
+[03/23 01:36:37] idr_psnr INFO: [1840/100000] Generator Loss of epoch92 is -131.23514, idr_psnr,  Lr:2e-05
+[03/23 01:37:09] idr_psnr INFO: [1850/100000] Generator Loss of epoch93 is -133.69882, idr_psnr,  Lr:2e-05
+[03/23 01:37:32] idr_psnr INFO: [1860/100000] Generator Loss of epoch93 is -128.67505, idr_psnr,  Lr:2e-05
+[03/23 01:37:58] idr_psnr INFO: [1870/100000] Generator Loss of epoch94 is -128.17108, idr_psnr,  Lr:2e-05
+[03/23 01:38:21] idr_psnr INFO: [1880/100000] Generator Loss of epoch94 is -129.31232, idr_psnr,  Lr:2e-05
+[03/23 01:38:49] idr_psnr INFO: [1890/100000] Generator Loss of epoch95 is -127.12256, idr_psnr,  Lr:2e-05
+[03/23 01:39:12] idr_psnr INFO: [1900/100000] Generator Loss of epoch95 is -110.14430, idr_psnr,  Lr:2e-05
+[03/23 01:39:42] idr_psnr INFO: [1910/100000] Generator Loss of epoch96 is -127.86021, idr_psnr,  Lr:2e-05
+[03/23 01:40:05] idr_psnr INFO: [1920/100000] Generator Loss of epoch96 is -128.97690, idr_psnr,  Lr:2e-05
+[03/23 01:40:30] idr_psnr INFO: [1930/100000] Generator Loss of epoch97 is -134.05333, idr_psnr,  Lr:2e-05
+[03/23 01:40:54] idr_psnr INFO: [1940/100000] Generator Loss of epoch97 is -140.75653, idr_psnr,  Lr:2e-05
+[03/23 01:41:21] idr_psnr INFO: [1950/100000] Generator Loss of epoch98 is -125.72313, idr_psnr,  Lr:2e-05
+[03/23 01:41:42] idr_psnr INFO: [1960/100000] Generator Loss of epoch98 is -121.48061, idr_psnr,  Lr:2e-05
+[03/23 01:42:08] idr_psnr INFO: [1970/100000] Generator Loss of epoch99 is -123.35487, idr_psnr,  Lr:2e-05
+[03/23 01:42:31] idr_psnr INFO: [1980/100000] Generator Loss of epoch99 is -127.82160, idr_psnr,  Lr:2e-05
+[03/23 01:43:01] idr_psnr INFO: [1990/100000] Generator Loss of epoch100 is -122.83318, idr_psnr,  Lr:2e-05
+[03/23 01:43:24] idr_psnr INFO: [2000/100000] Generator Loss of epoch100 is -127.14937, idr_psnr,  Lr:1e-05
+[03/23 01:43:29] idr_psnr INFO: index:0 psnr: 48.27178648099384
+[03/23 01:43:35] idr_psnr INFO: index:1 psnr: 53.58717183739758
+[03/23 01:43:40] idr_psnr INFO: index:2 psnr: 50.95992369423377
+[03/23 01:43:45] idr_psnr INFO: index:3 psnr: 50.60277850676239
+[03/23 01:43:49] idr_psnr INFO: index:4 psnr: 52.259660458045076
+[03/23 01:43:54] idr_psnr INFO: index:5 psnr: 57.64634685857704
+[03/23 01:44:09] idr_psnr INFO: index:6 psnr: 48.84945685936678
+[03/23 01:44:12] idr_psnr INFO: index:7 psnr: 51.65730522022372
+[03/23 01:44:16] idr_psnr INFO: index:8 psnr: 49.188285956817
+[03/23 01:44:21] idr_psnr INFO: index:9 psnr: 54.9543043043539
+[03/23 01:44:27] idr_psnr INFO: index:10 psnr: 48.52701868766179
+[03/23 01:44:32] idr_psnr INFO: index:11 psnr: 52.1948064851629
+[03/23 01:44:36] idr_psnr INFO: index:12 psnr: 47.982750781354525
+[03/23 01:44:41] idr_psnr INFO: index:13 psnr: 52.99210253206213
+[03/23 01:44:41] idr_psnr INFO: epoch: 100, ave_psnr: 51.40526419021517, best_psnr: 51.506309701997516
+[03/23 01:45:06] idr_psnr INFO: [2010/100000] Generator Loss of epoch101 is -121.46886, idr_psnr,  Lr:1e-05
+[03/23 01:45:30] idr_psnr INFO: [2020/100000] Generator Loss of epoch101 is -119.71486, idr_psnr,  Lr:1e-05
+[03/23 01:45:58] idr_psnr INFO: [2030/100000] Generator Loss of epoch102 is -135.51578, idr_psnr,  Lr:1e-05
+[03/23 01:46:22] idr_psnr INFO: [2040/100000] Generator Loss of epoch102 is -116.11234, idr_psnr,  Lr:1e-05
+[03/23 01:46:52] idr_psnr INFO: [2050/100000] Generator Loss of epoch103 is -132.11858, idr_psnr,  Lr:1e-05
+[03/23 01:47:15] idr_psnr INFO: [2060/100000] Generator Loss of epoch103 is -133.03247, idr_psnr,  Lr:1e-05
+[03/23 01:47:43] idr_psnr INFO: [2070/100000] Generator Loss of epoch104 is -132.40088, idr_psnr,  Lr:1e-05
+[03/23 01:48:07] idr_psnr INFO: [2080/100000] Generator Loss of epoch104 is -132.96094, idr_psnr,  Lr:1e-05
+[03/23 01:48:34] idr_psnr INFO: [2090/100000] Generator Loss of epoch105 is -133.01161, idr_psnr,  Lr:1e-05
+[03/23 01:49:01] idr_psnr INFO: [2100/100000] Generator Loss of epoch105 is -139.09433, idr_psnr,  Lr:1e-05
+[03/23 01:49:28] idr_psnr INFO: [2110/100000] Generator Loss of epoch106 is -137.33530, idr_psnr,  Lr:1e-05
+[03/23 01:49:50] idr_psnr INFO: [2120/100000] Generator Loss of epoch106 is -134.87187, idr_psnr,  Lr:1e-05
+[03/23 01:50:16] idr_psnr INFO: [2130/100000] Generator Loss of epoch107 is -132.06866, idr_psnr,  Lr:1e-05
+[03/23 01:50:41] idr_psnr INFO: [2140/100000] Generator Loss of epoch107 is -132.01889, idr_psnr,  Lr:1e-05
+[03/23 01:51:08] idr_psnr INFO: [2150/100000] Generator Loss of epoch108 is -127.62752, idr_psnr,  Lr:1e-05
+[03/23 01:51:34] idr_psnr INFO: [2160/100000] Generator Loss of epoch108 is -131.60156, idr_psnr,  Lr:1e-05
+[03/23 01:52:01] idr_psnr INFO: [2170/100000] Generator Loss of epoch109 is -113.08348, idr_psnr,  Lr:1e-05
+[03/23 01:52:25] idr_psnr INFO: [2180/100000] Generator Loss of epoch109 is -130.31465, idr_psnr,  Lr:1e-05
+[03/23 01:52:53] idr_psnr INFO: [2190/100000] Generator Loss of epoch110 is -131.96976, idr_psnr,  Lr:1e-05
+[03/23 01:53:18] idr_psnr INFO: [2200/100000] Generator Loss of epoch110 is -129.22179, idr_psnr,  Lr:1e-05
+[03/23 01:53:23] idr_psnr INFO: index:0 psnr: 49.141864110630706
+[03/23 01:53:29] idr_psnr INFO: index:1 psnr: 54.24387994773079
+[03/23 01:53:34] idr_psnr INFO: index:2 psnr: 51.76627445774607
+[03/23 01:53:39] idr_psnr INFO: index:3 psnr: 50.91893874694463
+[03/23 01:53:43] idr_psnr INFO: index:4 psnr: 52.828336661839444
+[03/23 01:53:49] idr_psnr INFO: index:5 psnr: 58.63534344171573
+[03/23 01:54:03] idr_psnr INFO: index:6 psnr: 48.93899810978999
+[03/23 01:54:07] idr_psnr INFO: index:7 psnr: 52.8297036873861
+[03/23 01:54:11] idr_psnr INFO: index:8 psnr: 49.47939594496279
+[03/23 01:54:16] idr_psnr INFO: index:9 psnr: 55.552623559164054
+[03/23 01:54:21] idr_psnr INFO: index:10 psnr: 50.0718762805142
+[03/23 01:54:26] idr_psnr INFO: index:11 psnr: 53.12196248354616
+[03/23 01:54:30] idr_psnr INFO: index:12 psnr: 48.78482495076226
+[03/23 01:54:35] idr_psnr INFO: index:13 psnr: 53.844542427470714
+[03/23 01:54:36] idr_psnr INFO: epoch: 110, ave_psnr: 52.15418320072884, best_psnr: 52.15418320072884
+[03/23 01:55:03] idr_psnr INFO: [2210/100000] Generator Loss of epoch111 is -129.21902, idr_psnr,  Lr:1e-05
+[03/23 01:55:24] idr_psnr INFO: [2220/100000] Generator Loss of epoch111 is -126.87556, idr_psnr,  Lr:1e-05
+[03/23 01:55:50] idr_psnr INFO: [2230/100000] Generator Loss of epoch112 is -130.94455, idr_psnr,  Lr:1e-05
+[03/23 01:56:13] idr_psnr INFO: [2240/100000] Generator Loss of epoch112 is -136.13174, idr_psnr,  Lr:1e-05
+[03/23 01:56:41] idr_psnr INFO: [2250/100000] Generator Loss of epoch113 is -122.67757, idr_psnr,  Lr:1e-05
+[03/23 01:57:03] idr_psnr INFO: [2260/100000] Generator Loss of epoch113 is -125.17882, idr_psnr,  Lr:1e-05
+[03/23 01:57:28] idr_psnr INFO: [2270/100000] Generator Loss of epoch114 is -137.69292, idr_psnr,  Lr:1e-05
+[03/23 01:57:53] idr_psnr INFO: [2280/100000] Generator Loss of epoch114 is -141.25627, idr_psnr,  Lr:1e-05
+[03/23 01:58:19] idr_psnr INFO: [2290/100000] Generator Loss of epoch115 is -139.56033, idr_psnr,  Lr:1e-05
+[03/23 01:58:43] idr_psnr INFO: [2300/100000] Generator Loss of epoch115 is -125.47356, idr_psnr,  Lr:1e-05
+[03/23 01:59:08] idr_psnr INFO: [2310/100000] Generator Loss of epoch116 is -119.44763, idr_psnr,  Lr:1e-05
+[03/23 01:59:30] idr_psnr INFO: [2320/100000] Generator Loss of epoch116 is -130.31848, idr_psnr,  Lr:1e-05
+[03/23 01:59:59] idr_psnr INFO: [2330/100000] Generator Loss of epoch117 is -124.82017, idr_psnr,  Lr:1e-05
+[03/23 02:00:24] idr_psnr INFO: [2340/100000] Generator Loss of epoch117 is -132.28435, idr_psnr,  Lr:1e-05
+[03/23 02:00:48] idr_psnr INFO: [2350/100000] Generator Loss of epoch118 is -130.28751, idr_psnr,  Lr:1e-05
+[03/23 02:01:12] idr_psnr INFO: [2360/100000] Generator Loss of epoch118 is -132.84744, idr_psnr,  Lr:1e-05
+[03/23 02:01:40] idr_psnr INFO: [2370/100000] Generator Loss of epoch119 is -126.10142, idr_psnr,  Lr:1e-05
+[03/23 02:02:02] idr_psnr INFO: [2380/100000] Generator Loss of epoch119 is -139.54172, idr_psnr,  Lr:1e-05
+[03/23 02:02:29] idr_psnr INFO: [2390/100000] Generator Loss of epoch120 is -136.96561, idr_psnr,  Lr:1e-05
+[03/23 02:02:51] idr_psnr INFO: [2400/100000] Generator Loss of epoch120 is -136.81732, idr_psnr,  Lr:1e-05
+[03/23 02:02:56] idr_psnr INFO: index:0 psnr: 49.35878825131471
+[03/23 02:03:02] idr_psnr INFO: index:1 psnr: 54.35118836269964
+[03/23 02:03:07] idr_psnr INFO: index:2 psnr: 51.69355533623641
+[03/23 02:03:12] idr_psnr INFO: index:3 psnr: 50.95531779297414
+[03/23 02:03:16] idr_psnr INFO: index:4 psnr: 52.82408331284042
+[03/23 02:03:21] idr_psnr INFO: index:5 psnr: 58.56670409918581
+[03/23 02:03:36] idr_psnr INFO: index:6 psnr: 48.895083056386355
+[03/23 02:03:39] idr_psnr INFO: index:7 psnr: 52.16997045786424
+[03/23 02:03:43] idr_psnr INFO: index:8 psnr: 49.80034565222834
+[03/23 02:03:48] idr_psnr INFO: index:9 psnr: 55.51369349562112
+[03/23 02:03:53] idr_psnr INFO: index:10 psnr: 50.56223321094248
+[03/23 02:03:59] idr_psnr INFO: index:11 psnr: 52.94120049592414
+[03/23 02:04:03] idr_psnr INFO: index:12 psnr: 48.58510841402505
+[03/23 02:04:08] idr_psnr INFO: index:13 psnr: 52.94088455687281
+[03/23 02:04:08] idr_psnr INFO: epoch: 120, ave_psnr: 52.08272546393683, best_psnr: 52.15418320072884
+[03/23 02:04:36] idr_psnr INFO: [2410/100000] Generator Loss of epoch121 is -127.10609, idr_psnr,  Lr:1e-05
+[03/23 02:04:56] idr_psnr INFO: [2420/100000] Generator Loss of epoch121 is -130.32123, idr_psnr,  Lr:1e-05
+[03/23 02:05:19] idr_psnr INFO: [2430/100000] Generator Loss of epoch122 is -128.22198, idr_psnr,  Lr:1e-05
+[03/23 02:05:46] idr_psnr INFO: [2440/100000] Generator Loss of epoch122 is -140.95238, idr_psnr,  Lr:1e-05
+[03/23 02:06:13] idr_psnr INFO: [2450/100000] Generator Loss of epoch123 is -128.54721, idr_psnr,  Lr:1e-05
+[03/23 02:06:38] idr_psnr INFO: [2460/100000] Generator Loss of epoch123 is -139.85896, idr_psnr,  Lr:1e-05
+[03/23 02:07:02] idr_psnr INFO: [2470/100000] Generator Loss of epoch124 is -139.41223, idr_psnr,  Lr:1e-05
+[03/23 02:07:29] idr_psnr INFO: [2480/100000] Generator Loss of epoch124 is -137.83133, idr_psnr,  Lr:1e-05
+[03/23 02:07:56] idr_psnr INFO: [2490/100000] Generator Loss of epoch125 is -125.81972, idr_psnr,  Lr:1e-05
+[03/23 02:08:19] idr_psnr INFO: [2500/100000] Generator Loss of epoch125 is -120.94840, idr_psnr,  Lr:1e-05
+[03/23 02:08:46] idr_psnr INFO: [2510/100000] Generator Loss of epoch126 is -119.31364, idr_psnr,  Lr:1e-05
+[03/23 02:09:08] idr_psnr INFO: [2520/100000] Generator Loss of epoch126 is -129.90164, idr_psnr,  Lr:1e-05
+[03/23 02:09:33] idr_psnr INFO: [2530/100000] Generator Loss of epoch127 is -132.33231, idr_psnr,  Lr:1e-05
+[03/23 02:10:00] idr_psnr INFO: [2540/100000] Generator Loss of epoch127 is -133.52257, idr_psnr,  Lr:1e-05
+[03/23 02:10:26] idr_psnr INFO: [2550/100000] Generator Loss of epoch128 is -122.05817, idr_psnr,  Lr:1e-05
+[03/23 02:10:49] idr_psnr INFO: [2560/100000] Generator Loss of epoch128 is -120.93289, idr_psnr,  Lr:1e-05
+[03/23 02:11:16] idr_psnr INFO: [2570/100000] Generator Loss of epoch129 is -130.48232, idr_psnr,  Lr:1e-05
+[03/23 02:11:42] idr_psnr INFO: [2580/100000] Generator Loss of epoch129 is -132.45261, idr_psnr,  Lr:1e-05
+[03/23 02:12:10] idr_psnr INFO: [2590/100000] Generator Loss of epoch130 is -126.48892, idr_psnr,  Lr:1e-05
+[03/23 02:12:33] idr_psnr INFO: [2600/100000] Generator Loss of epoch130 is -138.59814, idr_psnr,  Lr:1e-05
+[03/23 02:12:39] idr_psnr INFO: index:0 psnr: 47.74314813748548
+[03/23 02:12:45] idr_psnr INFO: index:1 psnr: 54.045397447566685
+[03/23 02:12:50] idr_psnr INFO: index:2 psnr: 52.29226145183033
+[03/23 02:12:55] idr_psnr INFO: index:3 psnr: 50.613617588428646
+[03/23 02:12:59] idr_psnr INFO: index:4 psnr: 52.35037589212074
+[03/23 02:13:04] idr_psnr INFO: index:5 psnr: 58.55380092248276
+[03/23 02:13:18] idr_psnr INFO: index:6 psnr: 48.83606674104453
+[03/23 02:13:21] idr_psnr INFO: index:7 psnr: 51.62222951603611
+[03/23 02:13:25] idr_psnr INFO: index:8 psnr: 47.863151379057726
+[03/23 02:13:30] idr_psnr INFO: index:9 psnr: 55.314029878408235
+[03/23 02:13:35] idr_psnr INFO: index:10 psnr: 48.67103867579358
+[03/23 02:13:40] idr_psnr INFO: index:11 psnr: 52.47344066854578
+[03/23 02:13:44] idr_psnr INFO: index:12 psnr: 47.85226311946517
+[03/23 02:13:49] idr_psnr INFO: index:13 psnr: 55.31916351452775
+[03/23 02:13:50] idr_psnr INFO: epoch: 130, ave_psnr: 51.682141780913824, best_psnr: 52.15418320072884
+[03/23 02:14:17] idr_psnr INFO: [2610/100000] Generator Loss of epoch131 is -135.61305, idr_psnr,  Lr:1e-05
+[03/23 02:14:39] idr_psnr INFO: [2620/100000] Generator Loss of epoch131 is -133.64560, idr_psnr,  Lr:1e-05
+[03/23 02:15:05] idr_psnr INFO: [2630/100000] Generator Loss of epoch132 is -122.84756, idr_psnr,  Lr:1e-05
+[03/23 02:15:31] idr_psnr INFO: [2640/100000] Generator Loss of epoch132 is -118.63730, idr_psnr,  Lr:1e-05
+[03/23 02:15:55] idr_psnr INFO: [2650/100000] Generator Loss of epoch133 is -127.02545, idr_psnr,  Lr:1e-05
+[03/23 02:16:18] idr_psnr INFO: [2660/100000] Generator Loss of epoch133 is -130.48730, idr_psnr,  Lr:1e-05
+[03/23 02:16:47] idr_psnr INFO: [2670/100000] Generator Loss of epoch134 is -131.84309, idr_psnr,  Lr:1e-05
+[03/23 02:17:08] idr_psnr INFO: [2680/100000] Generator Loss of epoch134 is -136.86160, idr_psnr,  Lr:1e-05
+[03/23 02:17:34] idr_psnr INFO: [2690/100000] Generator Loss of epoch135 is -140.60718, idr_psnr,  Lr:1e-05
+[03/23 02:17:58] idr_psnr INFO: [2700/100000] Generator Loss of epoch135 is -124.29494, idr_psnr,  Lr:1e-05
+[03/23 02:18:23] idr_psnr INFO: [2710/100000] Generator Loss of epoch136 is -129.67725, idr_psnr,  Lr:1e-05
+[03/23 02:18:47] idr_psnr INFO: [2720/100000] Generator Loss of epoch136 is -132.69048, idr_psnr,  Lr:1e-05
+[03/23 02:19:14] idr_psnr INFO: [2730/100000] Generator Loss of epoch137 is -123.97794, idr_psnr,  Lr:1e-05
+[03/23 02:19:39] idr_psnr INFO: [2740/100000] Generator Loss of epoch137 is -133.96558, idr_psnr,  Lr:1e-05
+[03/23 02:20:04] idr_psnr INFO: [2750/100000] Generator Loss of epoch138 is -128.08798, idr_psnr,  Lr:1e-05
+[03/23 02:20:29] idr_psnr INFO: [2760/100000] Generator Loss of epoch138 is -133.15872, idr_psnr,  Lr:1e-05
+[03/23 02:20:54] idr_psnr INFO: [2770/100000] Generator Loss of epoch139 is -123.82211, idr_psnr,  Lr:1e-05
+[03/23 02:21:16] idr_psnr INFO: [2780/100000] Generator Loss of epoch139 is -121.99841, idr_psnr,  Lr:1e-05
+[03/23 02:21:43] idr_psnr INFO: [2790/100000] Generator Loss of epoch140 is -135.63644, idr_psnr,  Lr:1e-05
+[03/23 02:22:05] idr_psnr INFO: [2800/100000] Generator Loss of epoch140 is -127.13386, idr_psnr,  Lr:1e-05
+[03/23 02:22:10] idr_psnr INFO: index:0 psnr: 47.161665655247205
+[03/23 02:22:16] idr_psnr INFO: index:1 psnr: 54.10649578001123
+[03/23 02:22:21] idr_psnr INFO: index:2 psnr: 52.27343978199433
+[03/23 02:22:26] idr_psnr INFO: index:3 psnr: 50.67250516764592
+[03/23 02:22:31] idr_psnr INFO: index:4 psnr: 52.94121216512126
+[03/23 02:22:36] idr_psnr INFO: index:5 psnr: 58.42195395575472
+[03/23 02:22:50] idr_psnr INFO: index:6 psnr: 48.36035303708854
+[03/23 02:22:53] idr_psnr INFO: index:7 psnr: 51.61099808141522
+[03/23 02:22:57] idr_psnr INFO: index:8 psnr: 47.57548527954235
+[03/23 02:23:03] idr_psnr INFO: index:9 psnr: 55.38261640520944
+[03/23 02:23:08] idr_psnr INFO: index:10 psnr: 47.75563467916622
+[03/23 02:23:13] idr_psnr INFO: index:11 psnr: 52.11216296071669
+[03/23 02:23:17] idr_psnr INFO: index:12 psnr: 47.79538366000178
+[03/23 02:23:22] idr_psnr INFO: index:13 psnr: 54.83849587069755
+[03/23 02:23:22] idr_psnr INFO: epoch: 140, ave_psnr: 51.500600177115174, best_psnr: 52.15418320072884
+[03/23 02:23:46] idr_psnr INFO: [2810/100000] Generator Loss of epoch141 is -137.04166, idr_psnr,  Lr:1e-05
+[03/23 02:24:13] idr_psnr INFO: [2820/100000] Generator Loss of epoch141 is -131.94429, idr_psnr,  Lr:1e-05
+[03/23 02:24:42] idr_psnr INFO: [2830/100000] Generator Loss of epoch142 is -132.66855, idr_psnr,  Lr:1e-05
+[03/23 02:25:02] idr_psnr INFO: [2840/100000] Generator Loss of epoch142 is -135.51112, idr_psnr,  Lr:1e-05
+[03/23 02:25:27] idr_psnr INFO: [2850/100000] Generator Loss of epoch143 is -133.36496, idr_psnr,  Lr:1e-05
+[03/23 02:25:50] idr_psnr INFO: [2860/100000] Generator Loss of epoch143 is -139.24805, idr_psnr,  Lr:1e-05
+[03/23 02:26:17] idr_psnr INFO: [2870/100000] Generator Loss of epoch144 is -140.11111, idr_psnr,  Lr:1e-05
+[03/23 02:26:42] idr_psnr INFO: [2880/100000] Generator Loss of epoch144 is -128.68178, idr_psnr,  Lr:1e-05
+[03/23 02:27:06] idr_psnr INFO: [2890/100000] Generator Loss of epoch145 is -132.96342, idr_psnr,  Lr:1e-05
+[03/23 02:27:29] idr_psnr INFO: [2900/100000] Generator Loss of epoch145 is -134.41568, idr_psnr,  Lr:1e-05
+[03/23 02:27:58] idr_psnr INFO: [2910/100000] Generator Loss of epoch146 is -131.10352, idr_psnr,  Lr:1e-05
+[03/23 02:28:19] idr_psnr INFO: [2920/100000] Generator Loss of epoch146 is -130.76376, idr_psnr,  Lr:1e-05
+[03/23 02:28:46] idr_psnr INFO: [2930/100000] Generator Loss of epoch147 is -128.13391, idr_psnr,  Lr:1e-05
+[03/23 02:29:09] idr_psnr INFO: [2940/100000] Generator Loss of epoch147 is -126.72219, idr_psnr,  Lr:1e-05
+[03/23 02:29:36] idr_psnr INFO: [2950/100000] Generator Loss of epoch148 is -130.62056, idr_psnr,  Lr:1e-05
+[03/23 02:30:00] idr_psnr INFO: [2960/100000] Generator Loss of epoch148 is -112.66669, idr_psnr,  Lr:1e-05
+[03/23 02:30:23] idr_psnr INFO: [2970/100000] Generator Loss of epoch149 is -128.53088, idr_psnr,  Lr:1e-05
+[03/23 02:30:48] idr_psnr INFO: [2980/100000] Generator Loss of epoch149 is -132.44957, idr_psnr,  Lr:1e-05
+[03/23 02:31:15] idr_psnr INFO: [2990/100000] Generator Loss of epoch150 is -135.57864, idr_psnr,  Lr:1e-05
+[03/23 02:31:40] idr_psnr INFO: [3000/100000] Generator Loss of epoch150 is -116.83336, idr_psnr,  Lr:1e-05
+[03/23 02:31:45] idr_psnr INFO: index:0 psnr: 47.45662242093477
+[03/23 02:31:51] idr_psnr INFO: index:1 psnr: 53.91732864174444
+[03/23 02:31:56] idr_psnr INFO: index:2 psnr: 52.48056618257187
+[03/23 02:32:01] idr_psnr INFO: index:3 psnr: 50.5770925048546
+[03/23 02:32:05] idr_psnr INFO: index:4 psnr: 53.242524791881024
+[03/23 02:32:10] idr_psnr INFO: index:5 psnr: 58.318507769691436
+[03/23 02:32:24] idr_psnr INFO: index:6 psnr: 48.40055308614528
+[03/23 02:32:28] idr_psnr INFO: index:7 psnr: 51.66891159976629
+[03/23 02:32:32] idr_psnr INFO: index:8 psnr: 48.3756478930963
+[03/23 02:32:37] idr_psnr INFO: index:9 psnr: 55.31757037615215
+[03/23 02:32:42] idr_psnr INFO: index:10 psnr: 47.22475612221884
+[03/23 02:32:47] idr_psnr INFO: index:11 psnr: 51.86861517900155
+[03/23 02:32:51] idr_psnr INFO: index:12 psnr: 47.87566934985322
+[03/23 02:32:56] idr_psnr INFO: index:13 psnr: 55.531368292631846
+[03/23 02:32:56] idr_psnr INFO: epoch: 150, ave_psnr: 51.58969530075312, best_psnr: 52.15418320072884
+[03/23 02:33:20] idr_psnr INFO: [3010/100000] Generator Loss of epoch151 is -110.97014, idr_psnr,  Lr:1e-05
+[03/23 02:33:45] idr_psnr INFO: [3020/100000] Generator Loss of epoch151 is -112.33783, idr_psnr,  Lr:1e-05
+[03/23 02:34:08] idr_psnr INFO: [3030/100000] Generator Loss of epoch152 is -127.31636, idr_psnr,  Lr:1e-05
+[03/23 02:34:34] idr_psnr INFO: [3040/100000] Generator Loss of epoch152 is -114.52582, idr_psnr,  Lr:1e-05
+[03/23 02:35:00] idr_psnr INFO: [3050/100000] Generator Loss of epoch153 is -120.49565, idr_psnr,  Lr:1e-05
+[03/23 02:35:24] idr_psnr INFO: [3060/100000] Generator Loss of epoch153 is -121.66345, idr_psnr,  Lr:1e-05
+[03/23 02:35:51] idr_psnr INFO: [3070/100000] Generator Loss of epoch154 is -121.17441, idr_psnr,  Lr:1e-05
+[03/23 02:36:18] idr_psnr INFO: [3080/100000] Generator Loss of epoch154 is -126.20879, idr_psnr,  Lr:1e-05
+[03/23 02:36:43] idr_psnr INFO: [3090/100000] Generator Loss of epoch155 is -128.34656, idr_psnr,  Lr:1e-05
+[03/23 02:37:07] idr_psnr INFO: [3100/100000] Generator Loss of epoch155 is -128.44493, idr_psnr,  Lr:1e-05
+[03/23 02:37:34] idr_psnr INFO: [3110/100000] Generator Loss of epoch156 is -130.65059, idr_psnr,  Lr:1e-05
+[03/23 02:37:53] idr_psnr INFO: [3120/100000] Generator Loss of epoch156 is -119.73041, idr_psnr,  Lr:1e-05
+[03/23 02:38:17] idr_psnr INFO: [3130/100000] Generator Loss of epoch157 is -136.13600, idr_psnr,  Lr:1e-05
+[03/23 02:38:45] idr_psnr INFO: [3140/100000] Generator Loss of epoch157 is -124.23787, idr_psnr,  Lr:1e-05
+[03/23 02:39:13] idr_psnr INFO: [3150/100000] Generator Loss of epoch158 is -109.15491, idr_psnr,  Lr:1e-05
+[03/23 02:39:35] idr_psnr INFO: [3160/100000] Generator Loss of epoch158 is -135.22333, idr_psnr,  Lr:1e-05
+[03/23 02:40:05] idr_psnr INFO: [3170/100000] Generator Loss of epoch159 is -127.63239, idr_psnr,  Lr:1e-05
+[03/23 02:40:26] idr_psnr INFO: [3180/100000] Generator Loss of epoch159 is -140.19693, idr_psnr,  Lr:1e-05
+[03/23 02:40:54] idr_psnr INFO: [3190/100000] Generator Loss of epoch160 is -125.39529, idr_psnr,  Lr:1e-05
+[03/23 02:41:19] idr_psnr INFO: [3200/100000] Generator Loss of epoch160 is -128.71428, idr_psnr,  Lr:1e-05
+[03/23 02:41:24] idr_psnr INFO: index:0 psnr: 48.32508913951192
+[03/23 02:41:30] idr_psnr INFO: index:1 psnr: 54.37437544898241
+[03/23 02:41:35] idr_psnr INFO: index:2 psnr: 52.211210489910734
+[03/23 02:41:40] idr_psnr INFO: index:3 psnr: 51.0999755030046
+[03/23 02:41:44] idr_psnr INFO: index:4 psnr: 52.71362370609995
+[03/23 02:41:49] idr_psnr INFO: index:5 psnr: 58.490158875712225
+[03/23 02:42:04] idr_psnr INFO: index:6 psnr: 48.757021675911474
+[03/23 02:42:07] idr_psnr INFO: index:7 psnr: 51.855360394311546
+[03/23 02:42:11] idr_psnr INFO: index:8 psnr: 48.27458933282572
+[03/23 02:42:16] idr_psnr INFO: index:9 psnr: 55.48789469453687
+[03/23 02:42:21] idr_psnr INFO: index:10 psnr: 48.99974663987023
+[03/23 02:42:27] idr_psnr INFO: index:11 psnr: 52.26133343550035
+[03/23 02:42:31] idr_psnr INFO: index:12 psnr: 48.53025182778083
+[03/23 02:42:36] idr_psnr INFO: index:13 psnr: 53.99466296934062
+[03/23 02:42:36] idr_psnr INFO: epoch: 160, ave_psnr: 51.81252100952139, best_psnr: 52.15418320072884
+[03/23 02:43:03] idr_psnr INFO: [3210/100000] Generator Loss of epoch161 is -114.14769, idr_psnr,  Lr:1e-05
+[03/23 02:43:25] idr_psnr INFO: [3220/100000] Generator Loss of epoch161 is -134.68262, idr_psnr,  Lr:1e-05
+[03/23 02:43:49] idr_psnr INFO: [3230/100000] Generator Loss of epoch162 is -120.18466, idr_psnr,  Lr:1e-05
+[03/23 02:44:17] idr_psnr INFO: [3240/100000] Generator Loss of epoch162 is -119.79921, idr_psnr,  Lr:1e-05
+[03/23 02:44:46] idr_psnr INFO: [3250/100000] Generator Loss of epoch163 is -125.85365, idr_psnr,  Lr:1e-05
+[03/23 02:45:08] idr_psnr INFO: [3260/100000] Generator Loss of epoch163 is -125.99493, idr_psnr,  Lr:1e-05
+[03/23 02:45:32] idr_psnr INFO: [3270/100000] Generator Loss of epoch164 is -125.70584, idr_psnr,  Lr:1e-05
+[03/23 02:45:57] idr_psnr INFO: [3280/100000] Generator Loss of epoch164 is -123.40852, idr_psnr,  Lr:1e-05
+[03/23 02:46:22] idr_psnr INFO: [3290/100000] Generator Loss of epoch165 is -129.46605, idr_psnr,  Lr:1e-05
+[03/23 02:46:49] idr_psnr INFO: [3300/100000] Generator Loss of epoch165 is -130.76321, idr_psnr,  Lr:1e-05
+[03/23 02:47:15] idr_psnr INFO: [3310/100000] Generator Loss of epoch166 is -130.33136, idr_psnr,  Lr:1e-05
+[03/23 02:47:40] idr_psnr INFO: [3320/100000] Generator Loss of epoch166 is -140.42624, idr_psnr,  Lr:1e-05
+[03/23 02:48:07] idr_psnr INFO: [3330/100000] Generator Loss of epoch167 is -121.57853, idr_psnr,  Lr:1e-05
+[03/23 02:48:32] idr_psnr INFO: [3340/100000] Generator Loss of epoch167 is -136.80756, idr_psnr,  Lr:1e-05
+[03/23 02:48:59] idr_psnr INFO: [3350/100000] Generator Loss of epoch168 is -127.95944, idr_psnr,  Lr:1e-05
+[03/23 02:49:22] idr_psnr INFO: [3360/100000] Generator Loss of epoch168 is -132.47397, idr_psnr,  Lr:1e-05
+[03/23 02:49:48] idr_psnr INFO: [3370/100000] Generator Loss of epoch169 is -118.67353, idr_psnr,  Lr:1e-05
+[03/23 02:50:11] idr_psnr INFO: [3380/100000] Generator Loss of epoch169 is -131.59261, idr_psnr,  Lr:1e-05
+[03/23 02:50:39] idr_psnr INFO: [3390/100000] Generator Loss of epoch170 is -140.32465, idr_psnr,  Lr:1e-05
+[03/23 02:51:02] idr_psnr INFO: [3400/100000] Generator Loss of epoch170 is -131.93561, idr_psnr,  Lr:1e-05
+[03/23 02:51:07] idr_psnr INFO: index:0 psnr: 48.680865718779
+[03/23 02:51:13] idr_psnr INFO: index:1 psnr: 54.460983555456295
+[03/23 02:51:18] idr_psnr INFO: index:2 psnr: 52.0284780407992
+[03/23 02:51:23] idr_psnr INFO: index:3 psnr: 51.14241042735141
+[03/23 02:51:27] idr_psnr INFO: index:4 psnr: 53.0617189800061
+[03/23 02:51:33] idr_psnr INFO: index:5 psnr: 58.66013959968355
+[03/23 02:51:47] idr_psnr INFO: index:6 psnr: 48.523933361316345
+[03/23 02:51:51] idr_psnr INFO: index:7 psnr: 52.9210086225698
+[03/23 02:51:55] idr_psnr INFO: index:8 psnr: 48.94963897229637
+[03/23 02:52:01] idr_psnr INFO: index:9 psnr: 55.41856317354852
+[03/23 02:52:06] idr_psnr INFO: index:10 psnr: 50.37261714926642
+[03/23 02:52:11] idr_psnr INFO: index:11 psnr: 52.87581422574752
+[03/23 02:52:15] idr_psnr INFO: index:12 psnr: 49.093579180787046
+[03/23 02:52:20] idr_psnr INFO: index:13 psnr: 53.65715146683329
+[03/23 02:52:20] idr_psnr INFO: epoch: 170, ave_psnr: 52.131921605317196, best_psnr: 52.15418320072884
+[03/23 02:52:47] idr_psnr INFO: [3410/100000] Generator Loss of epoch171 is -128.88060, idr_psnr,  Lr:1e-05
+[03/23 02:53:11] idr_psnr INFO: [3420/100000] Generator Loss of epoch171 is -139.88713, idr_psnr,  Lr:1e-05
+[03/23 02:53:39] idr_psnr INFO: [3430/100000] Generator Loss of epoch172 is -131.04597, idr_psnr,  Lr:1e-05
+[03/23 02:54:02] idr_psnr INFO: [3440/100000] Generator Loss of epoch172 is -139.87831, idr_psnr,  Lr:1e-05
+[03/23 02:54:29] idr_psnr INFO: [3450/100000] Generator Loss of epoch173 is -128.39240, idr_psnr,  Lr:1e-05
+[03/23 02:54:49] idr_psnr INFO: [3460/100000] Generator Loss of epoch173 is -136.11192, idr_psnr,  Lr:1e-05
+[03/23 02:55:15] idr_psnr INFO: [3470/100000] Generator Loss of epoch174 is -129.35403, idr_psnr,  Lr:1e-05
+[03/23 02:55:39] idr_psnr INFO: [3480/100000] Generator Loss of epoch174 is -131.00256, idr_psnr,  Lr:1e-05
+[03/23 02:56:08] idr_psnr INFO: [3490/100000] Generator Loss of epoch175 is -124.69267, idr_psnr,  Lr:1e-05
+[03/23 02:56:28] idr_psnr INFO: [3500/100000] Generator Loss of epoch175 is -138.11021, idr_psnr,  Lr:1e-05
+[03/23 02:56:53] idr_psnr INFO: [3510/100000] Generator Loss of epoch176 is -138.08922, idr_psnr,  Lr:1e-05
+[03/23 02:57:16] idr_psnr INFO: [3520/100000] Generator Loss of epoch176 is -134.60933, idr_psnr,  Lr:1e-05
+[03/23 02:57:42] idr_psnr INFO: [3530/100000] Generator Loss of epoch177 is -123.94230, idr_psnr,  Lr:1e-05
+[03/23 02:58:06] idr_psnr INFO: [3540/100000] Generator Loss of epoch177 is -116.51509, idr_psnr,  Lr:1e-05
+[03/23 02:58:34] idr_psnr INFO: [3550/100000] Generator Loss of epoch178 is -122.42690, idr_psnr,  Lr:1e-05
+[03/23 02:58:55] idr_psnr INFO: [3560/100000] Generator Loss of epoch178 is -125.06250, idr_psnr,  Lr:1e-05
+[03/23 02:59:20] idr_psnr INFO: [3570/100000] Generator Loss of epoch179 is -126.02563, idr_psnr,  Lr:1e-05
+[03/23 02:59:46] idr_psnr INFO: [3580/100000] Generator Loss of epoch179 is -124.96510, idr_psnr,  Lr:1e-05
+[03/23 03:00:14] idr_psnr INFO: [3590/100000] Generator Loss of epoch180 is -126.01263, idr_psnr,  Lr:1e-05
+[03/23 03:00:37] idr_psnr INFO: [3600/100000] Generator Loss of epoch180 is -132.34198, idr_psnr,  Lr:1e-05
+[03/23 03:00:43] idr_psnr INFO: index:0 psnr: 49.16197774779661
+[03/23 03:00:49] idr_psnr INFO: index:1 psnr: 54.10607909845707
+[03/23 03:00:54] idr_psnr INFO: index:2 psnr: 52.27392145489877
+[03/23 03:00:59] idr_psnr INFO: index:3 psnr: 50.801270051492054
+[03/23 03:01:03] idr_psnr INFO: index:4 psnr: 53.20149711769414
+[03/23 03:01:08] idr_psnr INFO: index:5 psnr: 58.517050329706194
+[03/23 03:01:23] idr_psnr INFO: index:6 psnr: 48.77896521888283
+[03/23 03:01:26] idr_psnr INFO: index:7 psnr: 52.573701715017656
+[03/23 03:01:30] idr_psnr INFO: index:8 psnr: 49.858663916723174
+[03/23 03:01:35] idr_psnr INFO: index:9 psnr: 55.31817890208476
+[03/23 03:01:40] idr_psnr INFO: index:10 psnr: 49.81340677389152
+[03/23 03:01:45] idr_psnr INFO: index:11 psnr: 53.01921959058413
+[03/23 03:01:49] idr_psnr INFO: index:12 psnr: 47.985995717663386
+[03/23 03:01:54] idr_psnr INFO: index:13 psnr: 53.52483359467775
+[03/23 03:01:54] idr_psnr INFO: epoch: 180, ave_psnr: 52.066768659255004, best_psnr: 52.15418320072884
+[03/23 03:02:22] idr_psnr INFO: [3610/100000] Generator Loss of epoch181 is -125.85227, idr_psnr,  Lr:1e-05
+[03/23 03:02:43] idr_psnr INFO: [3620/100000] Generator Loss of epoch181 is -124.74170, idr_psnr,  Lr:1e-05
+[03/23 03:03:09] idr_psnr INFO: [3630/100000] Generator Loss of epoch182 is -124.27301, idr_psnr,  Lr:1e-05
+[03/23 03:03:34] idr_psnr INFO: [3640/100000] Generator Loss of epoch182 is -117.37726, idr_psnr,  Lr:1e-05
+[03/23 03:04:02] idr_psnr INFO: [3650/100000] Generator Loss of epoch183 is -130.31538, idr_psnr,  Lr:1e-05
+[03/23 03:04:24] idr_psnr INFO: [3660/100000] Generator Loss of epoch183 is -132.62244, idr_psnr,  Lr:1e-05
+[03/23 03:04:49] idr_psnr INFO: [3670/100000] Generator Loss of epoch184 is -130.31255, idr_psnr,  Lr:1e-05
+[03/23 03:05:14] idr_psnr INFO: [3680/100000] Generator Loss of epoch184 is -116.51226, idr_psnr,  Lr:1e-05
+[03/23 03:05:44] idr_psnr INFO: [3690/100000] Generator Loss of epoch185 is -121.85571, idr_psnr,  Lr:1e-05
+[03/23 03:06:06] idr_psnr INFO: [3700/100000] Generator Loss of epoch185 is -140.73196, idr_psnr,  Lr:1e-05
+[03/23 03:06:35] idr_psnr INFO: [3710/100000] Generator Loss of epoch186 is -134.42332, idr_psnr,  Lr:1e-05
+[03/23 03:06:59] idr_psnr INFO: [3720/100000] Generator Loss of epoch186 is -125.52462, idr_psnr,  Lr:1e-05
+[03/23 03:07:25] idr_psnr INFO: [3730/100000] Generator Loss of epoch187 is -127.05656, idr_psnr,  Lr:1e-05
+[03/23 03:07:48] idr_psnr INFO: [3740/100000] Generator Loss of epoch187 is -140.87799, idr_psnr,  Lr:1e-05
+[03/23 03:08:12] idr_psnr INFO: [3750/100000] Generator Loss of epoch188 is -130.60030, idr_psnr,  Lr:1e-05
+[03/23 03:08:36] idr_psnr INFO: [3760/100000] Generator Loss of epoch188 is -133.50970, idr_psnr,  Lr:1e-05
+[03/23 03:09:00] idr_psnr INFO: [3770/100000] Generator Loss of epoch189 is -118.56030, idr_psnr,  Lr:1e-05
+[03/23 03:09:24] idr_psnr INFO: [3780/100000] Generator Loss of epoch189 is -132.36345, idr_psnr,  Lr:1e-05
+[03/23 03:09:57] idr_psnr INFO: [3790/100000] Generator Loss of epoch190 is -135.78702, idr_psnr,  Lr:1e-05
+[03/23 03:10:17] idr_psnr INFO: [3800/100000] Generator Loss of epoch190 is -131.56595, idr_psnr,  Lr:1e-05
+[03/23 03:10:22] idr_psnr INFO: index:0 psnr: 47.26479788847151
+[03/23 03:10:28] idr_psnr INFO: index:1 psnr: 53.85133788045132
+[03/23 03:10:33] idr_psnr INFO: index:2 psnr: 52.28140129637096
+[03/23 03:10:39] idr_psnr INFO: index:3 psnr: 50.5083708390614
+[03/23 03:10:42] idr_psnr INFO: index:4 psnr: 52.55113520374262
+[03/23 03:10:48] idr_psnr INFO: index:5 psnr: 58.41537765426253
+[03/23 03:11:02] idr_psnr INFO: index:6 psnr: 48.23078708844761
+[03/23 03:11:05] idr_psnr INFO: index:7 psnr: 51.432733261995274
+[03/23 03:11:09] idr_psnr INFO: index:8 psnr: 46.91240125972402
+[03/23 03:11:14] idr_psnr INFO: index:9 psnr: 55.368153162893336
+[03/23 03:11:20] idr_psnr INFO: index:10 psnr: 47.39086339975021
+[03/23 03:11:25] idr_psnr INFO: index:11 psnr: 52.119210657511076
+[03/23 03:11:29] idr_psnr INFO: index:12 psnr: 46.55794606781461
+[03/23 03:11:34] idr_psnr INFO: index:13 psnr: 55.94719304807561
+[03/23 03:11:34] idr_psnr INFO: epoch: 190, ave_psnr: 51.34512205061229, best_psnr: 52.15418320072884
+[03/23 03:12:00] idr_psnr INFO: [3810/100000] Generator Loss of epoch191 is -131.50192, idr_psnr,  Lr:1e-05
+[03/23 03:12:22] idr_psnr INFO: [3820/100000] Generator Loss of epoch191 is -138.50273, idr_psnr,  Lr:1e-05
+[03/23 03:12:48] idr_psnr INFO: [3830/100000] Generator Loss of epoch192 is -125.25121, idr_psnr,  Lr:1e-05
+[03/23 03:13:14] idr_psnr INFO: [3840/100000] Generator Loss of epoch192 is -133.71133, idr_psnr,  Lr:1e-05
+[03/23 03:13:40] idr_psnr INFO: [3850/100000] Generator Loss of epoch193 is -132.40562, idr_psnr,  Lr:1e-05
+[03/23 03:14:05] idr_psnr INFO: [3860/100000] Generator Loss of epoch193 is -130.56067, idr_psnr,  Lr:1e-05
+[03/23 03:14:31] idr_psnr INFO: [3870/100000] Generator Loss of epoch194 is -136.24255, idr_psnr,  Lr:1e-05
+[03/23 03:14:57] idr_psnr INFO: [3880/100000] Generator Loss of epoch194 is -133.12827, idr_psnr,  Lr:1e-05
+[03/23 03:15:22] idr_psnr INFO: [3890/100000] Generator Loss of epoch195 is -139.91951, idr_psnr,  Lr:1e-05
+[03/23 03:15:47] idr_psnr INFO: [3900/100000] Generator Loss of epoch195 is -131.64719, idr_psnr,  Lr:1e-05
+[03/23 03:16:15] idr_psnr INFO: [3910/100000] Generator Loss of epoch196 is -129.30171, idr_psnr,  Lr:1e-05
+[03/23 03:16:36] idr_psnr INFO: [3920/100000] Generator Loss of epoch196 is -128.40732, idr_psnr,  Lr:1e-05
+[03/23 03:17:06] idr_psnr INFO: [3930/100000] Generator Loss of epoch197 is -135.83032, idr_psnr,  Lr:1e-05
+[03/23 03:17:29] idr_psnr INFO: [3940/100000] Generator Loss of epoch197 is -132.71541, idr_psnr,  Lr:1e-05
+[03/23 03:17:56] idr_psnr INFO: [3950/100000] Generator Loss of epoch198 is -118.56837, idr_psnr,  Lr:1e-05
+[03/23 03:18:17] idr_psnr INFO: [3960/100000] Generator Loss of epoch198 is -139.43924, idr_psnr,  Lr:1e-05
+[03/23 03:18:43] idr_psnr INFO: [3970/100000] Generator Loss of epoch199 is -125.24017, idr_psnr,  Lr:1e-05
+[03/23 03:19:08] idr_psnr INFO: [3980/100000] Generator Loss of epoch199 is -140.04506, idr_psnr,  Lr:1e-05
+[03/23 03:19:34] idr_psnr INFO: [3990/100000] Generator Loss of epoch200 is -141.41173, idr_psnr,  Lr:1e-05
+[03/23 03:19:55] idr_psnr INFO: [4000/100000] Generator Loss of epoch200 is -130.70816, idr_psnr,  Lr:5e-06
+[03/23 03:20:01] idr_psnr INFO: index:0 psnr: 48.524803768635145
+[03/23 03:20:06] idr_psnr INFO: index:1 psnr: 54.73116742176934
+[03/23 03:20:12] idr_psnr INFO: index:2 psnr: 51.85216342255644
+[03/23 03:20:17] idr_psnr INFO: index:3 psnr: 51.287629150667186
+[03/23 03:20:21] idr_psnr INFO: index:4 psnr: 52.326833043868184
+[03/23 03:20:26] idr_psnr INFO: index:5 psnr: 59.016077831356924
+[03/23 03:20:40] idr_psnr INFO: index:6 psnr: 48.343915518004835
+[03/23 03:20:44] idr_psnr INFO: index:7 psnr: 52.06139149386726
+[03/23 03:20:48] idr_psnr INFO: index:8 psnr: 48.025171439501605
+[03/23 03:20:53] idr_psnr INFO: index:9 psnr: 55.431627102453824
+[03/23 03:20:58] idr_psnr INFO: index:10 psnr: 50.08914586979284
+[03/23 03:21:03] idr_psnr INFO: index:11 psnr: 52.50569344739266
+[03/23 03:21:07] idr_psnr INFO: index:12 psnr: 49.105940306388575
+[03/23 03:21:12] idr_psnr INFO: index:13 psnr: 53.29267978466688
+[03/23 03:21:12] idr_psnr INFO: epoch: 200, ave_psnr: 51.89958854292298, best_psnr: 52.15418320072884
+[03/23 03:21:36] idr_psnr INFO: [4010/100000] Generator Loss of epoch201 is -135.83282, idr_psnr,  Lr:5e-06
+[03/23 03:22:02] idr_psnr INFO: [4020/100000] Generator Loss of epoch201 is -129.06721, idr_psnr,  Lr:5e-06
+[03/23 03:22:30] idr_psnr INFO: [4030/100000] Generator Loss of epoch202 is -134.91127, idr_psnr,  Lr:5e-06
+[03/23 03:22:55] idr_psnr INFO: [4040/100000] Generator Loss of epoch202 is -123.95232, idr_psnr,  Lr:5e-06
+[03/23 03:23:19] idr_psnr INFO: [4050/100000] Generator Loss of epoch203 is -135.77048, idr_psnr,  Lr:5e-06
+[03/23 03:23:45] idr_psnr INFO: [4060/100000] Generator Loss of epoch203 is -133.59131, idr_psnr,  Lr:5e-06
+[03/23 03:24:12] idr_psnr INFO: [4070/100000] Generator Loss of epoch204 is -138.67700, idr_psnr,  Lr:5e-06
+[03/23 03:24:34] idr_psnr INFO: [4080/100000] Generator Loss of epoch204 is -127.72289, idr_psnr,  Lr:5e-06
+[03/23 03:25:01] idr_psnr INFO: [4090/100000] Generator Loss of epoch205 is -129.80423, idr_psnr,  Lr:5e-06
+[03/23 03:25:25] idr_psnr INFO: [4100/100000] Generator Loss of epoch205 is -129.40224, idr_psnr,  Lr:5e-06
+[03/23 03:25:54] idr_psnr INFO: [4110/100000] Generator Loss of epoch206 is -126.12584, idr_psnr,  Lr:5e-06
+[03/23 03:26:17] idr_psnr INFO: [4120/100000] Generator Loss of epoch206 is -124.83841, idr_psnr,  Lr:5e-06
+[03/23 03:26:46] idr_psnr INFO: [4130/100000] Generator Loss of epoch207 is -138.78896, idr_psnr,  Lr:5e-06
+[03/23 03:27:06] idr_psnr INFO: [4140/100000] Generator Loss of epoch207 is -135.03061, idr_psnr,  Lr:5e-06
+[03/23 03:27:30] idr_psnr INFO: [4150/100000] Generator Loss of epoch208 is -123.96747, idr_psnr,  Lr:5e-06
+[03/23 03:27:56] idr_psnr INFO: [4160/100000] Generator Loss of epoch208 is -126.23549, idr_psnr,  Lr:5e-06
+[03/23 03:28:23] idr_psnr INFO: [4170/100000] Generator Loss of epoch209 is -130.66248, idr_psnr,  Lr:5e-06
+[03/23 03:28:48] idr_psnr INFO: [4180/100000] Generator Loss of epoch209 is -126.18840, idr_psnr,  Lr:5e-06
+[03/23 03:29:14] idr_psnr INFO: [4190/100000] Generator Loss of epoch210 is -131.43591, idr_psnr,  Lr:5e-06
+[03/23 03:29:40] idr_psnr INFO: [4200/100000] Generator Loss of epoch210 is -133.30186, idr_psnr,  Lr:5e-06
+[03/23 03:29:45] idr_psnr INFO: index:0 psnr: 48.99876246674459
+[03/23 03:29:51] idr_psnr INFO: index:1 psnr: 54.35077325281349
+[03/23 03:29:56] idr_psnr INFO: index:2 psnr: 52.32147210278217
+[03/23 03:30:01] idr_psnr INFO: index:3 psnr: 50.90000674098958
+[03/23 03:30:05] idr_psnr INFO: index:4 psnr: 52.533488134862495
+[03/23 03:30:11] idr_psnr INFO: index:5 psnr: 58.645272048098505
+[03/23 03:30:25] idr_psnr INFO: index:6 psnr: 48.72730459240472
+[03/23 03:30:28] idr_psnr INFO: index:7 psnr: 52.772587142774434
+[03/23 03:30:32] idr_psnr INFO: index:8 psnr: 49.080478010093756
+[03/23 03:30:37] idr_psnr INFO: index:9 psnr: 55.50565048585412
+[03/23 03:30:42] idr_psnr INFO: index:10 psnr: 49.97278150510895
+[03/23 03:30:48] idr_psnr INFO: index:11 psnr: 53.557648857513726
+[03/23 03:30:51] idr_psnr INFO: index:12 psnr: 47.848684342680755
+[03/23 03:30:57] idr_psnr INFO: index:13 psnr: 53.34494636963052
+[03/23 03:30:57] idr_psnr INFO: epoch: 210, ave_psnr: 52.03998971802513, best_psnr: 52.15418320072884
+[03/23 03:31:22] idr_psnr INFO: [4210/100000] Generator Loss of epoch211 is -135.39973, idr_psnr,  Lr:5e-06
+[03/23 03:31:51] idr_psnr INFO: [4220/100000] Generator Loss of epoch211 is -130.31348, idr_psnr,  Lr:5e-06
+[03/23 03:32:19] idr_psnr INFO: [4230/100000] Generator Loss of epoch212 is -136.73146, idr_psnr,  Lr:5e-06
+[03/23 03:32:41] idr_psnr INFO: [4240/100000] Generator Loss of epoch212 is -127.63023, idr_psnr,  Lr:5e-06
+[03/23 03:33:10] idr_psnr INFO: [4250/100000] Generator Loss of epoch213 is -128.28836, idr_psnr,  Lr:5e-06
+[03/23 03:33:31] idr_psnr INFO: [4260/100000] Generator Loss of epoch213 is -128.47528, idr_psnr,  Lr:5e-06
+[03/23 03:33:57] idr_psnr INFO: [4270/100000] Generator Loss of epoch214 is -119.17430, idr_psnr,  Lr:5e-06
+[03/23 03:34:20] idr_psnr INFO: [4280/100000] Generator Loss of epoch214 is -129.46800, idr_psnr,  Lr:5e-06
+[03/23 03:34:48] idr_psnr INFO: [4290/100000] Generator Loss of epoch215 is -134.98364, idr_psnr,  Lr:5e-06
+[03/23 03:35:12] idr_psnr INFO: [4300/100000] Generator Loss of epoch215 is -132.91685, idr_psnr,  Lr:5e-06
+[03/23 03:35:40] idr_psnr INFO: [4310/100000] Generator Loss of epoch216 is -138.43311, idr_psnr,  Lr:5e-06
+[03/23 03:36:02] idr_psnr INFO: [4320/100000] Generator Loss of epoch216 is -127.99740, idr_psnr,  Lr:5e-06
+[03/23 03:36:28] idr_psnr INFO: [4330/100000] Generator Loss of epoch217 is -142.00934, idr_psnr,  Lr:5e-06
+[03/23 03:36:52] idr_psnr INFO: [4340/100000] Generator Loss of epoch217 is -131.02045, idr_psnr,  Lr:5e-06
+[03/23 03:37:16] idr_psnr INFO: [4350/100000] Generator Loss of epoch218 is -133.16420, idr_psnr,  Lr:5e-06
+[03/23 03:37:43] idr_psnr INFO: [4360/100000] Generator Loss of epoch218 is -136.68405, idr_psnr,  Lr:5e-06
+[03/23 03:38:08] idr_psnr INFO: [4370/100000] Generator Loss of epoch219 is -142.65121, idr_psnr,  Lr:5e-06
+[03/23 03:38:33] idr_psnr INFO: [4380/100000] Generator Loss of epoch219 is -130.77592, idr_psnr,  Lr:5e-06
+[03/23 03:38:58] idr_psnr INFO: [4390/100000] Generator Loss of epoch220 is -134.43381, idr_psnr,  Lr:5e-06
+[03/23 03:39:26] idr_psnr INFO: [4400/100000] Generator Loss of epoch220 is -133.29480, idr_psnr,  Lr:5e-06
+[03/23 03:39:31] idr_psnr INFO: index:0 psnr: 48.864499774945415
+[03/23 03:39:37] idr_psnr INFO: index:1 psnr: 54.4709247415339
+[03/23 03:39:42] idr_psnr INFO: index:2 psnr: 52.22322058046515
+[03/23 03:39:47] idr_psnr INFO: index:3 psnr: 50.68644442720238
+[03/23 03:39:51] idr_psnr INFO: index:4 psnr: 52.67173541934736
+[03/23 03:39:56] idr_psnr INFO: index:5 psnr: 58.648708948020115
+[03/23 03:40:10] idr_psnr INFO: index:6 psnr: 48.792023732312515
+[03/23 03:40:13] idr_psnr INFO: index:7 psnr: 52.05557903466291
+[03/23 03:40:17] idr_psnr INFO: index:8 psnr: 49.35901413529986
+[03/23 03:40:22] idr_psnr INFO: index:9 psnr: 55.5732479282142
+[03/23 03:40:27] idr_psnr INFO: index:10 psnr: 49.78795700170329
+[03/23 03:40:33] idr_psnr INFO: index:11 psnr: 52.999395542993916
+[03/23 03:40:36] idr_psnr INFO: index:12 psnr: 48.11193477721459
+[03/23 03:40:41] idr_psnr INFO: index:13 psnr: 53.44221126266205
+[03/23 03:40:42] idr_psnr INFO: epoch: 220, ave_psnr: 51.977635521898414, best_psnr: 52.15418320072884
+[03/23 03:41:11] idr_psnr INFO: [4410/100000] Generator Loss of epoch221 is -131.01187, idr_psnr,  Lr:5e-06
+[03/23 03:41:34] idr_psnr INFO: [4420/100000] Generator Loss of epoch221 is -131.30614, idr_psnr,  Lr:5e-06
+[03/23 03:42:00] idr_psnr INFO: [4430/100000] Generator Loss of epoch222 is -134.86548, idr_psnr,  Lr:5e-06
+[03/23 03:42:26] idr_psnr INFO: [4440/100000] Generator Loss of epoch222 is -126.78777, idr_psnr,  Lr:5e-06
+[03/23 03:42:53] idr_psnr INFO: [4450/100000] Generator Loss of epoch223 is -125.67528, idr_psnr,  Lr:5e-06
+[03/23 03:43:19] idr_psnr INFO: [4460/100000] Generator Loss of epoch223 is -140.03136, idr_psnr,  Lr:5e-06
+[03/23 03:43:46] idr_psnr INFO: [4470/100000] Generator Loss of epoch224 is -136.42679, idr_psnr,  Lr:5e-06
+[03/23 03:44:12] idr_psnr INFO: [4480/100000] Generator Loss of epoch224 is -126.96954, idr_psnr,  Lr:5e-06
+[03/23 03:44:40] idr_psnr INFO: [4490/100000] Generator Loss of epoch225 is -140.69432, idr_psnr,  Lr:5e-06
+[03/23 03:45:04] idr_psnr INFO: [4500/100000] Generator Loss of epoch225 is -142.84395, idr_psnr,  Lr:5e-06
+[03/23 03:45:30] idr_psnr INFO: [4510/100000] Generator Loss of epoch226 is -131.93591, idr_psnr,  Lr:5e-06
+[03/23 03:45:52] idr_psnr INFO: [4520/100000] Generator Loss of epoch226 is -140.44136, idr_psnr,  Lr:5e-06
+[03/23 03:46:17] idr_psnr INFO: [4530/100000] Generator Loss of epoch227 is -122.62435, idr_psnr,  Lr:5e-06
+[03/23 03:46:46] idr_psnr INFO: [4540/100000] Generator Loss of epoch227 is -131.41528, idr_psnr,  Lr:5e-06
+[03/23 03:47:10] idr_psnr INFO: [4550/100000] Generator Loss of epoch228 is -133.73648, idr_psnr,  Lr:5e-06
+[03/23 03:47:35] idr_psnr INFO: [4560/100000] Generator Loss of epoch228 is -129.48056, idr_psnr,  Lr:5e-06
+[03/23 03:48:00] idr_psnr INFO: [4570/100000] Generator Loss of epoch229 is -127.43030, idr_psnr,  Lr:5e-06
+[03/23 03:48:25] idr_psnr INFO: [4580/100000] Generator Loss of epoch229 is -133.68784, idr_psnr,  Lr:5e-06
+[03/23 03:48:52] idr_psnr INFO: [4590/100000] Generator Loss of epoch230 is -120.92728, idr_psnr,  Lr:5e-06
+[03/23 03:49:16] idr_psnr INFO: [4600/100000] Generator Loss of epoch230 is -125.42967, idr_psnr,  Lr:5e-06
+[03/23 03:49:21] idr_psnr INFO: index:0 psnr: 48.79126576795496
+[03/23 03:49:27] idr_psnr INFO: index:1 psnr: 54.24173217164943
+[03/23 03:49:32] idr_psnr INFO: index:2 psnr: 52.31721168425672
+[03/23 03:49:37] idr_psnr INFO: index:3 psnr: 50.82218500444691
+[03/23 03:49:41] idr_psnr INFO: index:4 psnr: 52.84809864465794
+[03/23 03:49:47] idr_psnr INFO: index:5 psnr: 58.76202551834932
+[03/23 03:50:01] idr_psnr INFO: index:6 psnr: 48.722292535815626
+[03/23 03:50:04] idr_psnr INFO: index:7 psnr: 52.33004210385804
+[03/23 03:50:08] idr_psnr INFO: index:8 psnr: 49.60430815334644
+[03/23 03:50:13] idr_psnr INFO: index:9 psnr: 55.46626902232684
+[03/23 03:50:18] idr_psnr INFO: index:10 psnr: 49.789690429073275
+[03/23 03:50:23] idr_psnr INFO: index:11 psnr: 53.277666100712196
+[03/23 03:50:27] idr_psnr INFO: index:12 psnr: 48.21605929228491
+[03/23 03:50:32] idr_psnr INFO: index:13 psnr: 53.28345062865
+[03/23 03:50:32] idr_psnr INFO: epoch: 230, ave_psnr: 52.033735504098765, best_psnr: 52.15418320072884
+[03/23 03:50:56] idr_psnr INFO: [4610/100000] Generator Loss of epoch231 is -129.12053, idr_psnr,  Lr:5e-06
+[03/23 03:51:22] idr_psnr INFO: [4620/100000] Generator Loss of epoch231 is -131.87146, idr_psnr,  Lr:5e-06
+[03/23 03:51:49] idr_psnr INFO: [4630/100000] Generator Loss of epoch232 is -135.20277, idr_psnr,  Lr:5e-06
+[03/23 03:52:15] idr_psnr INFO: [4640/100000] Generator Loss of epoch232 is -142.16129, idr_psnr,  Lr:5e-06
+[03/23 03:52:41] idr_psnr INFO: [4650/100000] Generator Loss of epoch233 is -135.42296, idr_psnr,  Lr:5e-06
+[03/23 03:53:05] idr_psnr INFO: [4660/100000] Generator Loss of epoch233 is -125.43679, idr_psnr,  Lr:5e-06
+[03/23 03:53:32] idr_psnr INFO: [4670/100000] Generator Loss of epoch234 is -125.39925, idr_psnr,  Lr:5e-06
+[03/23 03:53:57] idr_psnr INFO: [4680/100000] Generator Loss of epoch234 is -142.06116, idr_psnr,  Lr:5e-06
+[03/23 03:54:25] idr_psnr INFO: [4690/100000] Generator Loss of epoch235 is -132.92340, idr_psnr,  Lr:5e-06
+[03/23 03:54:49] idr_psnr INFO: [4700/100000] Generator Loss of epoch235 is -132.33119, idr_psnr,  Lr:5e-06
+[03/23 03:55:14] idr_psnr INFO: [4710/100000] Generator Loss of epoch236 is -129.04321, idr_psnr,  Lr:5e-06
+[03/23 03:55:38] idr_psnr INFO: [4720/100000] Generator Loss of epoch236 is -119.13287, idr_psnr,  Lr:5e-06
+[03/23 03:56:06] idr_psnr INFO: [4730/100000] Generator Loss of epoch237 is -124.92680, idr_psnr,  Lr:5e-06
+[03/23 03:56:28] idr_psnr INFO: [4740/100000] Generator Loss of epoch237 is -123.90723, idr_psnr,  Lr:5e-06
+[03/23 03:56:53] idr_psnr INFO: [4750/100000] Generator Loss of epoch238 is -137.28528, idr_psnr,  Lr:5e-06
+[03/23 03:57:18] idr_psnr INFO: [4760/100000] Generator Loss of epoch238 is -129.02129, idr_psnr,  Lr:5e-06
+[03/23 03:57:47] idr_psnr INFO: [4770/100000] Generator Loss of epoch239 is -132.45865, idr_psnr,  Lr:5e-06
+[03/23 03:58:11] idr_psnr INFO: [4780/100000] Generator Loss of epoch239 is -138.56372, idr_psnr,  Lr:5e-06
+[03/23 03:58:38] idr_psnr INFO: [4790/100000] Generator Loss of epoch240 is -121.85980, idr_psnr,  Lr:5e-06
+[03/23 03:59:01] idr_psnr INFO: [4800/100000] Generator Loss of epoch240 is -142.08713, idr_psnr,  Lr:5e-06
+[03/23 03:59:06] idr_psnr INFO: index:0 psnr: 49.93985309104849
+[03/23 03:59:12] idr_psnr INFO: index:1 psnr: 54.53870070477596
+[03/23 03:59:17] idr_psnr INFO: index:2 psnr: 52.15198509195715
+[03/23 03:59:23] idr_psnr INFO: index:3 psnr: 50.87342098271372
+[03/23 03:59:27] idr_psnr INFO: index:4 psnr: 53.004052041923806
+[03/23 03:59:32] idr_psnr INFO: index:5 psnr: 58.43253422510892
+[03/23 03:59:46] idr_psnr INFO: index:6 psnr: 48.73564326676488
+[03/23 03:59:49] idr_psnr INFO: index:7 psnr: 53.023176019629645
+[03/23 03:59:53] idr_psnr INFO: index:8 psnr: 49.99492203190434
+[03/23 03:59:58] idr_psnr INFO: index:9 psnr: 55.59859210027075
+[03/23 04:00:03] idr_psnr INFO: index:10 psnr: 50.297488179577314
+[03/23 04:00:08] idr_psnr INFO: index:11 psnr: 53.37473509906634
+[03/23 04:00:12] idr_psnr INFO: index:12 psnr: 48.36250131648397
+[03/23 04:00:17] idr_psnr INFO: index:13 psnr: 52.75478737572581
+[03/23 04:00:18] idr_psnr INFO: epoch: 240, ave_psnr: 52.220170823353655, best_psnr: 52.220170823353655
+[03/23 04:00:44] idr_psnr INFO: [4810/100000] Generator Loss of epoch241 is -127.02106, idr_psnr,  Lr:5e-06
+[03/23 04:01:08] idr_psnr INFO: [4820/100000] Generator Loss of epoch241 is -132.47154, idr_psnr,  Lr:5e-06
+[03/23 04:01:35] idr_psnr INFO: [4830/100000] Generator Loss of epoch242 is -132.43204, idr_psnr,  Lr:5e-06
+[03/23 04:01:57] idr_psnr INFO: [4840/100000] Generator Loss of epoch242 is -126.40776, idr_psnr,  Lr:5e-06
+[03/23 04:02:22] idr_psnr INFO: [4850/100000] Generator Loss of epoch243 is -136.76096, idr_psnr,  Lr:5e-06
+[03/23 04:02:49] idr_psnr INFO: [4860/100000] Generator Loss of epoch243 is -143.13002, idr_psnr,  Lr:5e-06
+[03/23 04:03:13] idr_psnr INFO: [4870/100000] Generator Loss of epoch244 is -118.35039, idr_psnr,  Lr:5e-06
+[03/23 04:03:37] idr_psnr INFO: [4880/100000] Generator Loss of epoch244 is -130.72716, idr_psnr,  Lr:5e-06
+[03/23 04:04:06] idr_psnr INFO: [4890/100000] Generator Loss of epoch245 is -138.89134, idr_psnr,  Lr:5e-06
+[03/23 04:04:26] idr_psnr INFO: [4900/100000] Generator Loss of epoch245 is -136.30702, idr_psnr,  Lr:5e-06
+[03/23 04:04:54] idr_psnr INFO: [4910/100000] Generator Loss of epoch246 is -133.25113, idr_psnr,  Lr:5e-06
+[03/23 04:05:17] idr_psnr INFO: [4920/100000] Generator Loss of epoch246 is -143.16560, idr_psnr,  Lr:5e-06
+[03/23 04:05:42] idr_psnr INFO: [4930/100000] Generator Loss of epoch247 is -140.06577, idr_psnr,  Lr:5e-06
+[03/23 04:06:08] idr_psnr INFO: [4940/100000] Generator Loss of epoch247 is -131.63853, idr_psnr,  Lr:5e-06
+[03/23 04:06:30] idr_psnr INFO: [4950/100000] Generator Loss of epoch248 is -133.61203, idr_psnr,  Lr:5e-06
+[03/23 04:06:59] idr_psnr INFO: [4960/100000] Generator Loss of epoch248 is -128.51068, idr_psnr,  Lr:5e-06
+[03/23 04:07:26] idr_psnr INFO: [4970/100000] Generator Loss of epoch249 is -134.32130, idr_psnr,  Lr:5e-06
+[03/23 04:07:53] idr_psnr INFO: [4980/100000] Generator Loss of epoch249 is -135.90482, idr_psnr,  Lr:5e-06
+[03/23 04:08:18] idr_psnr INFO: [4990/100000] Generator Loss of epoch250 is -128.80786, idr_psnr,  Lr:5e-06
+[03/23 04:08:41] idr_psnr INFO: [5000/100000] Generator Loss of epoch250 is -141.00067, idr_psnr,  Lr:5e-06
+[03/23 04:08:46] idr_psnr INFO: index:0 psnr: 49.036964665537674
+[03/23 04:08:51] idr_psnr INFO: index:1 psnr: 54.36073707862474
+[03/23 04:08:57] idr_psnr INFO: index:2 psnr: 52.58023918470872
+[03/23 04:09:02] idr_psnr INFO: index:3 psnr: 50.70222740129306
+[03/23 04:09:06] idr_psnr INFO: index:4 psnr: 53.17871975925753
+[03/23 04:09:11] idr_psnr INFO: index:5 psnr: 58.592492041514674
+[03/23 04:09:25] idr_psnr INFO: index:6 psnr: 48.392620531565036
+[03/23 04:09:29] idr_psnr INFO: index:7 psnr: 51.818110601765454
+[03/23 04:09:33] idr_psnr INFO: index:8 psnr: 48.29415471598033
+[03/23 04:09:38] idr_psnr INFO: index:9 psnr: 55.448488197852555
+[03/23 04:09:43] idr_psnr INFO: index:10 psnr: 48.714330176397674
+[03/23 04:09:48] idr_psnr INFO: index:11 psnr: 53.11352983922451
+[03/23 04:09:52] idr_psnr INFO: index:12 psnr: 47.759774917642766
+[03/23 04:09:57] idr_psnr INFO: index:13 psnr: 53.68727488464116
+[03/23 04:09:58] idr_psnr INFO: epoch: 250, ave_psnr: 51.83426171400042, best_psnr: 52.220170823353655
+[03/23 04:10:24] idr_psnr INFO: [5010/100000] Generator Loss of epoch251 is -132.19547, idr_psnr,  Lr:5e-06
+[03/23 04:10:47] idr_psnr INFO: [5020/100000] Generator Loss of epoch251 is -132.61288, idr_psnr,  Lr:5e-06
+[03/23 04:11:15] idr_psnr INFO: [5030/100000] Generator Loss of epoch252 is -121.77367, idr_psnr,  Lr:5e-06
+[03/23 04:11:36] idr_psnr INFO: [5040/100000] Generator Loss of epoch252 is -133.40201, idr_psnr,  Lr:5e-06
+[03/23 04:11:59] idr_psnr INFO: [5050/100000] Generator Loss of epoch253 is -128.04697, idr_psnr,  Lr:5e-06
+[03/23 04:12:24] idr_psnr INFO: [5060/100000] Generator Loss of epoch253 is -142.76083, idr_psnr,  Lr:5e-06
+[03/23 04:12:48] idr_psnr INFO: [5070/100000] Generator Loss of epoch254 is -141.70767, idr_psnr,  Lr:5e-06
+[03/23 04:13:14] idr_psnr INFO: [5080/100000] Generator Loss of epoch254 is -133.14697, idr_psnr,  Lr:5e-06
+[03/23 04:13:36] idr_psnr INFO: [5090/100000] Generator Loss of epoch255 is -130.72601, idr_psnr,  Lr:5e-06
+[03/23 04:14:02] idr_psnr INFO: [5100/100000] Generator Loss of epoch255 is -119.30070, idr_psnr,  Lr:5e-06
+[03/23 04:14:31] idr_psnr INFO: [5110/100000] Generator Loss of epoch256 is -125.23077, idr_psnr,  Lr:5e-06
+[03/23 04:14:53] idr_psnr INFO: [5120/100000] Generator Loss of epoch256 is -133.28712, idr_psnr,  Lr:5e-06
+[03/23 04:15:21] idr_psnr INFO: [5130/100000] Generator Loss of epoch257 is -135.49477, idr_psnr,  Lr:5e-06
+[03/23 04:15:42] idr_psnr INFO: [5140/100000] Generator Loss of epoch257 is -135.30838, idr_psnr,  Lr:5e-06
+[03/23 04:16:05] idr_psnr INFO: [5150/100000] Generator Loss of epoch258 is -134.47951, idr_psnr,  Lr:5e-06
+[03/23 04:16:30] idr_psnr INFO: [5160/100000] Generator Loss of epoch258 is -128.42349, idr_psnr,  Lr:5e-06
+[03/23 04:16:56] idr_psnr INFO: [5170/100000] Generator Loss of epoch259 is -125.61505, idr_psnr,  Lr:5e-06
+[03/23 04:17:18] idr_psnr INFO: [5180/100000] Generator Loss of epoch259 is -117.77374, idr_psnr,  Lr:5e-06
+[03/23 04:17:45] idr_psnr INFO: [5190/100000] Generator Loss of epoch260 is -128.61012, idr_psnr,  Lr:5e-06
+[03/23 04:18:09] idr_psnr INFO: [5200/100000] Generator Loss of epoch260 is -140.57138, idr_psnr,  Lr:5e-06
+[03/23 04:18:14] idr_psnr INFO: index:0 psnr: 49.608585184283676
+[03/23 04:18:20] idr_psnr INFO: index:1 psnr: 54.409920976932696
+[03/23 04:18:25] idr_psnr INFO: index:2 psnr: 52.304670110832745
+[03/23 04:18:30] idr_psnr INFO: index:3 psnr: 50.939469385462324
+[03/23 04:18:34] idr_psnr INFO: index:4 psnr: 53.61506028859828
+[03/23 04:18:39] idr_psnr INFO: index:5 psnr: 58.66639287456144
+[03/23 04:18:53] idr_psnr INFO: index:6 psnr: 48.62458080207198
+[03/23 04:18:56] idr_psnr INFO: index:7 psnr: 52.7155417947942
+[03/23 04:19:00] idr_psnr INFO: index:8 psnr: 48.70692129966546
+[03/23 04:19:05] idr_psnr INFO: index:9 psnr: 55.56331283513003
+[03/23 04:19:11] idr_psnr INFO: index:10 psnr: 50.097477172203206
+[03/23 04:19:16] idr_psnr INFO: index:11 psnr: 53.62823050828343
+[03/23 04:19:20] idr_psnr INFO: index:12 psnr: 47.718591238960016
+[03/23 04:19:25] idr_psnr INFO: index:13 psnr: 52.93806596157155
+[03/23 04:19:25] idr_psnr INFO: epoch: 260, ave_psnr: 52.109772888096494, best_psnr: 52.220170823353655
+[03/23 04:19:49] idr_psnr INFO: [5210/100000] Generator Loss of epoch261 is -123.17526, idr_psnr,  Lr:5e-06
+[03/23 04:20:14] idr_psnr INFO: [5220/100000] Generator Loss of epoch261 is -142.22131, idr_psnr,  Lr:5e-06
+[03/23 04:20:39] idr_psnr INFO: [5230/100000] Generator Loss of epoch262 is -129.30920, idr_psnr,  Lr:5e-06
+[03/23 04:21:04] idr_psnr INFO: [5240/100000] Generator Loss of epoch262 is -142.25493, idr_psnr,  Lr:5e-06
+[03/23 04:21:32] idr_psnr INFO: [5250/100000] Generator Loss of epoch263 is -122.67647, idr_psnr,  Lr:5e-06
+[03/23 04:21:56] idr_psnr INFO: [5260/100000] Generator Loss of epoch263 is -110.55470, idr_psnr,  Lr:5e-06
+[03/23 04:22:26] idr_psnr INFO: [5270/100000] Generator Loss of epoch264 is -140.06281, idr_psnr,  Lr:5e-06
+[03/23 04:22:50] idr_psnr INFO: [5280/100000] Generator Loss of epoch264 is -126.14291, idr_psnr,  Lr:5e-06
+[03/23 04:23:20] idr_psnr INFO: [5290/100000] Generator Loss of epoch265 is -136.60193, idr_psnr,  Lr:5e-06
+[03/23 04:23:42] idr_psnr INFO: [5300/100000] Generator Loss of epoch265 is -116.42893, idr_psnr,  Lr:5e-06
+[03/23 04:24:09] idr_psnr INFO: [5310/100000] Generator Loss of epoch266 is -126.69002, idr_psnr,  Lr:5e-06
+[03/23 04:24:35] idr_psnr INFO: [5320/100000] Generator Loss of epoch266 is -126.01612, idr_psnr,  Lr:5e-06
+[03/23 04:24:58] idr_psnr INFO: [5330/100000] Generator Loss of epoch267 is -140.26086, idr_psnr,  Lr:5e-06
+[03/23 04:25:21] idr_psnr INFO: [5340/100000] Generator Loss of epoch267 is -126.96317, idr_psnr,  Lr:5e-06
+[03/23 04:25:48] idr_psnr INFO: [5350/100000] Generator Loss of epoch268 is -120.82939, idr_psnr,  Lr:5e-06
+[03/23 04:26:10] idr_psnr INFO: [5360/100000] Generator Loss of epoch268 is -119.00549, idr_psnr,  Lr:5e-06
+[03/23 04:26:37] idr_psnr INFO: [5370/100000] Generator Loss of epoch269 is -134.99043, idr_psnr,  Lr:5e-06
+[03/23 04:27:02] idr_psnr INFO: [5380/100000] Generator Loss of epoch269 is -136.19916, idr_psnr,  Lr:5e-06
+[03/23 04:27:27] idr_psnr INFO: [5390/100000] Generator Loss of epoch270 is -118.52961, idr_psnr,  Lr:5e-06
+[03/23 04:27:54] idr_psnr INFO: [5400/100000] Generator Loss of epoch270 is -135.95772, idr_psnr,  Lr:5e-06
+[03/23 04:28:00] idr_psnr INFO: index:0 psnr: 48.603812595024884
+[03/23 04:28:05] idr_psnr INFO: index:1 psnr: 53.73597789992835
+[03/23 04:28:10] idr_psnr INFO: index:2 psnr: 52.6111224569547
+[03/23 04:28:16] idr_psnr INFO: index:3 psnr: 50.182921954779886
+[03/23 04:28:20] idr_psnr INFO: index:4 psnr: 52.63335737889879
+[03/23 04:28:25] idr_psnr INFO: index:5 psnr: 58.61944623279459
+[03/23 04:28:39] idr_psnr INFO: index:6 psnr: 48.45994369317732
+[03/23 04:28:42] idr_psnr INFO: index:7 psnr: 51.71444656516107
+[03/23 04:28:46] idr_psnr INFO: index:8 psnr: 47.66769651672224
+[03/23 04:28:51] idr_psnr INFO: index:9 psnr: 55.41300733136279
+[03/23 04:28:57] idr_psnr INFO: index:10 psnr: 48.22997151877364
+[03/23 04:29:02] idr_psnr INFO: index:11 psnr: 52.93248635370614
+[03/23 04:29:05] idr_psnr INFO: index:12 psnr: 47.133891248397205
+[03/23 04:29:10] idr_psnr INFO: index:13 psnr: 54.7022778546464
+[03/23 04:29:11] idr_psnr INFO: epoch: 270, ave_psnr: 51.61716854288056, best_psnr: 52.220170823353655
+[03/23 04:29:34] idr_psnr INFO: [5410/100000] Generator Loss of epoch271 is -124.74289, idr_psnr,  Lr:5e-06
+[03/23 04:29:58] idr_psnr INFO: [5420/100000] Generator Loss of epoch271 is -131.47052, idr_psnr,  Lr:5e-06
+[03/23 04:30:24] idr_psnr INFO: [5430/100000] Generator Loss of epoch272 is -126.60832, idr_psnr,  Lr:5e-06
+[03/23 04:30:48] idr_psnr INFO: [5440/100000] Generator Loss of epoch272 is -130.36713, idr_psnr,  Lr:5e-06
+[03/23 04:31:15] idr_psnr INFO: [5450/100000] Generator Loss of epoch273 is -122.28417, idr_psnr,  Lr:5e-06
+[03/23 04:31:38] idr_psnr INFO: [5460/100000] Generator Loss of epoch273 is -120.71924, idr_psnr,  Lr:5e-06
+[03/23 04:32:02] idr_psnr INFO: [5470/100000] Generator Loss of epoch274 is -124.59402, idr_psnr,  Lr:5e-06
+[03/23 04:32:28] idr_psnr INFO: [5480/100000] Generator Loss of epoch274 is -140.82448, idr_psnr,  Lr:5e-06
+[03/23 04:32:57] idr_psnr INFO: [5490/100000] Generator Loss of epoch275 is -134.78860, idr_psnr,  Lr:5e-06
+[03/23 04:33:20] idr_psnr INFO: [5500/100000] Generator Loss of epoch275 is -123.44603, idr_psnr,  Lr:5e-06
+[03/23 04:33:47] idr_psnr INFO: [5510/100000] Generator Loss of epoch276 is -131.85701, idr_psnr,  Lr:5e-06
+[03/23 04:34:09] idr_psnr INFO: [5520/100000] Generator Loss of epoch276 is -130.92955, idr_psnr,  Lr:5e-06
+[03/23 04:34:37] idr_psnr INFO: [5530/100000] Generator Loss of epoch277 is -141.10658, idr_psnr,  Lr:5e-06
+[03/23 04:35:02] idr_psnr INFO: [5540/100000] Generator Loss of epoch277 is -131.09363, idr_psnr,  Lr:5e-06
+[03/23 04:35:28] idr_psnr INFO: [5550/100000] Generator Loss of epoch278 is -133.86157, idr_psnr,  Lr:5e-06
+[03/23 04:35:52] idr_psnr INFO: [5560/100000] Generator Loss of epoch278 is -132.20544, idr_psnr,  Lr:5e-06
+[03/23 04:36:20] idr_psnr INFO: [5570/100000] Generator Loss of epoch279 is -139.38303, idr_psnr,  Lr:5e-06
+[03/23 04:36:42] idr_psnr INFO: [5580/100000] Generator Loss of epoch279 is -133.62589, idr_psnr,  Lr:5e-06
+[03/23 04:37:09] idr_psnr INFO: [5590/100000] Generator Loss of epoch280 is -136.63210, idr_psnr,  Lr:5e-06
+[03/23 04:37:31] idr_psnr INFO: [5600/100000] Generator Loss of epoch280 is -132.19159, idr_psnr,  Lr:5e-06
+[03/23 04:37:37] idr_psnr INFO: index:0 psnr: 49.344279175929266
+[03/23 04:37:43] idr_psnr INFO: index:1 psnr: 54.21798291591786
+[03/23 04:37:48] idr_psnr INFO: index:2 psnr: 52.45389596031079
+[03/23 04:37:53] idr_psnr INFO: index:3 psnr: 50.70083318732667
+[03/23 04:37:57] idr_psnr INFO: index:4 psnr: 53.285426406101465
+[03/23 04:38:02] idr_psnr INFO: index:5 psnr: 58.67780769248995
+[03/23 04:38:17] idr_psnr INFO: index:6 psnr: 48.90296487188755
+[03/23 04:38:20] idr_psnr INFO: index:7 psnr: 52.270454101336085
+[03/23 04:38:24] idr_psnr INFO: index:8 psnr: 49.0204509021542
+[03/23 04:38:29] idr_psnr INFO: index:9 psnr: 55.46282948850718
+[03/23 04:38:34] idr_psnr INFO: index:10 psnr: 49.83962435200881
+[03/23 04:38:39] idr_psnr INFO: index:11 psnr: 53.37678928047608
+[03/23 04:38:43] idr_psnr INFO: index:12 psnr: 47.81445345495235
+[03/23 04:38:48] idr_psnr INFO: index:13 psnr: 53.75725332208145
+[03/23 04:38:49] idr_psnr INFO: epoch: 280, ave_psnr: 52.0803603651057, best_psnr: 52.220170823353655
+[03/23 04:39:13] idr_psnr INFO: [5610/100000] Generator Loss of epoch281 is -117.13254, idr_psnr,  Lr:5e-06
+[03/23 04:39:35] idr_psnr INFO: [5620/100000] Generator Loss of epoch281 is -129.01053, idr_psnr,  Lr:5e-06
+[03/23 04:40:00] idr_psnr INFO: [5630/100000] Generator Loss of epoch282 is -134.50291, idr_psnr,  Lr:5e-06
+[03/23 04:40:27] idr_psnr INFO: [5640/100000] Generator Loss of epoch282 is -115.89424, idr_psnr,  Lr:5e-06
+[03/23 04:40:55] idr_psnr INFO: [5650/100000] Generator Loss of epoch283 is -139.02916, idr_psnr,  Lr:5e-06
+[03/23 04:41:19] idr_psnr INFO: [5660/100000] Generator Loss of epoch283 is -107.79777, idr_psnr,  Lr:5e-06
+[03/23 04:41:45] idr_psnr INFO: [5670/100000] Generator Loss of epoch284 is -138.55977, idr_psnr,  Lr:5e-06
+[03/23 04:42:11] idr_psnr INFO: [5680/100000] Generator Loss of epoch284 is -133.60799, idr_psnr,  Lr:5e-06
+[03/23 04:42:38] idr_psnr INFO: [5690/100000] Generator Loss of epoch285 is -139.70920, idr_psnr,  Lr:5e-06
+[03/23 04:43:02] idr_psnr INFO: [5700/100000] Generator Loss of epoch285 is -132.23032, idr_psnr,  Lr:5e-06
+[03/23 04:43:26] idr_psnr INFO: [5710/100000] Generator Loss of epoch286 is -136.73276, idr_psnr,  Lr:5e-06
+[03/23 04:43:52] idr_psnr INFO: [5720/100000] Generator Loss of epoch286 is -133.80656, idr_psnr,  Lr:5e-06
+[03/23 04:44:18] idr_psnr INFO: [5730/100000] Generator Loss of epoch287 is -125.03194, idr_psnr,  Lr:5e-06
+[03/23 04:44:40] idr_psnr INFO: [5740/100000] Generator Loss of epoch287 is -136.61098, idr_psnr,  Lr:5e-06
+[03/23 04:45:12] idr_psnr INFO: [5750/100000] Generator Loss of epoch288 is -138.07977, idr_psnr,  Lr:5e-06
+[03/23 04:45:35] idr_psnr INFO: [5760/100000] Generator Loss of epoch288 is -124.46017, idr_psnr,  Lr:5e-06
+[03/23 04:46:01] idr_psnr INFO: [5770/100000] Generator Loss of epoch289 is -130.49829, idr_psnr,  Lr:5e-06
+[03/23 04:46:25] idr_psnr INFO: [5780/100000] Generator Loss of epoch289 is -134.87640, idr_psnr,  Lr:5e-06
+[03/23 04:46:53] idr_psnr INFO: [5790/100000] Generator Loss of epoch290 is -121.06746, idr_psnr,  Lr:5e-06
+[03/23 04:47:13] idr_psnr INFO: [5800/100000] Generator Loss of epoch290 is -128.28142, idr_psnr,  Lr:5e-06
+[03/23 04:47:18] idr_psnr INFO: index:0 psnr: 48.5769840160502
+[03/23 04:47:24] idr_psnr INFO: index:1 psnr: 54.206350058639444
+[03/23 04:47:29] idr_psnr INFO: index:2 psnr: 52.44609891610918
+[03/23 04:47:34] idr_psnr INFO: index:3 psnr: 50.271559100748256
+[03/23 04:47:38] idr_psnr INFO: index:4 psnr: 53.33835974083308
+[03/23 04:47:43] idr_psnr INFO: index:5 psnr: 58.514734223318364
+[03/23 04:47:57] idr_psnr INFO: index:6 psnr: 48.68416818431519
+[03/23 04:48:01] idr_psnr INFO: index:7 psnr: 51.90645732112495
+[03/23 04:48:05] idr_psnr INFO: index:8 psnr: 49.12508167999473
+[03/23 04:48:09] idr_psnr INFO: index:9 psnr: 55.414087361561585
+[03/23 04:48:14] idr_psnr INFO: index:10 psnr: 48.94043730355457
+[03/23 04:48:19] idr_psnr INFO: index:11 psnr: 53.16311015981835
+[03/23 04:48:23] idr_psnr INFO: index:12 psnr: 47.500033993776
+[03/23 04:48:28] idr_psnr INFO: index:13 psnr: 54.84556731774902
+[03/23 04:48:29] idr_psnr INFO: epoch: 290, ave_psnr: 51.9237878126852, best_psnr: 52.220170823353655
+[03/23 04:48:55] idr_psnr INFO: [5810/100000] Generator Loss of epoch291 is -134.97153, idr_psnr,  Lr:5e-06
+[03/23 04:49:18] idr_psnr INFO: [5820/100000] Generator Loss of epoch291 is -125.97093, idr_psnr,  Lr:5e-06
+[03/23 04:49:42] idr_psnr INFO: [5830/100000] Generator Loss of epoch292 is -135.73662, idr_psnr,  Lr:5e-06
+[03/23 04:50:08] idr_psnr INFO: [5840/100000] Generator Loss of epoch292 is -140.37784, idr_psnr,  Lr:5e-06
+[03/23 04:50:36] idr_psnr INFO: [5850/100000] Generator Loss of epoch293 is -134.55659, idr_psnr,  Lr:5e-06
+[03/23 04:51:00] idr_psnr INFO: [5860/100000] Generator Loss of epoch293 is -125.56246, idr_psnr,  Lr:5e-06
+[03/23 04:51:26] idr_psnr INFO: [5870/100000] Generator Loss of epoch294 is -132.21909, idr_psnr,  Lr:5e-06
+[03/23 04:51:48] idr_psnr INFO: [5880/100000] Generator Loss of epoch294 is -118.84653, idr_psnr,  Lr:5e-06
+[03/23 04:52:14] idr_psnr INFO: [5890/100000] Generator Loss of epoch295 is -126.65779, idr_psnr,  Lr:5e-06
+[03/23 04:52:38] idr_psnr INFO: [5900/100000] Generator Loss of epoch295 is -143.03642, idr_psnr,  Lr:5e-06
+[03/23 04:53:05] idr_psnr INFO: [5910/100000] Generator Loss of epoch296 is -118.10353, idr_psnr,  Lr:5e-06
+[03/23 04:53:29] idr_psnr INFO: [5920/100000] Generator Loss of epoch296 is -139.31140, idr_psnr,  Lr:5e-06
+[03/23 04:53:55] idr_psnr INFO: [5930/100000] Generator Loss of epoch297 is -132.59650, idr_psnr,  Lr:5e-06
+[03/23 04:54:18] idr_psnr INFO: [5940/100000] Generator Loss of epoch297 is -119.59773, idr_psnr,  Lr:5e-06
+[03/23 04:54:44] idr_psnr INFO: [5950/100000] Generator Loss of epoch298 is -136.34718, idr_psnr,  Lr:5e-06
+[03/23 04:55:10] idr_psnr INFO: [5960/100000] Generator Loss of epoch298 is -123.70105, idr_psnr,  Lr:5e-06
+[03/23 04:55:36] idr_psnr INFO: [5970/100000] Generator Loss of epoch299 is -134.72946, idr_psnr,  Lr:5e-06
+[03/23 04:56:00] idr_psnr INFO: [5980/100000] Generator Loss of epoch299 is -135.07256, idr_psnr,  Lr:5e-06
+[03/23 04:56:24] idr_psnr INFO: [5990/100000] Generator Loss of epoch300 is -129.33887, idr_psnr,  Lr:5e-06
+[03/23 04:56:48] idr_psnr INFO: [6000/100000] Generator Loss of epoch300 is -136.05579, idr_psnr,  Lr:2.5e-06
+[03/23 04:56:53] idr_psnr INFO: index:0 psnr: 48.742014280274724
+[03/23 04:56:59] idr_psnr INFO: index:1 psnr: 54.46755229783592
+[03/23 04:57:05] idr_psnr INFO: index:2 psnr: 52.31612934174678
+[03/23 04:57:10] idr_psnr INFO: index:3 psnr: 50.371139313299565
+[03/23 04:57:14] idr_psnr INFO: index:4 psnr: 53.04607513834814
+[03/23 04:57:19] idr_psnr INFO: index:5 psnr: 58.67951034164163
+[03/23 04:57:33] idr_psnr INFO: index:6 psnr: 48.678080707355676
+[03/23 04:57:36] idr_psnr INFO: index:7 psnr: 51.85225202609055
+[03/23 04:57:40] idr_psnr INFO: index:8 psnr: 49.52142824365684
+[03/23 04:57:45] idr_psnr INFO: index:9 psnr: 55.42842817088446
+[03/23 04:57:51] idr_psnr INFO: index:10 psnr: 49.363239710471596
+[03/23 04:57:56] idr_psnr INFO: index:11 psnr: 52.871218668681465
+[03/23 04:57:59] idr_psnr INFO: index:12 psnr: 48.23185178256622
+[03/23 04:58:05] idr_psnr INFO: index:13 psnr: 53.72793337930649
+[03/23 04:58:05] idr_psnr INFO: epoch: 300, ave_psnr: 51.94977524301142, best_psnr: 52.220170823353655
+[03/23 04:58:31] idr_psnr INFO: [6010/100000] Generator Loss of epoch301 is -125.14938, idr_psnr,  Lr:2.5e-06
+[03/23 04:58:55] idr_psnr INFO: [6020/100000] Generator Loss of epoch301 is -132.46851, idr_psnr,  Lr:2.5e-06
+[03/23 04:59:24] idr_psnr INFO: [6030/100000] Generator Loss of epoch302 is -134.62350, idr_psnr,  Lr:2.5e-06
+[03/23 04:59:49] idr_psnr INFO: [6040/100000] Generator Loss of epoch302 is -126.42278, idr_psnr,  Lr:2.5e-06
+[03/23 05:00:18] idr_psnr INFO: [6050/100000] Generator Loss of epoch303 is -135.89577, idr_psnr,  Lr:2.5e-06
+[03/23 05:00:40] idr_psnr INFO: [6060/100000] Generator Loss of epoch303 is -127.78902, idr_psnr,  Lr:2.5e-06
+[03/23 05:01:06] idr_psnr INFO: [6070/100000] Generator Loss of epoch304 is -128.10490, idr_psnr,  Lr:2.5e-06
+[03/23 05:01:31] idr_psnr INFO: [6080/100000] Generator Loss of epoch304 is -129.88742, idr_psnr,  Lr:2.5e-06
+[03/23 05:01:55] idr_psnr INFO: [6090/100000] Generator Loss of epoch305 is -116.62448, idr_psnr,  Lr:2.5e-06
+[03/23 05:02:22] idr_psnr INFO: [6100/100000] Generator Loss of epoch305 is -143.02118, idr_psnr,  Lr:2.5e-06
+[03/23 05:02:49] idr_psnr INFO: [6110/100000] Generator Loss of epoch306 is -137.84972, idr_psnr,  Lr:2.5e-06
+[03/23 05:03:12] idr_psnr INFO: [6120/100000] Generator Loss of epoch306 is -129.70726, idr_psnr,  Lr:2.5e-06
+[03/23 05:03:41] idr_psnr INFO: [6130/100000] Generator Loss of epoch307 is -137.49512, idr_psnr,  Lr:2.5e-06
+[03/23 05:04:02] idr_psnr INFO: [6140/100000] Generator Loss of epoch307 is -143.36493, idr_psnr,  Lr:2.5e-06
+[03/23 05:04:27] idr_psnr INFO: [6150/100000] Generator Loss of epoch308 is -141.33299, idr_psnr,  Lr:2.5e-06
+[03/23 05:04:51] idr_psnr INFO: [6160/100000] Generator Loss of epoch308 is -139.40796, idr_psnr,  Lr:2.5e-06
+[03/23 05:05:19] idr_psnr INFO: [6170/100000] Generator Loss of epoch309 is -133.85910, idr_psnr,  Lr:2.5e-06
+[03/23 05:05:39] idr_psnr INFO: [6180/100000] Generator Loss of epoch309 is -143.10098, idr_psnr,  Lr:2.5e-06
+[03/23 05:06:05] idr_psnr INFO: [6190/100000] Generator Loss of epoch310 is -136.67128, idr_psnr,  Lr:2.5e-06
+[03/23 05:06:31] idr_psnr INFO: [6200/100000] Generator Loss of epoch310 is -134.15794, idr_psnr,  Lr:2.5e-06
+[03/23 05:06:36] idr_psnr INFO: index:0 psnr: 48.65610457442728
+[03/23 05:06:42] idr_psnr INFO: index:1 psnr: 54.44097313353627
+[03/23 05:06:47] idr_psnr INFO: index:2 psnr: 52.4431304230754
+[03/23 05:06:52] idr_psnr INFO: index:3 psnr: 50.57419443502236
+[03/23 05:06:56] idr_psnr INFO: index:4 psnr: 53.33083131898653
+[03/23 05:07:01] idr_psnr INFO: index:5 psnr: 58.734591104632926
+[03/23 05:07:15] idr_psnr INFO: index:6 psnr: 48.67858266909643
+[03/23 05:07:18] idr_psnr INFO: index:7 psnr: 51.901327124454156
+[03/23 05:07:22] idr_psnr INFO: index:8 psnr: 49.0812836156727
+[03/23 05:07:27] idr_psnr INFO: index:9 psnr: 55.43246260497985
+[03/23 05:07:33] idr_psnr INFO: index:10 psnr: 49.88766206879394
+[03/23 05:07:38] idr_psnr INFO: index:11 psnr: 53.52341240836558
+[03/23 05:07:41] idr_psnr INFO: index:12 psnr: 47.73493452976217
+[03/23 05:07:47] idr_psnr INFO: index:13 psnr: 53.71398847406649
+[03/23 05:07:47] idr_psnr INFO: epoch: 310, ave_psnr: 52.00953417749087, best_psnr: 52.220170823353655
+[03/23 05:08:11] idr_psnr INFO: [6210/100000] Generator Loss of epoch311 is -134.49527, idr_psnr,  Lr:2.5e-06
+[03/23 05:08:38] idr_psnr INFO: [6220/100000] Generator Loss of epoch311 is -125.15610, idr_psnr,  Lr:2.5e-06
+[03/23 05:09:06] idr_psnr INFO: [6230/100000] Generator Loss of epoch312 is -129.30844, idr_psnr,  Lr:2.5e-06
+[03/23 05:09:31] idr_psnr INFO: [6240/100000] Generator Loss of epoch312 is -126.60574, idr_psnr,  Lr:2.5e-06
+[03/23 05:10:00] idr_psnr INFO: [6250/100000] Generator Loss of epoch313 is -138.36530, idr_psnr,  Lr:2.5e-06
+[03/23 05:10:21] idr_psnr INFO: [6260/100000] Generator Loss of epoch313 is -131.95717, idr_psnr,  Lr:2.5e-06
+[03/23 05:10:48] idr_psnr INFO: [6270/100000] Generator Loss of epoch314 is -134.31075, idr_psnr,  Lr:2.5e-06
+[03/23 05:11:10] idr_psnr INFO: [6280/100000] Generator Loss of epoch314 is -125.66594, idr_psnr,  Lr:2.5e-06
+[03/23 05:11:39] idr_psnr INFO: [6290/100000] Generator Loss of epoch315 is -121.69404, idr_psnr,  Lr:2.5e-06
+[03/23 05:12:02] idr_psnr INFO: [6300/100000] Generator Loss of epoch315 is -134.30576, idr_psnr,  Lr:2.5e-06
+[03/23 05:12:29] idr_psnr INFO: [6310/100000] Generator Loss of epoch316 is -136.94376, idr_psnr,  Lr:2.5e-06
+[03/23 05:12:54] idr_psnr INFO: [6320/100000] Generator Loss of epoch316 is -143.10655, idr_psnr,  Lr:2.5e-06
+[03/23 05:13:23] idr_psnr INFO: [6330/100000] Generator Loss of epoch317 is -133.72693, idr_psnr,  Lr:2.5e-06
+[03/23 05:13:48] idr_psnr INFO: [6340/100000] Generator Loss of epoch317 is -133.88351, idr_psnr,  Lr:2.5e-06
+[03/23 05:14:11] idr_psnr INFO: [6350/100000] Generator Loss of epoch318 is -134.28046, idr_psnr,  Lr:2.5e-06
+[03/23 05:14:35] idr_psnr INFO: [6360/100000] Generator Loss of epoch318 is -140.65744, idr_psnr,  Lr:2.5e-06
+[03/23 05:15:03] idr_psnr INFO: [6370/100000] Generator Loss of epoch319 is -125.60681, idr_psnr,  Lr:2.5e-06
+[03/23 05:15:29] idr_psnr INFO: [6380/100000] Generator Loss of epoch319 is -118.74899, idr_psnr,  Lr:2.5e-06
+[03/23 05:16:02] idr_psnr INFO: [6390/100000] Generator Loss of epoch320 is -126.57048, idr_psnr,  Lr:2.5e-06
+[03/23 05:16:22] idr_psnr INFO: [6400/100000] Generator Loss of epoch320 is -122.33702, idr_psnr,  Lr:2.5e-06
+[03/23 05:16:27] idr_psnr INFO: index:0 psnr: 49.156023920252785
+[03/23 05:16:34] idr_psnr INFO: index:1 psnr: 54.63727333550245
+[03/23 05:16:39] idr_psnr INFO: index:2 psnr: 52.285635969453
+[03/23 05:16:44] idr_psnr INFO: index:3 psnr: 50.77639201980142
+[03/23 05:16:48] idr_psnr INFO: index:4 psnr: 53.17933233997234
+[03/23 05:16:53] idr_psnr INFO: index:5 psnr: 58.87639571821395
+[03/23 05:17:07] idr_psnr INFO: index:6 psnr: 48.67626203070329
+[03/23 05:17:10] idr_psnr INFO: index:7 psnr: 52.48229558950024
+[03/23 05:17:14] idr_psnr INFO: index:8 psnr: 49.334916805963005
+[03/23 05:17:19] idr_psnr INFO: index:9 psnr: 55.52284449867723
+[03/23 05:17:24] idr_psnr INFO: index:10 psnr: 50.2710711676804
+[03/23 05:17:30] idr_psnr INFO: index:11 psnr: 53.39725030183159
+[03/23 05:17:34] idr_psnr INFO: index:12 psnr: 48.20432617886485
+[03/23 05:17:39] idr_psnr INFO: index:13 psnr: 53.20394864033243
+[03/23 05:17:39] idr_psnr INFO: epoch: 320, ave_psnr: 52.1431406083392, best_psnr: 52.220170823353655
+[03/23 05:18:04] idr_psnr INFO: [6410/100000] Generator Loss of epoch321 is -125.81171, idr_psnr,  Lr:2.5e-06
+[03/23 05:18:28] idr_psnr INFO: [6420/100000] Generator Loss of epoch321 is -141.50473, idr_psnr,  Lr:2.5e-06
+[03/23 05:18:58] idr_psnr INFO: [6430/100000] Generator Loss of epoch322 is -135.75720, idr_psnr,  Lr:2.5e-06
+[03/23 05:19:23] idr_psnr INFO: [6440/100000] Generator Loss of epoch322 is -136.37320, idr_psnr,  Lr:2.5e-06
+[03/23 05:19:52] idr_psnr INFO: [6450/100000] Generator Loss of epoch323 is -125.41069, idr_psnr,  Lr:2.5e-06
+[03/23 05:20:15] idr_psnr INFO: [6460/100000] Generator Loss of epoch323 is -117.56078, idr_psnr,  Lr:2.5e-06
+[03/23 05:20:45] idr_psnr INFO: [6470/100000] Generator Loss of epoch324 is -117.43034, idr_psnr,  Lr:2.5e-06
+[03/23 05:21:08] idr_psnr INFO: [6480/100000] Generator Loss of epoch324 is -134.74062, idr_psnr,  Lr:2.5e-06
+[03/23 05:21:36] idr_psnr INFO: [6490/100000] Generator Loss of epoch325 is -143.17195, idr_psnr,  Lr:2.5e-06
+[03/23 05:21:59] idr_psnr INFO: [6500/100000] Generator Loss of epoch325 is -132.91118, idr_psnr,  Lr:2.5e-06
+[03/23 05:22:22] idr_psnr INFO: [6510/100000] Generator Loss of epoch326 is -134.46690, idr_psnr,  Lr:2.5e-06
+[03/23 05:22:47] idr_psnr INFO: [6520/100000] Generator Loss of epoch326 is -131.84937, idr_psnr,  Lr:2.5e-06
+[03/23 05:23:14] idr_psnr INFO: [6530/100000] Generator Loss of epoch327 is -127.46716, idr_psnr,  Lr:2.5e-06
+[03/23 05:23:41] idr_psnr INFO: [6540/100000] Generator Loss of epoch327 is -124.64912, idr_psnr,  Lr:2.5e-06
+[03/23 05:24:11] idr_psnr INFO: [6550/100000] Generator Loss of epoch328 is -123.19064, idr_psnr,  Lr:2.5e-06
+[03/23 05:24:33] idr_psnr INFO: [6560/100000] Generator Loss of epoch328 is -144.58310, idr_psnr,  Lr:2.5e-06
+[03/23 05:24:57] idr_psnr INFO: [6570/100000] Generator Loss of epoch329 is -125.93557, idr_psnr,  Lr:2.5e-06
+[03/23 05:25:22] idr_psnr INFO: [6580/100000] Generator Loss of epoch329 is -128.43019, idr_psnr,  Lr:2.5e-06
+[03/23 05:25:48] idr_psnr INFO: [6590/100000] Generator Loss of epoch330 is -123.12212, idr_psnr,  Lr:2.5e-06
+[03/23 05:26:15] idr_psnr INFO: [6600/100000] Generator Loss of epoch330 is -138.83179, idr_psnr,  Lr:2.5e-06
+[03/23 05:26:20] idr_psnr INFO: index:0 psnr: 49.39328265760962
+[03/23 05:26:26] idr_psnr INFO: index:1 psnr: 54.65530094757486
+[03/23 05:26:31] idr_psnr INFO: index:2 psnr: 52.078511853747415
+[03/23 05:26:37] idr_psnr INFO: index:3 psnr: 50.94434314427684
+[03/23 05:26:41] idr_psnr INFO: index:4 psnr: 53.249654159907806
+[03/23 05:26:46] idr_psnr INFO: index:5 psnr: 58.83311401257481
+[03/23 05:27:00] idr_psnr INFO: index:6 psnr: 48.696089587130665
+[03/23 05:27:04] idr_psnr INFO: index:7 psnr: 52.421231701065494
+[03/23 05:27:08] idr_psnr INFO: index:8 psnr: 49.77026478582445
+[03/23 05:27:13] idr_psnr INFO: index:9 psnr: 55.5958250728532
+[03/23 05:27:18] idr_psnr INFO: index:10 psnr: 50.45164876694942
+[03/23 05:27:23] idr_psnr INFO: index:11 psnr: 53.24256472454839
+[03/23 05:27:27] idr_psnr INFO: index:12 psnr: 48.42131733734267
+[03/23 05:27:32] idr_psnr INFO: index:13 psnr: 53.333002382668866
+[03/23 05:27:32] idr_psnr INFO: epoch: 330, ave_psnr: 52.22043936671961, best_psnr: 52.22043936671961
+[03/23 05:27:59] idr_psnr INFO: [6610/100000] Generator Loss of epoch331 is -131.38432, idr_psnr,  Lr:2.5e-06
+[03/23 05:28:25] idr_psnr INFO: [6620/100000] Generator Loss of epoch331 is -134.09802, idr_psnr,  Lr:2.5e-06
+[03/23 05:28:49] idr_psnr INFO: [6630/100000] Generator Loss of epoch332 is -131.45288, idr_psnr,  Lr:2.5e-06
+[03/23 05:29:11] idr_psnr INFO: [6640/100000] Generator Loss of epoch332 is -130.09354, idr_psnr,  Lr:2.5e-06
+[03/23 05:29:37] idr_psnr INFO: [6650/100000] Generator Loss of epoch333 is -136.66920, idr_psnr,  Lr:2.5e-06
+[03/23 05:30:01] idr_psnr INFO: [6660/100000] Generator Loss of epoch333 is -118.69264, idr_psnr,  Lr:2.5e-06
+[03/23 05:30:26] idr_psnr INFO: [6670/100000] Generator Loss of epoch334 is -135.16588, idr_psnr,  Lr:2.5e-06
+[03/23 05:30:52] idr_psnr INFO: [6680/100000] Generator Loss of epoch334 is -141.43858, idr_psnr,  Lr:2.5e-06
+[03/23 05:31:20] idr_psnr INFO: [6690/100000] Generator Loss of epoch335 is -132.77452, idr_psnr,  Lr:2.5e-06
+[03/23 05:31:43] idr_psnr INFO: [6700/100000] Generator Loss of epoch335 is -138.56979, idr_psnr,  Lr:2.5e-06
+[03/23 05:32:11] idr_psnr INFO: [6710/100000] Generator Loss of epoch336 is -126.03603, idr_psnr,  Lr:2.5e-06
+[03/23 05:32:33] idr_psnr INFO: [6720/100000] Generator Loss of epoch336 is -135.01788, idr_psnr,  Lr:2.5e-06
+[03/23 05:32:58] idr_psnr INFO: [6730/100000] Generator Loss of epoch337 is -131.90944, idr_psnr,  Lr:2.5e-06
+[03/23 05:33:23] idr_psnr INFO: [6740/100000] Generator Loss of epoch337 is -138.16118, idr_psnr,  Lr:2.5e-06
+[03/23 05:33:46] idr_psnr INFO: [6750/100000] Generator Loss of epoch338 is -136.25177, idr_psnr,  Lr:2.5e-06
+[03/23 05:34:07] idr_psnr INFO: [6760/100000] Generator Loss of epoch338 is -139.02164, idr_psnr,  Lr:2.5e-06
+[03/23 05:34:35] idr_psnr INFO: [6770/100000] Generator Loss of epoch339 is -143.09505, idr_psnr,  Lr:2.5e-06
+[03/23 05:34:59] idr_psnr INFO: [6780/100000] Generator Loss of epoch339 is -130.14389, idr_psnr,  Lr:2.5e-06
+[03/23 05:35:24] idr_psnr INFO: [6790/100000] Generator Loss of epoch340 is -136.95032, idr_psnr,  Lr:2.5e-06
+[03/23 05:35:49] idr_psnr INFO: [6800/100000] Generator Loss of epoch340 is -137.21877, idr_psnr,  Lr:2.5e-06
+[03/23 05:35:54] idr_psnr INFO: index:0 psnr: 48.630867322589694
+[03/23 05:36:00] idr_psnr INFO: index:1 psnr: 54.438288982563925
+[03/23 05:36:06] idr_psnr INFO: index:2 psnr: 52.475575121514325
+[03/23 05:36:11] idr_psnr INFO: index:3 psnr: 50.72015394239575
+[03/23 05:36:15] idr_psnr INFO: index:4 psnr: 53.17558583539782
+[03/23 05:36:20] idr_psnr INFO: index:5 psnr: 58.75148510341902
+[03/23 05:36:35] idr_psnr INFO: index:6 psnr: 48.73818162077921
+[03/23 05:36:38] idr_psnr INFO: index:7 psnr: 51.80193737239709
+[03/23 05:36:42] idr_psnr INFO: index:8 psnr: 48.299288661256014
+[03/23 05:36:47] idr_psnr INFO: index:9 psnr: 55.513752969994044
+[03/23 05:36:52] idr_psnr INFO: index:10 psnr: 50.12593902600932
+[03/23 05:36:57] idr_psnr INFO: index:11 psnr: 53.29826844655194
+[03/23 05:37:01] idr_psnr INFO: index:12 psnr: 48.04100340314973
+[03/23 05:37:06] idr_psnr INFO: index:13 psnr: 54.027707375046454
+[03/23 05:37:06] idr_psnr INFO: epoch: 340, ave_psnr: 52.0027167987903, best_psnr: 52.22043936671961
+[03/23 05:37:38] idr_psnr INFO: [6810/100000] Generator Loss of epoch341 is -128.94536, idr_psnr,  Lr:2.5e-06
+[03/23 05:38:00] idr_psnr INFO: [6820/100000] Generator Loss of epoch341 is -126.81404, idr_psnr,  Lr:2.5e-06
+[03/23 05:38:25] idr_psnr INFO: [6830/100000] Generator Loss of epoch342 is -136.34045, idr_psnr,  Lr:2.5e-06
+[03/23 05:38:47] idr_psnr INFO: [6840/100000] Generator Loss of epoch342 is -125.16502, idr_psnr,  Lr:2.5e-06
+[03/23 05:39:15] idr_psnr INFO: [6850/100000] Generator Loss of epoch343 is -125.69607, idr_psnr,  Lr:2.5e-06
+[03/23 05:39:37] idr_psnr INFO: [6860/100000] Generator Loss of epoch343 is -139.55220, idr_psnr,  Lr:2.5e-06
+[03/23 05:40:04] idr_psnr INFO: [6870/100000] Generator Loss of epoch344 is -137.35271, idr_psnr,  Lr:2.5e-06
+[03/23 05:40:27] idr_psnr INFO: [6880/100000] Generator Loss of epoch344 is -122.48329, idr_psnr,  Lr:2.5e-06
+[03/23 05:40:54] idr_psnr INFO: [6890/100000] Generator Loss of epoch345 is -120.94253, idr_psnr,  Lr:2.5e-06
+[03/23 05:41:17] idr_psnr INFO: [6900/100000] Generator Loss of epoch345 is -138.32925, idr_psnr,  Lr:2.5e-06
+[03/23 05:41:44] idr_psnr INFO: [6910/100000] Generator Loss of epoch346 is -126.32393, idr_psnr,  Lr:2.5e-06
+[03/23 05:42:09] idr_psnr INFO: [6920/100000] Generator Loss of epoch346 is -132.21002, idr_psnr,  Lr:2.5e-06
+[03/23 05:42:37] idr_psnr INFO: [6930/100000] Generator Loss of epoch347 is -120.17383, idr_psnr,  Lr:2.5e-06
+[03/23 05:42:59] idr_psnr INFO: [6940/100000] Generator Loss of epoch347 is -125.90045, idr_psnr,  Lr:2.5e-06
+[03/23 05:43:27] idr_psnr INFO: [6950/100000] Generator Loss of epoch348 is -134.52481, idr_psnr,  Lr:2.5e-06
+[03/23 05:43:52] idr_psnr INFO: [6960/100000] Generator Loss of epoch348 is -141.83897, idr_psnr,  Lr:2.5e-06
+[03/23 05:44:19] idr_psnr INFO: [6970/100000] Generator Loss of epoch349 is -131.38507, idr_psnr,  Lr:2.5e-06
+[03/23 05:44:44] idr_psnr INFO: [6980/100000] Generator Loss of epoch349 is -133.25183, idr_psnr,  Lr:2.5e-06
+[03/23 05:45:12] idr_psnr INFO: [6990/100000] Generator Loss of epoch350 is -130.41919, idr_psnr,  Lr:2.5e-06
+[03/23 05:45:38] idr_psnr INFO: [7000/100000] Generator Loss of epoch350 is -124.82793, idr_psnr,  Lr:2.5e-06
+[03/23 05:45:43] idr_psnr INFO: index:0 psnr: 48.344507117676486
+[03/23 05:45:49] idr_psnr INFO: index:1 psnr: 54.43220396254517
+[03/23 05:45:54] idr_psnr INFO: index:2 psnr: 52.41529401635468
+[03/23 05:45:59] idr_psnr INFO: index:3 psnr: 50.631378722677454
+[03/23 05:46:03] idr_psnr INFO: index:4 psnr: 52.90934709005944
+[03/23 05:46:09] idr_psnr INFO: index:5 psnr: 58.723014557833004
+[03/23 05:46:23] idr_psnr INFO: index:6 psnr: 48.543070407842556
+[03/23 05:46:26] idr_psnr INFO: index:7 psnr: 51.7277172233662
+[03/23 05:46:30] idr_psnr INFO: index:8 psnr: 47.63844548040626
+[03/23 05:46:35] idr_psnr INFO: index:9 psnr: 55.51136031999472
+[03/23 05:46:40] idr_psnr INFO: index:10 psnr: 49.32786720431597
+[03/23 05:46:46] idr_psnr INFO: index:11 psnr: 52.83542244343174
+[03/23 05:46:50] idr_psnr INFO: index:12 psnr: 48.049689795905195
+[03/23 05:46:55] idr_psnr INFO: index:13 psnr: 54.408115124819844
+[03/23 05:46:55] idr_psnr INFO: epoch: 350, ave_psnr: 51.8212452476592, best_psnr: 52.22043936671961
+[03/23 05:47:22] idr_psnr INFO: [7010/100000] Generator Loss of epoch351 is -125.82336, idr_psnr,  Lr:2.5e-06
+[03/23 05:47:46] idr_psnr INFO: [7020/100000] Generator Loss of epoch351 is -140.04535, idr_psnr,  Lr:2.5e-06
+[03/23 05:48:17] idr_psnr INFO: [7030/100000] Generator Loss of epoch352 is -141.13586, idr_psnr,  Lr:2.5e-06
+[03/23 05:48:38] idr_psnr INFO: [7040/100000] Generator Loss of epoch352 is -119.83922, idr_psnr,  Lr:2.5e-06
+[03/23 05:49:05] idr_psnr INFO: [7050/100000] Generator Loss of epoch353 is -134.59543, idr_psnr,  Lr:2.5e-06
+[03/23 05:49:27] idr_psnr INFO: [7060/100000] Generator Loss of epoch353 is -142.09099, idr_psnr,  Lr:2.5e-06
+[03/23 05:49:54] idr_psnr INFO: [7070/100000] Generator Loss of epoch354 is -131.77071, idr_psnr,  Lr:2.5e-06
+[03/23 05:50:20] idr_psnr INFO: [7080/100000] Generator Loss of epoch354 is -135.63766, idr_psnr,  Lr:2.5e-06
+[03/23 05:50:48] idr_psnr INFO: [7090/100000] Generator Loss of epoch355 is -120.93533, idr_psnr,  Lr:2.5e-06
+[03/23 05:51:13] idr_psnr INFO: [7100/100000] Generator Loss of epoch355 is -137.13443, idr_psnr,  Lr:2.5e-06
+[03/23 05:51:38] idr_psnr INFO: [7110/100000] Generator Loss of epoch356 is -137.97476, idr_psnr,  Lr:2.5e-06
+[03/23 05:52:02] idr_psnr INFO: [7120/100000] Generator Loss of epoch356 is -138.33224, idr_psnr,  Lr:2.5e-06
+[03/23 05:52:26] idr_psnr INFO: [7130/100000] Generator Loss of epoch357 is -128.98222, idr_psnr,  Lr:2.5e-06
+[03/23 05:52:54] idr_psnr INFO: [7140/100000] Generator Loss of epoch357 is -133.72737, idr_psnr,  Lr:2.5e-06
+[03/23 05:53:21] idr_psnr INFO: [7150/100000] Generator Loss of epoch358 is -116.51454, idr_psnr,  Lr:2.5e-06
+[03/23 05:53:44] idr_psnr INFO: [7160/100000] Generator Loss of epoch358 is -124.85721, idr_psnr,  Lr:2.5e-06
+[03/23 05:54:12] idr_psnr INFO: [7170/100000] Generator Loss of epoch359 is -130.15645, idr_psnr,  Lr:2.5e-06
+[03/23 05:54:37] idr_psnr INFO: [7180/100000] Generator Loss of epoch359 is -133.29926, idr_psnr,  Lr:2.5e-06
+[03/23 05:55:07] idr_psnr INFO: [7190/100000] Generator Loss of epoch360 is -140.32761, idr_psnr,  Lr:2.5e-06
+[03/23 05:55:29] idr_psnr INFO: [7200/100000] Generator Loss of epoch360 is -143.80432, idr_psnr,  Lr:2.5e-06
+[03/23 05:55:34] idr_psnr INFO: index:0 psnr: 48.27857842599283
+[03/23 05:55:40] idr_psnr INFO: index:1 psnr: 54.51645245108914
+[03/23 05:55:45] idr_psnr INFO: index:2 psnr: 52.425336081215725
+[03/23 05:55:50] idr_psnr INFO: index:3 psnr: 50.76664950420367
+[03/23 05:55:54] idr_psnr INFO: index:4 psnr: 53.15053903375045
+[03/23 05:55:59] idr_psnr INFO: index:5 psnr: 58.89437617070303
+[03/23 05:56:13] idr_psnr INFO: index:6 psnr: 48.86128280557202
+[03/23 05:56:17] idr_psnr INFO: index:7 psnr: 51.8695550710281
+[03/23 05:56:21] idr_psnr INFO: index:8 psnr: 49.0884047669432
+[03/23 05:56:26] idr_psnr INFO: index:9 psnr: 55.411513920468266
+[03/23 05:56:31] idr_psnr INFO: index:10 psnr: 48.64287047340797
+[03/23 05:56:36] idr_psnr INFO: index:11 psnr: 52.394190246770016
+[03/23 05:56:40] idr_psnr INFO: index:12 psnr: 48.47386356118217
+[03/23 05:56:45] idr_psnr INFO: index:13 psnr: 55.31624317619308
+[03/23 05:56:45] idr_psnr INFO: epoch: 360, ave_psnr: 52.00641826346568, best_psnr: 52.22043936671961
+[03/23 05:57:13] idr_psnr INFO: [7210/100000] Generator Loss of epoch361 is -133.87749, idr_psnr,  Lr:2.5e-06
+[03/23 05:57:37] idr_psnr INFO: [7220/100000] Generator Loss of epoch361 is -134.56184, idr_psnr,  Lr:2.5e-06
+[03/23 05:58:03] idr_psnr INFO: [7230/100000] Generator Loss of epoch362 is -133.95380, idr_psnr,  Lr:2.5e-06
+[03/23 05:58:27] idr_psnr INFO: [7240/100000] Generator Loss of epoch362 is -141.93364, idr_psnr,  Lr:2.5e-06
+[03/23 05:58:52] idr_psnr INFO: [7250/100000] Generator Loss of epoch363 is -131.65913, idr_psnr,  Lr:2.5e-06
+[03/23 05:59:18] idr_psnr INFO: [7260/100000] Generator Loss of epoch363 is -134.48004, idr_psnr,  Lr:2.5e-06
+[03/23 05:59:43] idr_psnr INFO: [7270/100000] Generator Loss of epoch364 is -136.31355, idr_psnr,  Lr:2.5e-06
+[03/23 06:00:08] idr_psnr INFO: [7280/100000] Generator Loss of epoch364 is -142.67155, idr_psnr,  Lr:2.5e-06
+[03/23 06:00:37] idr_psnr INFO: [7290/100000] Generator Loss of epoch365 is -124.78664, idr_psnr,  Lr:2.5e-06
+[03/23 06:00:59] idr_psnr INFO: [7300/100000] Generator Loss of epoch365 is -125.35399, idr_psnr,  Lr:2.5e-06
+[03/23 06:01:29] idr_psnr INFO: [7310/100000] Generator Loss of epoch366 is -126.28261, idr_psnr,  Lr:2.5e-06
+[03/23 06:01:51] idr_psnr INFO: [7320/100000] Generator Loss of epoch366 is -133.62788, idr_psnr,  Lr:2.5e-06
+[03/23 06:02:18] idr_psnr INFO: [7330/100000] Generator Loss of epoch367 is -131.70697, idr_psnr,  Lr:2.5e-06
+[03/23 06:02:42] idr_psnr INFO: [7340/100000] Generator Loss of epoch367 is -129.58653, idr_psnr,  Lr:2.5e-06
+[03/23 06:03:06] idr_psnr INFO: [7350/100000] Generator Loss of epoch368 is -134.36963, idr_psnr,  Lr:2.5e-06
+[03/23 06:03:32] idr_psnr INFO: [7360/100000] Generator Loss of epoch368 is -141.08458, idr_psnr,  Lr:2.5e-06
+[03/23 06:03:55] idr_psnr INFO: [7370/100000] Generator Loss of epoch369 is -110.25516, idr_psnr,  Lr:2.5e-06
+[03/23 06:04:23] idr_psnr INFO: [7380/100000] Generator Loss of epoch369 is -113.12167, idr_psnr,  Lr:2.5e-06
+[03/23 06:04:50] idr_psnr INFO: [7390/100000] Generator Loss of epoch370 is -132.59650, idr_psnr,  Lr:2.5e-06
+[03/23 06:05:17] idr_psnr INFO: [7400/100000] Generator Loss of epoch370 is -137.64130, idr_psnr,  Lr:2.5e-06
+[03/23 06:05:22] idr_psnr INFO: index:0 psnr: 48.56793973260258
+[03/23 06:05:28] idr_psnr INFO: index:1 psnr: 54.47559671072675
+[03/23 06:05:34] idr_psnr INFO: index:2 psnr: 52.378708334941216
+[03/23 06:05:39] idr_psnr INFO: index:3 psnr: 50.576301376172694
+[03/23 06:05:43] idr_psnr INFO: index:4 psnr: 53.41204272861141
+[03/23 06:05:48] idr_psnr INFO: index:5 psnr: 58.69134538637776
+[03/23 06:06:02] idr_psnr INFO: index:6 psnr: 48.790837359662675
+[03/23 06:06:06] idr_psnr INFO: index:7 psnr: 51.90870449157493
+[03/23 06:06:10] idr_psnr INFO: index:8 psnr: 49.02602809871386
+[03/23 06:06:15] idr_psnr INFO: index:9 psnr: 55.52283842837066
+[03/23 06:06:20] idr_psnr INFO: index:10 psnr: 49.2988709844824
+[03/23 06:06:25] idr_psnr INFO: index:11 psnr: 53.0244848390243
+[03/23 06:06:29] idr_psnr INFO: index:12 psnr: 47.94689269343819
+[03/23 06:06:35] idr_psnr INFO: index:13 psnr: 54.69894342172467
+[03/23 06:06:35] idr_psnr INFO: epoch: 370, ave_psnr: 52.02282389903029, best_psnr: 52.22043936671961
+[03/23 06:07:01] idr_psnr INFO: [7410/100000] Generator Loss of epoch371 is -139.49841, idr_psnr,  Lr:2.5e-06
+[03/23 06:07:25] idr_psnr INFO: [7420/100000] Generator Loss of epoch371 is -133.44656, idr_psnr,  Lr:2.5e-06
+[03/23 06:07:51] idr_psnr INFO: [7430/100000] Generator Loss of epoch372 is -137.57953, idr_psnr,  Lr:2.5e-06
+[03/23 06:08:15] idr_psnr INFO: [7440/100000] Generator Loss of epoch372 is -130.90099, idr_psnr,  Lr:2.5e-06
+[03/23 06:08:41] idr_psnr INFO: [7450/100000] Generator Loss of epoch373 is -128.07327, idr_psnr,  Lr:2.5e-06
+[03/23 06:09:07] idr_psnr INFO: [7460/100000] Generator Loss of epoch373 is -131.89783, idr_psnr,  Lr:2.5e-06
+[03/23 06:09:34] idr_psnr INFO: [7470/100000] Generator Loss of epoch374 is -120.84317, idr_psnr,  Lr:2.5e-06
+[03/23 06:10:00] idr_psnr INFO: [7480/100000] Generator Loss of epoch374 is -131.70787, idr_psnr,  Lr:2.5e-06
+[03/23 06:10:31] idr_psnr INFO: [7490/100000] Generator Loss of epoch375 is -139.00681, idr_psnr,  Lr:2.5e-06
+[03/23 06:10:54] idr_psnr INFO: [7500/100000] Generator Loss of epoch375 is -141.37900, idr_psnr,  Lr:2.5e-06
+[03/23 06:11:25] idr_psnr INFO: [7510/100000] Generator Loss of epoch376 is -127.57173, idr_psnr,  Lr:2.5e-06
+[03/23 06:11:47] idr_psnr INFO: [7520/100000] Generator Loss of epoch376 is -129.56799, idr_psnr,  Lr:2.5e-06
+[03/23 06:12:12] idr_psnr INFO: [7530/100000] Generator Loss of epoch377 is -124.79607, idr_psnr,  Lr:2.5e-06
+[03/23 06:12:35] idr_psnr INFO: [7540/100000] Generator Loss of epoch377 is -116.23720, idr_psnr,  Lr:2.5e-06
+[03/23 06:13:03] idr_psnr INFO: [7550/100000] Generator Loss of epoch378 is -131.08931, idr_psnr,  Lr:2.5e-06
+[03/23 06:13:25] idr_psnr INFO: [7560/100000] Generator Loss of epoch378 is -139.94209, idr_psnr,  Lr:2.5e-06
+[03/23 06:13:57] idr_psnr INFO: [7570/100000] Generator Loss of epoch379 is -127.58997, idr_psnr,  Lr:2.5e-06
+[03/23 06:14:14] idr_psnr INFO: [7580/100000] Generator Loss of epoch379 is -131.93793, idr_psnr,  Lr:2.5e-06
+[03/23 06:14:42] idr_psnr INFO: [7590/100000] Generator Loss of epoch380 is -141.69250, idr_psnr,  Lr:2.5e-06
+[03/23 06:15:06] idr_psnr INFO: [7600/100000] Generator Loss of epoch380 is -143.09961, idr_psnr,  Lr:2.5e-06
+[03/23 06:15:11] idr_psnr INFO: index:0 psnr: 48.99258125535954
+[03/23 06:15:17] idr_psnr INFO: index:1 psnr: 54.63036970264896
+[03/23 06:15:22] idr_psnr INFO: index:2 psnr: 52.200746058069505
+[03/23 06:15:28] idr_psnr INFO: index:3 psnr: 50.77545411951497
+[03/23 06:15:32] idr_psnr INFO: index:4 psnr: 53.087686202116906
+[03/23 06:15:37] idr_psnr INFO: index:5 psnr: 59.00081093626453
+[03/23 06:15:51] idr_psnr INFO: index:6 psnr: 48.80362333671785
+[03/23 06:15:54] idr_psnr INFO: index:7 psnr: 51.7179817574351
+[03/23 06:15:58] idr_psnr INFO: index:8 psnr: 49.12236853588329
+[03/23 06:16:03] idr_psnr INFO: index:9 psnr: 55.39176438186694
+[03/23 06:16:08] idr_psnr INFO: index:10 psnr: 49.76886402964937
+[03/23 06:16:13] idr_psnr INFO: index:11 psnr: 52.54790980262115
+[03/23 06:16:17] idr_psnr INFO: index:12 psnr: 48.420584472331825
+[03/23 06:16:22] idr_psnr INFO: index:13 psnr: 53.83607250058415
+[03/23 06:16:22] idr_psnr INFO: epoch: 380, ave_psnr: 52.021201220790296, best_psnr: 52.22043936671961
+[03/23 06:16:51] idr_psnr INFO: [7610/100000] Generator Loss of epoch381 is -127.18491, idr_psnr,  Lr:2.5e-06
+[03/23 06:17:14] idr_psnr INFO: [7620/100000] Generator Loss of epoch381 is -143.53955, idr_psnr,  Lr:2.5e-06
+[03/23 06:17:40] idr_psnr INFO: [7630/100000] Generator Loss of epoch382 is -121.71176, idr_psnr,  Lr:2.5e-06
+[03/23 06:18:05] idr_psnr INFO: [7640/100000] Generator Loss of epoch382 is -134.82872, idr_psnr,  Lr:2.5e-06
+[03/23 06:18:33] idr_psnr INFO: [7650/100000] Generator Loss of epoch383 is -142.61456, idr_psnr,  Lr:2.5e-06
+[03/23 06:18:58] idr_psnr INFO: [7660/100000] Generator Loss of epoch383 is -141.49271, idr_psnr,  Lr:2.5e-06
+[03/23 06:19:24] idr_psnr INFO: [7670/100000] Generator Loss of epoch384 is -134.01855, idr_psnr,  Lr:2.5e-06
+[03/23 06:19:45] idr_psnr INFO: [7680/100000] Generator Loss of epoch384 is -143.51909, idr_psnr,  Lr:2.5e-06
+[03/23 06:20:12] idr_psnr INFO: [7690/100000] Generator Loss of epoch385 is -130.68951, idr_psnr,  Lr:2.5e-06
+[03/23 06:20:36] idr_psnr INFO: [7700/100000] Generator Loss of epoch385 is -124.20706, idr_psnr,  Lr:2.5e-06
+[03/23 06:21:07] idr_psnr INFO: [7710/100000] Generator Loss of epoch386 is -126.98592, idr_psnr,  Lr:2.5e-06
+[03/23 06:21:27] idr_psnr INFO: [7720/100000] Generator Loss of epoch386 is -141.81288, idr_psnr,  Lr:2.5e-06
+[03/23 06:21:51] idr_psnr INFO: [7730/100000] Generator Loss of epoch387 is -129.86697, idr_psnr,  Lr:2.5e-06
+[03/23 06:22:16] idr_psnr INFO: [7740/100000] Generator Loss of epoch387 is -127.21471, idr_psnr,  Lr:2.5e-06
+[03/23 06:22:44] idr_psnr INFO: [7750/100000] Generator Loss of epoch388 is -126.75523, idr_psnr,  Lr:2.5e-06
+[03/23 06:23:11] idr_psnr INFO: [7760/100000] Generator Loss of epoch388 is -124.14374, idr_psnr,  Lr:2.5e-06
+[03/23 06:23:36] idr_psnr INFO: [7770/100000] Generator Loss of epoch389 is -126.45667, idr_psnr,  Lr:2.5e-06
+[03/23 06:24:00] idr_psnr INFO: [7780/100000] Generator Loss of epoch389 is -133.98042, idr_psnr,  Lr:2.5e-06
+[03/23 06:24:28] idr_psnr INFO: [7790/100000] Generator Loss of epoch390 is -142.66060, idr_psnr,  Lr:2.5e-06
+[03/23 06:24:50] idr_psnr INFO: [7800/100000] Generator Loss of epoch390 is -131.33177, idr_psnr,  Lr:2.5e-06
+[03/23 06:24:55] idr_psnr INFO: index:0 psnr: 49.159579374297444
+[03/23 06:25:01] idr_psnr INFO: index:1 psnr: 54.532571492205236
+[03/23 06:25:06] idr_psnr INFO: index:2 psnr: 52.326678244589786
+[03/23 06:25:11] idr_psnr INFO: index:3 psnr: 50.55343841126208
+[03/23 06:25:15] idr_psnr INFO: index:4 psnr: 53.37535189419614
+[03/23 06:25:20] idr_psnr INFO: index:5 psnr: 58.76438758734028
+[03/23 06:25:35] idr_psnr INFO: index:6 psnr: 48.79919909869333
+[03/23 06:25:38] idr_psnr INFO: index:7 psnr: 51.77773457928411
+[03/23 06:25:42] idr_psnr INFO: index:8 psnr: 49.08387371361505
+[03/23 06:25:47] idr_psnr INFO: index:9 psnr: 55.465377433136574
+[03/23 06:25:52] idr_psnr INFO: index:10 psnr: 50.198553473026344
+[03/23 06:25:58] idr_psnr INFO: index:11 psnr: 53.101212209502236
+[03/23 06:26:01] idr_psnr INFO: index:12 psnr: 47.79409513382003
+[03/23 06:26:06] idr_psnr INFO: index:13 psnr: 53.47308666359686
+[03/23 06:26:07] idr_psnr INFO: epoch: 390, ave_psnr: 52.0289385220404, best_psnr: 52.22043936671961
+[03/23 06:26:36] idr_psnr INFO: [7810/100000] Generator Loss of epoch391 is -140.69765, idr_psnr,  Lr:2.5e-06
+[03/23 06:26:59] idr_psnr INFO: [7820/100000] Generator Loss of epoch391 is -131.18552, idr_psnr,  Lr:2.5e-06
+[03/23 06:27:23] idr_psnr INFO: [7830/100000] Generator Loss of epoch392 is -126.28699, idr_psnr,  Lr:2.5e-06
+[03/23 06:27:47] idr_psnr INFO: [7840/100000] Generator Loss of epoch392 is -143.13454, idr_psnr,  Lr:2.5e-06
+[03/23 06:28:11] idr_psnr INFO: [7850/100000] Generator Loss of epoch393 is -132.38391, idr_psnr,  Lr:2.5e-06
+[03/23 06:28:34] idr_psnr INFO: [7860/100000] Generator Loss of epoch393 is -135.58350, idr_psnr,  Lr:2.5e-06
+[03/23 06:28:58] idr_psnr INFO: [7870/100000] Generator Loss of epoch394 is -124.46419, idr_psnr,  Lr:2.5e-06
+[03/23 06:29:22] idr_psnr INFO: [7880/100000] Generator Loss of epoch394 is -141.24176, idr_psnr,  Lr:2.5e-06
+[03/23 06:29:49] idr_psnr INFO: [7890/100000] Generator Loss of epoch395 is -137.72351, idr_psnr,  Lr:2.5e-06
+[03/23 06:30:14] idr_psnr INFO: [7900/100000] Generator Loss of epoch395 is -130.58264, idr_psnr,  Lr:2.5e-06
+[03/23 06:30:40] idr_psnr INFO: [7910/100000] Generator Loss of epoch396 is -134.60533, idr_psnr,  Lr:2.5e-06
+[03/23 06:31:05] idr_psnr INFO: [7920/100000] Generator Loss of epoch396 is -134.35785, idr_psnr,  Lr:2.5e-06
+[03/23 06:31:31] idr_psnr INFO: [7930/100000] Generator Loss of epoch397 is -132.62054, idr_psnr,  Lr:2.5e-06
+[03/23 06:31:55] idr_psnr INFO: [7940/100000] Generator Loss of epoch397 is -134.58606, idr_psnr,  Lr:2.5e-06
+[03/23 06:32:20] idr_psnr INFO: [7950/100000] Generator Loss of epoch398 is -125.52942, idr_psnr,  Lr:2.5e-06
+[03/23 06:32:43] idr_psnr INFO: [7960/100000] Generator Loss of epoch398 is -128.61893, idr_psnr,  Lr:2.5e-06
+[03/23 06:33:12] idr_psnr INFO: [7970/100000] Generator Loss of epoch399 is -140.14204, idr_psnr,  Lr:2.5e-06
+[03/23 06:33:38] idr_psnr INFO: [7980/100000] Generator Loss of epoch399 is -135.35016, idr_psnr,  Lr:2.5e-06
+[03/23 06:34:02] idr_psnr INFO: [7990/100000] Generator Loss of epoch400 is -137.41066, idr_psnr,  Lr:2.5e-06
+[03/23 06:34:24] idr_psnr INFO: [8000/100000] Generator Loss of epoch400 is -120.40016, idr_psnr,  Lr:1.25e-06
+[03/23 06:34:29] idr_psnr INFO: index:0 psnr: 48.56822818041498
+[03/23 06:34:35] idr_psnr INFO: index:1 psnr: 54.23921113390557
+[03/23 06:34:40] idr_psnr INFO: index:2 psnr: 52.548716788563716
+[03/23 06:34:45] idr_psnr INFO: index:3 psnr: 50.59330180330791
+[03/23 06:34:49] idr_psnr INFO: index:4 psnr: 53.45904487338956
+[03/23 06:34:54] idr_psnr INFO: index:5 psnr: 58.713363319914855
+[03/23 06:35:09] idr_psnr INFO: index:6 psnr: 48.66540725005115
+[03/23 06:35:12] idr_psnr INFO: index:7 psnr: 51.801610601729486
+[03/23 06:35:16] idr_psnr INFO: index:8 psnr: 48.063290845906444
+[03/23 06:35:21] idr_psnr INFO: index:9 psnr: 55.520856099378065
+[03/23 06:35:26] idr_psnr INFO: index:10 psnr: 48.80810939734574
+[03/23 06:35:31] idr_psnr INFO: index:11 psnr: 52.55630400258455
+[03/23 06:35:35] idr_psnr INFO: index:12 psnr: 47.54893860561683
+[03/23 06:35:40] idr_psnr INFO: index:13 psnr: 54.98156468804372
+[03/23 06:35:41] idr_psnr INFO: epoch: 400, ave_psnr: 51.86199625643946, best_psnr: 52.22043936671961
+[03/23 06:36:07] idr_psnr INFO: [8010/100000] Generator Loss of epoch401 is -130.55606, idr_psnr,  Lr:1.25e-06
+[03/23 06:36:33] idr_psnr INFO: [8020/100000] Generator Loss of epoch401 is -141.77426, idr_psnr,  Lr:1.25e-06
+[03/23 06:37:00] idr_psnr INFO: [8030/100000] Generator Loss of epoch402 is -134.82678, idr_psnr,  Lr:1.25e-06
+[03/23 06:37:25] idr_psnr INFO: [8040/100000] Generator Loss of epoch402 is -141.94199, idr_psnr,  Lr:1.25e-06
+[03/23 06:37:55] idr_psnr INFO: [8050/100000] Generator Loss of epoch403 is -130.35103, idr_psnr,  Lr:1.25e-06
+[03/23 06:38:15] idr_psnr INFO: [8060/100000] Generator Loss of epoch403 is -140.95020, idr_psnr,  Lr:1.25e-06
+[03/23 06:38:43] idr_psnr INFO: [8070/100000] Generator Loss of epoch404 is -122.73907, idr_psnr,  Lr:1.25e-06
+[03/23 06:39:06] idr_psnr INFO: [8080/100000] Generator Loss of epoch404 is -125.16404, idr_psnr,  Lr:1.25e-06
+[03/23 06:39:32] idr_psnr INFO: [8090/100000] Generator Loss of epoch405 is -128.31898, idr_psnr,  Lr:1.25e-06
+[03/23 06:39:55] idr_psnr INFO: [8100/100000] Generator Loss of epoch405 is -142.78859, idr_psnr,  Lr:1.25e-06
+[03/23 06:40:25] idr_psnr INFO: [8110/100000] Generator Loss of epoch406 is -133.38373, idr_psnr,  Lr:1.25e-06
+[03/23 06:40:46] idr_psnr INFO: [8120/100000] Generator Loss of epoch406 is -123.95963, idr_psnr,  Lr:1.25e-06
+[03/23 06:41:12] idr_psnr INFO: [8130/100000] Generator Loss of epoch407 is -130.54117, idr_psnr,  Lr:1.25e-06
+[03/23 06:41:35] idr_psnr INFO: [8140/100000] Generator Loss of epoch407 is -110.15245, idr_psnr,  Lr:1.25e-06
+[03/23 06:42:01] idr_psnr INFO: [8150/100000] Generator Loss of epoch408 is -129.69505, idr_psnr,  Lr:1.25e-06
+[03/23 06:42:25] idr_psnr INFO: [8160/100000] Generator Loss of epoch408 is -127.88155, idr_psnr,  Lr:1.25e-06
+[03/23 06:42:54] idr_psnr INFO: [8170/100000] Generator Loss of epoch409 is -126.07370, idr_psnr,  Lr:1.25e-06
+[03/23 06:43:17] idr_psnr INFO: [8180/100000] Generator Loss of epoch409 is -129.43619, idr_psnr,  Lr:1.25e-06
+[03/23 06:43:45] idr_psnr INFO: [8190/100000] Generator Loss of epoch410 is -141.62848, idr_psnr,  Lr:1.25e-06
+[03/23 06:44:10] idr_psnr INFO: [8200/100000] Generator Loss of epoch410 is -121.62587, idr_psnr,  Lr:1.25e-06
+[03/23 06:44:16] idr_psnr INFO: index:0 psnr: 48.63428564225045
+[03/23 06:44:22] idr_psnr INFO: index:1 psnr: 54.292389637074564
+[03/23 06:44:27] idr_psnr INFO: index:2 psnr: 52.45207962221818
+[03/23 06:44:32] idr_psnr INFO: index:3 psnr: 50.695424995726164
+[03/23 06:44:36] idr_psnr INFO: index:4 psnr: 52.968100049453035
+[03/23 06:44:41] idr_psnr INFO: index:5 psnr: 58.875769045603676
+[03/23 06:44:55] idr_psnr INFO: index:6 psnr: 48.53099207730541
+[03/23 06:44:59] idr_psnr INFO: index:7 psnr: 51.7415517156258
+[03/23 06:45:03] idr_psnr INFO: index:8 psnr: 47.93124840017292
+[03/23 06:45:08] idr_psnr INFO: index:9 psnr: 55.56779687316066
+[03/23 06:45:13] idr_psnr INFO: index:10 psnr: 49.46333209600763
+[03/23 06:45:18] idr_psnr INFO: index:11 psnr: 52.79813180962826
+[03/23 06:45:22] idr_psnr INFO: index:12 psnr: 47.72014068753546
+[03/23 06:45:27] idr_psnr INFO: index:13 psnr: 54.776735001691684
+[03/23 06:45:27] idr_psnr INFO: epoch: 410, ave_psnr: 51.88914126096099, best_psnr: 52.22043936671961
+[03/23 06:45:56] idr_psnr INFO: [8210/100000] Generator Loss of epoch411 is -134.18503, idr_psnr,  Lr:1.25e-06
+[03/23 06:46:19] idr_psnr INFO: [8220/100000] Generator Loss of epoch411 is -143.23882, idr_psnr,  Lr:1.25e-06
+[03/23 06:46:44] idr_psnr INFO: [8230/100000] Generator Loss of epoch412 is -118.67158, idr_psnr,  Lr:1.25e-06
+[03/23 06:47:09] idr_psnr INFO: [8240/100000] Generator Loss of epoch412 is -138.51025, idr_psnr,  Lr:1.25e-06
+[03/23 06:47:35] idr_psnr INFO: [8250/100000] Generator Loss of epoch413 is -135.70392, idr_psnr,  Lr:1.25e-06
+[03/23 06:48:01] idr_psnr INFO: [8260/100000] Generator Loss of epoch413 is -128.40300, idr_psnr,  Lr:1.25e-06
+[03/23 06:48:28] idr_psnr INFO: [8270/100000] Generator Loss of epoch414 is -142.48181, idr_psnr,  Lr:1.25e-06
+[03/23 06:48:52] idr_psnr INFO: [8280/100000] Generator Loss of epoch414 is -142.09091, idr_psnr,  Lr:1.25e-06
+[03/23 06:49:18] idr_psnr INFO: [8290/100000] Generator Loss of epoch415 is -132.95186, idr_psnr,  Lr:1.25e-06
+[03/23 06:49:41] idr_psnr INFO: [8300/100000] Generator Loss of epoch415 is -120.25072, idr_psnr,  Lr:1.25e-06
+[03/23 06:50:06] idr_psnr INFO: [8310/100000] Generator Loss of epoch416 is -128.07294, idr_psnr,  Lr:1.25e-06
+[03/23 06:50:29] idr_psnr INFO: [8320/100000] Generator Loss of epoch416 is -136.38277, idr_psnr,  Lr:1.25e-06
+[03/23 06:50:55] idr_psnr INFO: [8330/100000] Generator Loss of epoch417 is -121.98877, idr_psnr,  Lr:1.25e-06
+[03/23 06:51:23] idr_psnr INFO: [8340/100000] Generator Loss of epoch417 is -135.74669, idr_psnr,  Lr:1.25e-06
+[03/23 06:51:47] idr_psnr INFO: [8350/100000] Generator Loss of epoch418 is -130.75131, idr_psnr,  Lr:1.25e-06
+[03/23 06:52:12] idr_psnr INFO: [8360/100000] Generator Loss of epoch418 is -135.81813, idr_psnr,  Lr:1.25e-06
+[03/23 06:52:39] idr_psnr INFO: [8370/100000] Generator Loss of epoch419 is -137.56766, idr_psnr,  Lr:1.25e-06
+[03/23 06:53:03] idr_psnr INFO: [8380/100000] Generator Loss of epoch419 is -140.38083, idr_psnr,  Lr:1.25e-06
+[03/23 06:53:29] idr_psnr INFO: [8390/100000] Generator Loss of epoch420 is -141.92923, idr_psnr,  Lr:1.25e-06
+[03/23 06:53:58] idr_psnr INFO: [8400/100000] Generator Loss of epoch420 is -124.90242, idr_psnr,  Lr:1.25e-06
+[03/23 06:54:03] idr_psnr INFO: index:0 psnr: 48.423179996080805
+[03/23 06:54:09] idr_psnr INFO: index:1 psnr: 54.35382097647519
+[03/23 06:54:14] idr_psnr INFO: index:2 psnr: 52.46857306316957
+[03/23 06:54:19] idr_psnr INFO: index:3 psnr: 50.4936616283042
+[03/23 06:54:23] idr_psnr INFO: index:4 psnr: 53.139766235890235
+[03/23 06:54:28] idr_psnr INFO: index:5 psnr: 58.83472617929737
+[03/23 06:54:42] idr_psnr INFO: index:6 psnr: 48.580726180633846
+[03/23 06:54:46] idr_psnr INFO: index:7 psnr: 51.720980274537986
+[03/23 06:54:49] idr_psnr INFO: index:8 psnr: 47.74403009082387
+[03/23 06:54:54] idr_psnr INFO: index:9 psnr: 55.58885273377218
+[03/23 06:54:59] idr_psnr INFO: index:10 psnr: 49.42261272385052
+[03/23 06:55:05] idr_psnr INFO: index:11 psnr: 52.88397538338481
+[03/23 06:55:08] idr_psnr INFO: index:12 psnr: 47.689647098913525
+[03/23 06:55:13] idr_psnr INFO: index:13 psnr: 55.00432047265757
+[03/23 06:55:14] idr_psnr INFO: epoch: 420, ave_psnr: 51.882062359842266, best_psnr: 52.22043936671961
+[03/23 06:55:42] idr_psnr INFO: [8410/100000] Generator Loss of epoch421 is -135.67705, idr_psnr,  Lr:1.25e-06
+[03/23 06:56:04] idr_psnr INFO: [8420/100000] Generator Loss of epoch421 is -110.69029, idr_psnr,  Lr:1.25e-06
+[03/23 06:56:34] idr_psnr INFO: [8430/100000] Generator Loss of epoch422 is -123.27234, idr_psnr,  Lr:1.25e-06
+[03/23 06:56:58] idr_psnr INFO: [8440/100000] Generator Loss of epoch422 is -132.79037, idr_psnr,  Lr:1.25e-06
+[03/23 06:57:32] idr_psnr INFO: [8450/100000] Generator Loss of epoch423 is -125.53299, idr_psnr,  Lr:1.25e-06
+[03/23 06:57:53] idr_psnr INFO: [8460/100000] Generator Loss of epoch423 is -133.58408, idr_psnr,  Lr:1.25e-06
+[03/23 06:58:15] idr_psnr INFO: [8470/100000] Generator Loss of epoch424 is -128.87726, idr_psnr,  Lr:1.25e-06
+[03/23 06:58:42] idr_psnr INFO: [8480/100000] Generator Loss of epoch424 is -119.23020, idr_psnr,  Lr:1.25e-06
+[03/23 06:59:06] idr_psnr INFO: [8490/100000] Generator Loss of epoch425 is -134.91208, idr_psnr,  Lr:1.25e-06
+[03/23 06:59:30] idr_psnr INFO: [8500/100000] Generator Loss of epoch425 is -122.74108, idr_psnr,  Lr:1.25e-06
+[03/23 06:59:54] idr_psnr INFO: [8510/100000] Generator Loss of epoch426 is -135.05304, idr_psnr,  Lr:1.25e-06
+[03/23 07:00:21] idr_psnr INFO: [8520/100000] Generator Loss of epoch426 is -129.16174, idr_psnr,  Lr:1.25e-06
+[03/23 07:00:49] idr_psnr INFO: [8530/100000] Generator Loss of epoch427 is -143.60944, idr_psnr,  Lr:1.25e-06
+[03/23 07:01:15] idr_psnr INFO: [8540/100000] Generator Loss of epoch427 is -134.06477, idr_psnr,  Lr:1.25e-06
+[03/23 07:01:43] idr_psnr INFO: [8550/100000] Generator Loss of epoch428 is -124.60452, idr_psnr,  Lr:1.25e-06
+[03/23 07:02:07] idr_psnr INFO: [8560/100000] Generator Loss of epoch428 is -131.13240, idr_psnr,  Lr:1.25e-06
+[03/23 07:02:30] idr_psnr INFO: [8570/100000] Generator Loss of epoch429 is -116.69498, idr_psnr,  Lr:1.25e-06
+[03/23 07:02:56] idr_psnr INFO: [8580/100000] Generator Loss of epoch429 is -130.47583, idr_psnr,  Lr:1.25e-06
+[03/23 07:03:26] idr_psnr INFO: [8590/100000] Generator Loss of epoch430 is -117.83705, idr_psnr,  Lr:1.25e-06
+[03/23 07:03:49] idr_psnr INFO: [8600/100000] Generator Loss of epoch430 is -136.52502, idr_psnr,  Lr:1.25e-06
+[03/23 07:03:54] idr_psnr INFO: index:0 psnr: 48.10983667258352
+[03/23 07:04:00] idr_psnr INFO: index:1 psnr: 54.2057182358183
+[03/23 07:04:05] idr_psnr INFO: index:2 psnr: 52.43233490002971
+[03/23 07:04:10] idr_psnr INFO: index:3 psnr: 50.83431364092631
+[03/23 07:04:14] idr_psnr INFO: index:4 psnr: 52.74697635676405
+[03/23 07:04:20] idr_psnr INFO: index:5 psnr: 58.78486497253873
+[03/23 07:04:34] idr_psnr INFO: index:6 psnr: 48.54485711701383
+[03/23 07:04:37] idr_psnr INFO: index:7 psnr: 51.84138520486169
+[03/23 07:04:41] idr_psnr INFO: index:8 psnr: 47.83562676782657
+[03/23 07:04:47] idr_psnr INFO: index:9 psnr: 55.579092113337154
+[03/23 07:04:52] idr_psnr INFO: index:10 psnr: 48.89020175793676
+[03/23 07:04:57] idr_psnr INFO: index:11 psnr: 52.751707938581305
+[03/23 07:05:01] idr_psnr INFO: index:12 psnr: 47.628896498404615
+[03/23 07:05:06] idr_psnr INFO: index:13 psnr: 55.20299804007081
+[03/23 07:05:06] idr_psnr INFO: epoch: 430, ave_psnr: 51.81348644404953, best_psnr: 52.22043936671961
+[03/23 07:05:35] idr_psnr INFO: [8610/100000] Generator Loss of epoch431 is -136.19896, idr_psnr,  Lr:1.25e-06
+[03/23 07:05:59] idr_psnr INFO: [8620/100000] Generator Loss of epoch431 is -126.43262, idr_psnr,  Lr:1.25e-06
+[03/23 07:06:22] idr_psnr INFO: [8630/100000] Generator Loss of epoch432 is -143.14803, idr_psnr,  Lr:1.25e-06
+[03/23 07:06:48] idr_psnr INFO: [8640/100000] Generator Loss of epoch432 is -119.85616, idr_psnr,  Lr:1.25e-06
+[03/23 07:07:13] idr_psnr INFO: [8650/100000] Generator Loss of epoch433 is -132.99429, idr_psnr,  Lr:1.25e-06
+[03/23 07:07:37] idr_psnr INFO: [8660/100000] Generator Loss of epoch433 is -142.43381, idr_psnr,  Lr:1.25e-06
+[03/23 07:08:09] idr_psnr INFO: [8670/100000] Generator Loss of epoch434 is -127.26456, idr_psnr,  Lr:1.25e-06
+[03/23 07:08:31] idr_psnr INFO: [8680/100000] Generator Loss of epoch434 is -132.86368, idr_psnr,  Lr:1.25e-06
+[03/23 07:09:00] idr_psnr INFO: [8690/100000] Generator Loss of epoch435 is -134.57593, idr_psnr,  Lr:1.25e-06
+[03/23 07:09:23] idr_psnr INFO: [8700/100000] Generator Loss of epoch435 is -125.64616, idr_psnr,  Lr:1.25e-06
+[03/23 07:09:52] idr_psnr INFO: [8710/100000] Generator Loss of epoch436 is -137.07578, idr_psnr,  Lr:1.25e-06
+[03/23 07:10:18] idr_psnr INFO: [8720/100000] Generator Loss of epoch436 is -121.16315, idr_psnr,  Lr:1.25e-06
+[03/23 07:10:46] idr_psnr INFO: [8730/100000] Generator Loss of epoch437 is -122.98807, idr_psnr,  Lr:1.25e-06
+[03/23 07:11:09] idr_psnr INFO: [8740/100000] Generator Loss of epoch437 is -136.57181, idr_psnr,  Lr:1.25e-06
+[03/23 07:11:34] idr_psnr INFO: [8750/100000] Generator Loss of epoch438 is -133.43918, idr_psnr,  Lr:1.25e-06
+[03/23 07:11:59] idr_psnr INFO: [8760/100000] Generator Loss of epoch438 is -136.26498, idr_psnr,  Lr:1.25e-06
+[03/23 07:12:25] idr_psnr INFO: [8770/100000] Generator Loss of epoch439 is -128.43912, idr_psnr,  Lr:1.25e-06
+[03/23 07:12:49] idr_psnr INFO: [8780/100000] Generator Loss of epoch439 is -134.02286, idr_psnr,  Lr:1.25e-06
+[03/23 07:13:16] idr_psnr INFO: [8790/100000] Generator Loss of epoch440 is -135.87778, idr_psnr,  Lr:1.25e-06
+[03/23 07:13:37] idr_psnr INFO: [8800/100000] Generator Loss of epoch440 is -132.38377, idr_psnr,  Lr:1.25e-06
+[03/23 07:13:42] idr_psnr INFO: index:0 psnr: 48.63909306699994
+[03/23 07:13:48] idr_psnr INFO: index:1 psnr: 54.378039079631506
+[03/23 07:13:53] idr_psnr INFO: index:2 psnr: 52.407384738803806
+[03/23 07:13:58] idr_psnr INFO: index:3 psnr: 50.74107258575704
+[03/23 07:14:02] idr_psnr INFO: index:4 psnr: 52.98964177952727
+[03/23 07:14:08] idr_psnr INFO: index:5 psnr: 58.89225258986593
+[03/23 07:14:22] idr_psnr INFO: index:6 psnr: 48.61414140642944
+[03/23 07:14:25] idr_psnr INFO: index:7 psnr: 51.862111986026704
+[03/23 07:14:29] idr_psnr INFO: index:8 psnr: 48.054575364142984
+[03/23 07:14:34] idr_psnr INFO: index:9 psnr: 55.51077584610088
+[03/23 07:14:39] idr_psnr INFO: index:10 psnr: 49.836275331848576
+[03/23 07:14:44] idr_psnr INFO: index:11 psnr: 53.19502655069678
+[03/23 07:14:48] idr_psnr INFO: index:12 psnr: 47.65325698447897
+[03/23 07:14:53] idr_psnr INFO: index:13 psnr: 54.54610248488423
+[03/23 07:14:53] idr_psnr INFO: epoch: 440, ave_psnr: 51.95141069965672, best_psnr: 52.22043936671961
